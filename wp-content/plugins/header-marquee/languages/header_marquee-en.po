@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-21 09:19+0200\n"
+"PO-Revision-Date: 2017-08-21 09:30+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: header-marquee.php:135
+msgid "Header Marquee Options"
+msgstr ""
+
+#: header-marquee.php:142
+msgid "Enter Text"
+msgstr ""
+
+#: header-marquee.php:156
+msgid "Direction of Scrolling"
+msgstr ""
+
+#: header-marquee.php:159
+msgid "from Left"
+msgstr ""
+
+#: header-marquee.php:161
+msgid "from Right"
+msgstr ""
+
+#: header-marquee.php:165
+msgid "Scrolling Speed"
+msgstr ""
+
+#: header-marquee.php:177 header-marquee.php:196 header-marquee.php:237
+#: header-marquee.php:256 header-marquee.php:275 header-marquee.php:294
+#: header-marquee.php:313
+msgid "This field must be a number, greater or equal to 0. Set to default."
+msgstr ""
+
+#: header-marquee.php:185
+msgid "Scrolling Delay"
+msgstr ""
+
+#: header-marquee.php:191
+msgid "Value is set in miliseconds  (1/1000th of the second)"
+msgstr ""
+
+#: header-marquee.php:191
+msgid "(if you don't want to use this parameter, then set this to 0)"
+msgstr ""
+
+#: header-marquee.php:204
+msgid "Location of Text"
+msgstr ""
+
+#: header-marquee.php:208
+msgid "Header"
+msgstr ""
+
+#: header-marquee.php:210
+msgid "Footer"
+msgstr ""
+
+#: header-marquee.php:214
+msgid "Text Color"
+msgstr ""
+
+#: header-marquee.php:220
+msgid "Background Color"
+msgstr ""
+
+#: header-marquee.php:226
+msgid "Height"
+msgstr ""
+
+#: header-marquee.php:232 header-marquee.php:270 header-marquee.php:289
+msgid "in pixels"
+msgstr ""
+
+#: header-marquee.php:245
+msgid "Width"
+msgstr ""
+
+#: header-marquee.php:251 header-marquee.php:308
+msgid "in %"
+msgstr ""
+
+#: header-marquee.php:264
+msgid "Margin from Left"
+msgstr ""
+
+#: header-marquee.php:283
+msgid "Margin from Right"
+msgstr ""
+
+#: header-marquee.php:302
+msgid "Font Size"
+msgstr ""
+
+#: header-marquee.php:239
+msgid "Scrolling speed for other then Chrome browsers"
+msgstr ""
+
+#: header-marquee.php:245
+msgid "Greater value means slower scrolling"
+msgstr ""

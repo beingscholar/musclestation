@@ -1,0 +1,139 @@
+# Translation of Plugins - Header-Marquee - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Header-Marquee - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-24 19:51+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.5\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Header-Marquee - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Description of the plugin/theme
+msgid "This plugin will show a moving text (Marquee). The displayed text can be changed from Settings/Header-Marquee menu."
+msgstr "Ta wtyczka wyświetli ruchomy tekst (Marquee). Wyświetlany tekst można zmienić w menu Ustawienia / Header-Marquee. "
+
+#. Plugin Name of the plugin/theme
+msgid "Header-Marquee"
+msgstr "Płynący napis w nagłówku "
+
+#: header-marquee.php:420
+msgid "Font Size"
+msgstr "Wielkość Czcionki"
+
+#: header-marquee.php:401
+msgid "Margin from Bottom"
+msgstr "Margines od Dołu"
+
+#: header-marquee.php:382
+msgid "Margin from Top"
+msgstr "Margines od Góry"
+
+#: header-marquee.php:363
+msgid "Margin from Right"
+msgstr "Margines od Prawej"
+
+#: header-marquee.php:344
+msgid "Margin from Left"
+msgstr "Margines od Lewej"
+
+#: header-marquee.php:331 header-marquee.php:426
+msgid "in %"
+msgstr "w %"
+
+#: header-marquee.php:325
+msgid "Width"
+msgstr "Szerokość"
+
+#: header-marquee.php:312 header-marquee.php:350 header-marquee.php:369
+#: header-marquee.php:388 header-marquee.php:407
+msgid "in pixels"
+msgstr "w pikselach"
+
+#: header-marquee.php:306
+msgid "Height"
+msgstr "Wysokośc"
+
+#: header-marquee.php:299
+msgid "Background Color"
+msgstr "Kolor Tła"
+
+#: header-marquee.php:293
+msgid "Text Color"
+msgstr "Kolor Tekstu"
+
+#: header-marquee.php:289
+msgid "Footer"
+msgstr "Stopka"
+
+#: header-marquee.php:287
+msgid "Header"
+msgstr "Nagłówek"
+
+#: header-marquee.php:283
+msgid "Location of Text"
+msgstr "Umiejscowienie Tekstu"
+
+#: header-marquee.php:270
+msgid "(if you don't want to use this parameter, then set this to 0)"
+msgstr "(Jeśli nie chcesz używać tego parametru, ustaw wartość na 0)"
+
+#: header-marquee.php:270
+msgid "Value is set in miliseconds  (1/1000th of the second)"
+msgstr "Wartość podana w milisekundach ( 1/1000 sekundy)"
+
+#: header-marquee.php:264
+msgid "Scrolling Delay"
+msgstr "Opóźnienie Przewijania"
+
+#: header-marquee.php:246
+msgid "Greater value means slower scrolling"
+msgstr "Większa wartość oznacza wolniejsze przewijanie"
+
+#: header-marquee.php:238
+msgid "Scrolling speed for other then Chrome browsers"
+msgstr "Szybkość przewijania w innych przeglądarkach niż Chrome"
+
+#: header-marquee.php:230 header-marquee.php:251 header-marquee.php:275
+#: header-marquee.php:317 header-marquee.php:336 header-marquee.php:355
+#: header-marquee.php:374 header-marquee.php:393 header-marquee.php:412
+#: header-marquee.php:431
+msgid "This field must be a number, greater or equal to 0. Set to default."
+msgstr "To pole musi być liczbą, większą lub równą 0. Ustawiam wartość domyślną."
+
+#: header-marquee.php:218
+msgid "Scrolling Speed"
+msgstr "Szybkość Przewijania"
+
+#: header-marquee.php:214
+msgid "from Right"
+msgstr "z Prawej"
+
+#: header-marquee.php:212
+msgid "from Left"
+msgstr "z Lewej"
+
+#: header-marquee.php:209
+msgid "Direction of Scrolling"
+msgstr "Kierunek Przewijania"
+
+#: header-marquee.php:195
+msgid "Enter Text"
+msgstr "Wpisz Tekst"
+
+#: header-marquee.php:188
+msgid "Header Marquee Options"
+msgstr "Opcje Nagłówka Ramki Zaznaczenia"
+
+#: header-marquee.php:261
+msgid "Text space for other then Chrome browsers"
+msgstr "Przestrzeń tekstowa dla innych przeglądarek niż Chrome"
+
+#: header-marquee.php:269
+msgid "Greater value means more space for your message"
+msgstr "Większa wartość oznacza więcej miejsca na Twoją wiadomość"
