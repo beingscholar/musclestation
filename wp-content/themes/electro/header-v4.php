@@ -35,7 +35,20 @@
 		<div class="topbar_head">
 			
 				<div class="container">
-				<marquee width = "50%">
+
+				<div class="marquee">
+                                 <p>
+								 <span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span>
+<span class="font28_mi_blk">ON ALL ORDERS OVER $150*</span>
+								 </p>
+                                 <p>  
+								 <span class="font28_bi_red">SAME DAY DISPATCH</span> <span class="font28_mi_blk">ON ORDERS </span>
+<span class="font28_bi_red">BEFORE </span><span class="font28_mi_blk">3PM*</span>
+                                 </p>
+								 <p><span class="font28_bi_red">30 DAY</span> <span class="font28_mi_blk"> MONEY BACK </span>
+<span class="font28_bi_red">GUARANTEE</span></p>
+                </div>
+				<!-- <marquee width = "50%">
 <ul>
 <li>
 <span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span>
@@ -50,7 +63,7 @@
 <span class="font28_bi_red">GUARANTEE</span>
 </li>
 </ul>
-</marquee>
+</marquee> -->
 					
 				</div>
 			
