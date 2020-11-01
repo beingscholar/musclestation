@@ -13710,7 +13710,7 @@ rs-sbg {
     background: #e3e3e3 !important;
     border-radius: 3px !important;
     -webkit-border-radius: 3px !important;
-    margin: 55px 0 19px 0 !important;
+    margin: 200px 0 19px 0 !important;/*55px 0 19px 0*/
 	padding: 10px 40px 10px 0 !important;
 	z-index: 2;
 	display: flex;
@@ -13846,11 +13846,10 @@ h2.signup-save .red {
 .header-icon__cart a {
     display: inline-block;
     white-space: nowrap;
-    height: 20px;
+    /* height: 20px; */
     cursor: pointer;
     border: 1px solid #ccc;
-    padding: 10px 20px;
-    padding-right: 0;
+    /* padding: 10px 20px; */
     border-radius: 6px;
     color: #fff;
 }
