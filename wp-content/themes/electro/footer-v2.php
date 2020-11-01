@@ -85,7 +85,7 @@
 								</div>
 							</div>
 							<div class="newsletter-wrap">
-								<?php echo do_shortcode('[wpforms id="5192"]'); ?>
+								<?php echo do_shortcode( '[wpforms id="5192"]' ); ?>
 							</div>
 						</div>
 						<div class="footer-links-mb">
