@@ -18,7 +18,7 @@
 	<?php do_action( 'electro_before_footer_v2' ); ?>
 
 	<footer id="colophon" class="site-footer footer-v2">
-	<div class="footer-top-container section-container">
+<div class="footer-top-container section-container">
 		<div class="footer-top footer container stretched">
 			<div class="inner-container">
 				<div class="section clearer links-wrapper-separators">
@@ -85,21 +85,7 @@
 								</div>
 							</div>
 							<div class="newsletter-wrap">
-								<form action="collection/subscriber/new/" name="newsletter-form" id="newsletter-footer" method="post">
-									<div class="signup_coupon"><img src="skin/frontend/ultimo/nwh/images/discountcard.png"></div>
-									<div class="home_signup">
-										<h2>
-											<span class="red">SIGN UP</span> &amp; SAVE 
-										</h2>
-										<div class="subscribe-input">
-											<button type="submit" name="submit" title="Submit" class="submit_btn b-main">
-											Submit  </button>
-											<button type="submit" name="submit" title="Sign up" class="submit_btn b-foot">
-											Sign up </button>
-											<input placeholder="Enter email here" type="email" name="email" id="newsletter" title="Subscribe to Our Newsletter" class="signup_field required-entry validate-email input-subscribe">
-										</div>
-									</div>
-								</form>
+								<?php echo do_shortcode('[wpforms id="5192"]'); ?>
 							</div>
 						</div>
 						<div class="footer-links-mb">
