@@ -51,9 +51,9 @@
 						<div class="connect-with-us">
 							<h2>Connect with us</h2>
 							<ul>
-								<li> <a href="https://www.facebook.com/nutritionwarehouse" target="_blank"> <img src="wp-content/uploads/2020/10/facebook-2.png" alt=""> </a> </li>
-								<li> <a href="https://instagram.com/nutritionwarehouse" target="_blank"> <img src="wp-content/uploads/2020/10/Group-3654.png" alt=""> </a> </li>
-								<li> <a href="https://twitter.com/nutritionwareho" target="_blank"> <img src="wp-content/uploads/2020/10/twitter-3.png" alt=""> </a> </li>
+								<li> <a href="https://www.facebook.com/musclestationsupplement/" target="_blank"> <img src="wp-content/uploads/2020/10/fb.png" alt=""> </a> </li>
+								<li> <a href="https://instagram.com/musclestationsupplements/" target="_blank"> <img src="wp-content/uploads/2020/10/instagram.png" alt=""> </a> </li>
+								<li> <a href="https://twitter.com/musclestation" target="_blank"> <img src="wp-content/uploads/2020/10/twitter.png" alt=""> </a> </li>
 							</ul>
 						</div>
 						<div class="newsletter-wrapper clearer">
