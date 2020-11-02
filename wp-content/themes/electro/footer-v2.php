@@ -51,39 +51,12 @@
 						<div class="connect-with-us">
 							<h2>Connect with us</h2>
 							<ul>
-								<li> <a href="https://www.facebook.com/nutritionwarehouse" target="_blank"> <img src="media/wysiwyg/fb.png" alt=""> </a> </li>
-								<li> <a href="https://instagram.com/nutritionwarehouse" target="_blank"> <img src="media/wysiwyg/instagram.png" alt=""> </a> </li>
-								<li> <a href="https://twitter.com/nutritionwareho" target="_blank"> <img src="media/wysiwyg/twitter.png" alt=""> </a> </li>
+								<li> <a href="https://www.facebook.com/nutritionwarehouse" target="_blank"> <img src="wp-content/uploads/2020/10/facebook-2.png" alt=""> </a> </li>
+								<li> <a href="https://instagram.com/nutritionwarehouse" target="_blank"> <img src="wp-content/uploads/2020/10/Group-3654.png" alt=""> </a> </li>
+								<li> <a href="https://twitter.com/nutritionwareho" target="_blank"> <img src="wp-content/uploads/2020/10/twitter-3.png" alt=""> </a> </li>
 							</ul>
 						</div>
 						<div class="newsletter-wrapper clearer">
-							<div id="feedback" style="display:none" class="mini-newsletter del_updt_pop_main">
-								<div class="del_updt_pop_heading">
-									<div class="popup_heading_txt">
-										SIGN UP SUCCESSFUL 
-									</div>
-								</div>
-								<div class="del_updt_pop_mid">
-									<div class="zblock zblock-content-popup-subscribe-success" id="zblock-741">
-										<div class="zblock-item">
-											<div class="popup_mid_txt" style="font-size: 20px; color: #222; text-transform: uppercase; margin-bottom: 25px; text-align: center">
-												Thanks for signing up, here's your $5 Off Code:
-												<div style="background: #fff; margin: 15px auto; width: 250px; padding: 13px 10px 10px; border: 3px dashed #e31e31; border-radius: 5px; font-size: 30px;">GH63AU</div>
-												<p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 16px;text-transform: none;">
-													An email has been sent to you with your code if you want to use it at a later time.
-												</p>
-											</div>
-										</div>
-									</div>
-									<div class="popup_mid_btn_main mrgn_t20">
-										<div class="popup_mid_btn">
-											<a class="closepopup1" href="">
-											CONTINUE SHOPPING </a>
-											&nbsp;
-										</div>
-									</div>
-								</div>
-							</div>
 							<div class="newsletter-wrap">
 								<?php echo do_shortcode( '[wpforms id="5192"]' ); ?>
 							</div>
