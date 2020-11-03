@@ -1518,7 +1518,7 @@
   left: auto;
   line-height: 1.7;
   list-style-type: none;
-  margin: 0;
+  /* margin: 0; */
   min-height: auto;
   max-height: none;
   min-width: auto;
@@ -1526,7 +1526,7 @@
   opacity: 1;
   outline: none;
   overflow: visible;
-  padding: 0;
+  /* padding: 0; */
   position: relative;
   pointer-events: auto;
   right: auto;
@@ -1548,11 +1548,11 @@
 #mega-menu-wrap-navbar-primary {
   border-radius: 0;
 }
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
   #mega-menu-wrap-navbar-primary {
     background: #f00;
   }
-}
+} */
 #mega-menu-wrap-navbar-primary.mega-keyboard-navigation .mega-menu-toggle:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation .mega-toggle-block:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation .mega-toggle-block a:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation .mega-toggle-block .mega-search input[type=text]:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation .mega-toggle-block button.mega-toggle-animated:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation #mega-menu-navbar-primary a:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation #mega-menu-navbar-primary input:focus, #mega-menu-wrap-navbar-primary.mega-keyboard-navigation #mega-menu-navbar-primary li.mega-menu-item a.mega-menu-link:focus {
   outline: 3px solid #109cde;
   outline-offset: -3px;
@@ -1803,8 +1803,8 @@
 }
 @media only screen and (min-width: 769px) {
   #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary > li.mega-menu-item > a.mega-menu-link:hover {
-    background: #fff;
-    color: #333;
+    background: #fff !important;
+    color: #333 !important;
     font-weight: bold;
     text-decoration: none;
     border-color: #fff;
@@ -2894,11 +2894,9 @@
 #mega-menu-wrap-navbar-primary {
   clear: both;
 }
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
   #mega-menu-wrap-navbar-primary {
-    /** width in pixels or percent **/
     max-width: 1180px;
-    /** center align menu **/
     margin: 0 auto;
   }
-}
+} */

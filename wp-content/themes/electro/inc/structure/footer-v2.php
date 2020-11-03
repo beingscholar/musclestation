@@ -12,7 +12,8 @@ if ( ! function_exists( 'electro_footer_widgets_v2' ) ) {
             $footer_widgets_columns = apply_filters( 'electro_footer_widgets_v2_columns', 3 );
             ?>
             <div class="footer-widgets columns-<?php echo esc_attr( $footer_widgets_columns ); ?>">
-                <?php
+                <div class="container">
+								<?php
                     if ( is_active_sidebar( 'footer-widgets' ) ) {
                         dynamic_sidebar( 'footer-widgets' );
                     } else {
@@ -27,6 +28,7 @@ if ( ! function_exists( 'electro_footer_widgets_v2' ) ) {
                         do_action( 'electro_default_footer_widgets', $footer_widget_args );
                     }
                 ?>
+								</div>
             </div>
             <?php
         }
@@ -145,7 +147,7 @@ if ( ! function_exists( 'electro_footer_v2_desktop_wrap_open' ) ) {
      * Displays the copyright bar
      */
     function electro_footer_v2_desktop_wrap_open() {
-        ?><div class="desktop-footer container">
+        ?><div class="desktop-footer">
             <?php
     }
 }

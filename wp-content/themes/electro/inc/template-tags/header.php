@@ -41,11 +41,21 @@ if ( ! function_exists( 'electro_header_icons' ) ) {
      * @since 2.0
      */
     function electro_header_icons() {
-        ?><div class="header-icons"><?php
+        ?><div>
+					<ul class="header-links">
+						<li>
+							<a href="/">My Account</a>
+						</li>
+						<li>
+							<a href="/">Login</a>
+						</li>
+					</ul>
+					<div class="header-icons"><?php
         /**
          *
          */
-        do_action( 'electro_header_icons' ); ?></div><!-- /.header-icons --><?php
+        do_action( 'electro_header_icons' ); ?></div>
+				</div><!-- /.header-icons --><?php
     }
 }
 

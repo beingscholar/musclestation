@@ -1196,7 +1196,7 @@ if ( ! class_exists( 'Mega_Menu' ) ) :
 				$defaults = array(
 					'menu'            => wp_get_nav_menu_object( $menu_id ),
 					'container'       => $container,
-					'container_class' => 'mega-menu-wrap',
+					'container_class' => 'container',
 					'container_id'    => 'mega-menu-wrap-' . $sanitized_location,
 					'menu_class'      => 'mega-menu max-mega-menu mega-menu-horizontal',
 					'menu_id'         => 'mega-menu-' . $sanitized_location,
