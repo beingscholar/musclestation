@@ -1,0 +1,2 @@
+2020-10-29T07:41:46+00:00 CRITICAL Out of memory (allocated 13107200) (tried to allocate 8192 bytes) in /opt/lampp/htdocs/musclestation/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 373
+
