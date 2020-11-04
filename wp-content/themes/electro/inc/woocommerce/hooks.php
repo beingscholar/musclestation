@@ -48,7 +48,7 @@ add_action( 'electro_shop_control_bar',						'electro_shop_view_switcher',					2
 add_action( 'electro_shop_control_bar',						'electro_wc_products_per_page',					30 );
 add_action( 'electro_shop_control_bar',						'electro_advanced_pagination',					40 );
 add_action( 'woocommerce_after_shop_loop',					'electro_shop_control_bar_bottom',				90 );
-add_action( 'electro_shop_control_bar_bottom',				'woocommerce_result_count',						20 );
+// add_action( 'electro_shop_control_bar_bottom',				'woocommerce_result_count',						20 );
 add_action( 'electro_shop_control_bar_bottom',				'woocommerce_pagination',						30 );
 add_action( 'woocommerce_after_shop_loop',                  'electro_shop_bottom_archive_jumbotron',        95 );
 

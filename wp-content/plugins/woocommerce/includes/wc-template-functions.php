@@ -1230,6 +1230,8 @@ if ( ! function_exists( 'woocommerce_taxonomy_archive_description' ) ) {
 	function woocommerce_taxonomy_archive_description() {
 		if ( is_product_taxonomy() && 0 === absint( get_query_var( 'paged' ) ) ) {
 			$term = get_queried_object();
+			// include_once WC()->plugin_path() . '/includes/walkers/class-wc-product-cat-list-walker.php';
+			// $subCategories = new WC_Product_Cat_List_Walker();
 			if ( $term && ! empty( $term->description ) ) {
 				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				echo '<div class="about-box"><div class="about-box--head"><p>About ' . $term->name . '</p></div><div class="about-box--body">' . wc_format_content( $term->description ) . '</div></div>';
