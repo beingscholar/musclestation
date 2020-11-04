@@ -2290,12 +2290,12 @@ table.cart .coupon .navbar-search .input-text {
   color: #ee1e11 !important;
 }
 
-.owl-item > .product .product-thumbnail > img,
+/* .owl-item > .product .product-thumbnail > img,
 .owl-item > .product .wp-post-image,
 .products > .product .product-thumbnail > img,
 .products > .product .wp-post-image {
   width: 75% !important;
-}
+} */
 
 .electro-advanced-pagination input[type="number"]::-webkit-inner-spin-button,
 .electro-advanced-pagination input[type="number"]::-webkit-outer-spin-button {
@@ -2476,7 +2476,7 @@ li.product .hover-area .action-buttons p,
 li.product .hover-area .action-buttons span {
   margin: 0;
   padding: 0;
-  color: #949494;
+  color: #333;
 }
 
 /* .categories-block.columns-4 .categories > .category {
@@ -9952,9 +9952,9 @@ section.section-posts-carousel .likes a:before {
 }
 
 .widget_product_categories ul li .child-indicator i {
-  font-size: 0.857em;
+  font-size: 20px;
   color: #aeaeae;
-  width: 0.571em;
+  /* width: 0.571em; */
 }
 
 .widget_product_categories ul li .children {
@@ -19254,7 +19254,7 @@ body .vc_row.vc_row-o-full-height {
 	width: 50%;
 }
 .primary-footer .footer-top-section .customer-service ul li a {
-	font-size: 12px;
+	font-size: 13px;
 line-height: 18px;
 font-weight: 600;
 /* font-family: Arial,Helvetica,sans-serif !important; */
