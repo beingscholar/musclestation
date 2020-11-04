@@ -17,6 +17,39 @@
 </div><!-- .col-full -->
 </div><!-- #content -->
 <?php do_action( 'electro_before_footer_v2' ); ?>
+<div class="about-box">
+	<div class="about-box--head">
+		<p>About Product</p>
+	</div>
+	<div class="about-box--body">
+		<p>So you want to be fitter, faster or stronger? Utilising key performance-boosting ingredients like the ones found in pre-workout supplements is the first step to taking your training to the next level. Increase performance, reduce recovery time and fast track your results!. Whether you train in the gym recreationally, compete as an amateur or professional athlete, or you just want to perform better when you exercise. If you want to be able to get the most out of your session, utilising a pre-workout supplement can help you break through a plateau.</p>
+	</div>
+</div>
+
+<div class="sub-category">
+	<h3><span>Sub category</span></h3>
+	<ul>
+		<li>
+			<a href="/">
+			<span>Product 1</span>
+			<span class="arrow">Arrow</span>
+			</a>
+		</li>
+		<li>
+			<a href="/">
+			<span>Product 1</span>
+			<span class="arrow">Arrow</span>
+			</a>
+		</li>
+		<li>
+			<a href="/">
+			<span>Product 1</span>
+			<span class="arrow">Arrow</span>
+			</a>
+		</li>
+	</ul>
+</div>
+
 <footer class="primary-footer">
 	<div class="footer-top-section">
 		<div class="container">
