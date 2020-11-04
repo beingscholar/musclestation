@@ -966,11 +966,11 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 		} else {
 			?>
 
-			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+			<?php /* if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
-			<?php endif; ?>
+			<?php endif; */ ?>
 
 			<?php do_action( 'woocommerce_archive_description' ); ?>
 
@@ -1230,10 +1230,28 @@ if ( ! function_exists( 'woocommerce_taxonomy_archive_description' ) ) {
 	function woocommerce_taxonomy_archive_description() {
 		if ( is_product_taxonomy() && 0 === absint( get_query_var( 'paged' ) ) ) {
 			$term = get_queried_object();
-
+			$child_args = array(
+				'taxonomy' => 'product_cat',
+				'hide_empty' => false,
+				'parent'   => $term->term_id
+			);
+			$child_product_cats = get_terms( $child_args );
+			/* echo '<pre>';
+			print_r($child_product_cats);
+			echo '</pre>'; */
 			if ( $term && ! empty( $term->description ) ) {
 				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-				echo '<div class="term-description">' . wc_format_content( $term->description ) . '</div>';
+				echo '<div class="about-box"><div class="about-box--head"><p>About ' . $term->name . '</p></div><div class="about-box--body">' . wc_format_content( $term->description ) . '</div></div>';
+			}
+			if($child_product_cats && count($child_product_cats) > 0) {
+				echo '<div class="sub-category">
+					<h3><span>Sub category</span></h3>
+					<ul>';
+					foreach ($child_product_cats as $child_product_cat) {
+						// echo '<li><a href="'.get_term_link($child_product_cat->term_id).'">'.$child_product_cat->name.'<span class="arrow">Arrow</span></a></li>';
+						echo '<li><a href="'.get_term_link($child_product_cat->term_id).'"><span>'.$child_product_cat->name.'</span><span class="arrow">Arrow</span></a></li>';
+					}
+				echo '</ul></div>';
 			}
 		}
 	}

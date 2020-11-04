@@ -413,6 +413,7 @@ if ( ! function_exists( 'electro_advanced_pagination' ) ) {
         endif;
 
         $link = str_replace( '%_%', $format, $base );
+        /*
         ?>
         <nav class="electro-advanced-pagination">
             <?php echo $output; ?>
@@ -430,6 +431,7 @@ if ( ! function_exists( 'electro_advanced_pagination' ) ) {
             </script>
         </nav>
         <?php
+        */
     }
 }
 

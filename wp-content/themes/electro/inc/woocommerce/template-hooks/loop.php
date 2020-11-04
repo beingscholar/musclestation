@@ -17,10 +17,10 @@ add_action( 'woocommerce_before_shop_loop_item', 'electro_wrap_product_outer',  
 add_action( 'woocommerce_before_shop_loop_item', 'electro_wrap_product_inner', 10 );
 
 add_action( 'woocommerce_before_shop_loop_item_title', 'electro_template_loop_header_open', 15 );
-add_action( 'woocommerce_before_shop_loop_item_title', 'electro_template_loop_categories', 20 );
+// add_action( 'woocommerce_before_shop_loop_item_title', 'electro_template_loop_categories', 20 );
 
 add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_link_open', 25 );
-add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 30 );
+// add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 30 );
 add_action( 'woocommerce_shop_loop_item_title', 'electro_template_loop_product_thumbnail', 40 );
 add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_link_close', 45 );
 add_action( 'woocommerce_shop_loop_item_title', 'electro_template_loop_header_close', 46 );
@@ -31,7 +31,7 @@ add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_produ
 add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 60 );
 
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_rating', 70 );
-add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_product_excerpt', 80 );
+// add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_product_excerpt', 80 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_product_sku', 90 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_product_link_close', 95 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_body_close', 96 );
@@ -42,7 +42,7 @@ add_action( 'woocommerce_after_shop_loop_item_title', 'electro_wrap_price_and_ad
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 110 );  
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_add_to_cart', 120 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_wrap_price_and_add_to_cart_close', 130 );
-
+add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_product_title', 131 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_template_loop_hover',          140 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_template_loop_footer_close',   145 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_wrap_product_inner_close',     150 );

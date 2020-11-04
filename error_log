@@ -176,3 +176,23 @@ Stack trace:
 [13-Oct-2020 18:45:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_template_loop_product_title' not found or invalid function name in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-includes/class-wp-hook.php on line 287
 [13-Oct-2020 18:45:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_template_loop_product_title' not found or invalid function name in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-includes/class-wp-hook.php on line 287
 [13-Oct-2020 18:45:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'woocommerce_template_loop_product_title' not found or invalid function name in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-includes/class-wp-hook.php on line 287
+[03-Nov-2020 18:17:16 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/themes/electro/templates/shop/single-product/tabs/electro-tabs.php on line 40
+[03-Nov-2020 18:17:30 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/themes/electro/templates/shop/single-product/tabs/electro-tabs.php on line 40
+[03-Nov-2020 18:45:32 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+
+[03-Nov-2020 18:45:34 UTC] Class ZipArchive
+[03-Nov-2020 18:45:40 UTC] number_of_existing_backups
+[03-Nov-2020 18:45:40 UTC] 1
+[03-Nov-2020 18:45:40 UTC] number_of_backups_from_user
+[03-Nov-2020 18:45:40 UTC] 
+[04-Nov-2020 09:00:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:00:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:01 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[04-Nov-2020 09:01:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
