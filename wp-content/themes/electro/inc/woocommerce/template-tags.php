@@ -486,11 +486,14 @@ if ( ! function_exists( 'electro_shop_view_switcher' ) ) {
 
 		$shop_views = electro_get_shop_views();
 		?>
-		<ul class="shop-view-switcher nav nav-tabs" role="tablist">
-		<?php foreach( $shop_views as $view_id => $shop_view ) : ?>
-			<li class="nav-item"><a class="nav-link <?php $active_class = $shop_view[ 'active' ] ? 'active': ''; echo esc_attr( $active_class ); ?>" data-toggle="tab" data-archive-class="<?php echo esc_attr( $view_id );?>" title="<?php echo esc_attr( $shop_view[ 'label' ] ); ?>" href="#<?php echo esc_attr( $view_id );?>"><i class="<?php echo esc_attr( $shop_view[ 'icon' ] ); ?>"></i></a></li>
-		<?php endforeach; ?>
-		</ul>
+		<div class="view-type">
+			<p>View as:</p>
+			<ul class="shop-view-switcher nav nav-tabs" role="tablist">
+			<?php foreach( $shop_views as $view_id => $shop_view ) : ?>
+				<li class="nav-item"><a class="nav-link <?php $active_class = $shop_view[ 'active' ] ? 'active': ''; echo esc_attr( $active_class ); ?>" data-toggle="tab" data-archive-class="<?php echo esc_attr( $view_id );?>" title="<?php echo esc_attr( $shop_view[ 'label' ] ); ?>" href="#<?php echo esc_attr( $view_id );?>"><i class="<?php echo esc_attr( $shop_view[ 'icon' ] ); ?>"></i></a></li>
+			<?php endforeach; ?>
+			</ul>
+		</div>
 		<?php
 	}
 }

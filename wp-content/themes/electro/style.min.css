@@ -6231,7 +6231,7 @@ div.quantity.buttons_added .plus {
   }
 }
 
-#scrollUp {
+body #scrollUp {
   border-radius: 3px;
   bottom: 1.25rem;
   color: #fff;
@@ -6240,7 +6240,8 @@ div.quantity.buttons_added .plus {
   line-height: 100%;
   opacity: 0.5;
   padding: 3px;
-  right: 1.25rem;
+	right: 1.25rem;
+	background-color: #e31e31 !important;
   text-align: center;
   width: 2.625rem;
 }
@@ -8485,10 +8486,10 @@ section header .action-text:after {
   margin-left: 1px !important;
 }
 
-.shop-control-bar-bottom .woocommerce-pagination .next,
+/* .shop-control-bar-bottom .woocommerce-pagination .next,
 .shop-control-bar-bottom .woocommerce-pagination .prev {
   display: none;
-}
+} */
 
 .jumbotron-product-category {
   background-color: #f5f5f5;
@@ -19253,10 +19254,10 @@ body .vc_row.vc_row-o-full-height {
 	width: 50%;
 }
 .primary-footer .footer-top-section .customer-service ul li a {
-	font-size: 11px;
+	font-size: 12px;
 line-height: 18px;
-
-font-family: Arial,Helvetica,sans-serif !important;
+font-weight: 600;
+/* font-family: Arial,Helvetica,sans-serif !important; */
 color: #fefefe;
 display: block;
 }
@@ -19623,23 +19624,24 @@ top: 0;
 	display: flex;
 	align-items: center;
 	padding: 0 20px;
+	justify-content: center;
+	text-align: center;
 	color: #333;
+	line-height: normal;
 	font-weight: 600;
 	border-top-left-radius: 4px;
+	width: 155px;
 	border-bottom-left-radius: 4px;
 	text-transform: uppercase;
-	font: 16px;
+	font-size: 12px;
 	border: 1px solid #cbcbcb;
 	border-right: none;
 	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(225,225,225,1) 100%);
 }
 
-.sub-category ul li + li {
-	margin-left: 20px;
-}
-
 .sub-category ul li  {
 	margin-bottom: 20px;
+	margin-right: 20px;
 }
 
 .sub-category ul li a .arrow {
@@ -19702,4 +19704,123 @@ body .sidebar .product-categories li ul li {
 
 body .sidebar .product-categories li ul li a {
 	padding-left: 20px !important;
+}
+
+body .shop-control-bar {
+	display: flex;
+	background: transparent;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-radius: 0;
+	padding: 11px 0;
+	/* justify-content: space-between; */
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+body .shop-control-bar:after {
+	display: none;
+}
+
+body .shop-control-bar p {
+	margin: 0;
+}
+
+body .shop-control-bar p.woocommerce-result-count {
+	color: #666;
+	font-size: 13px;
+	flex-grow: 1;
+}
+
+body .shop-control-bar .woocommerce-ordering {
+	padding: 0;
+	margin-right: 20px;
+	float: none;
+}
+
+body .shop-control-bar .woocommerce-ordering label {
+	padding: 0;
+	color: #666;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0 8px 0 0;
+}
+
+body .shop-control-bar .woocommerce-ordering select {
+	height: 42px;
+	line-height: normal;
+	padding: 0 20px 0 12px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-sizing: border-box;
+	/* width: 106px; */
+cursor: pointer;
+}
+body .shop-control-bar .woocommerce-ordering select:focus {
+	border: 1px solid #ddd;
+}
+
+body .shop-control-bar .shop-view-switcher {
+	width: auto;
+	float: none;
+}
+
+body .shop-control-bar .shop-view-switcher:after {
+	display: none;
+}
+
+.view-type {
+	display: flex;
+	align-items: center;
+}
+
+body .shop-control-bar .view-type p {
+	padding: 0;
+	color: #666;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 0 8px 0 0;
+}
+
+body .shop-control-bar .view-type ul li a {
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+}
+
+body .shop-control-bar .view-type ul li a.active {
+	background: #e5e5e5 !important;
+}
+
+body .shop-control-bar .view-type ul li + li {
+	margin-left: 0 !important;
+}
+
+body .shop-control-bar-bottom {
+	justify-content: center !important;
+	border: none !important;
+	margin: 30px 0 0 !important;
+	flex-direction: row !important;
+}
+
+body .shop-control-bar-bottom ul.page-numbers li a,
+body .shop-control-bar-bottom ul.page-numbers li span {
+	border-radius: 0
+}
+
+body .shop-control-bar-bottom ul.page-numbers li span {
+	background-color: #e31e31 !important;
+	color: #fff;
+}
+
+body .shop-control-bar-bottom ul.page-numbers li a:hover {
+	background-color: #e31e31;
+	color: #fff;
+	border-color: #e31e31;
 }
