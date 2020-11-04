@@ -34,7 +34,7 @@ add_action( 'electro_after_page',   'electro_offcanvas_overlay',            20 )
 /**
  * Product Archive
  */
-remove_action( 'woocommerce_before_shop_loop', 				'woocommerce_result_count', 					20 );
+// remove_action( 'woocommerce_before_shop_loop', 				'woocommerce_result_count', 					20 );
 remove_action( 'woocommerce_before_shop_loop', 				'woocommerce_catalog_ordering', 				30 );
 remove_action( 'woocommerce_after_shop_loop',				'woocommerce_pagination',						10 );
 add_action( 'woocommerce_before_shop_loop', 				'electro_product_subcategories', 				0  );
@@ -42,6 +42,7 @@ add_action( 'woocommerce_before_shop_loop',					'electro_wc_loop_title',						10
 add_action( 'woocommerce_before_shop_loop',					'electro_shop_control_bar',						11 );
 add_action( 'woocommerce_before_shop_loop',					'electro_reset_woocommerce_loop', 				90 );
 add_action( 'electro_shop_control_bar',						'electro_wc_handheld_sidebar',					8 );
+add_action( 'electro_shop_control_bar', 					'woocommerce_result_count', 						9 );
 add_action( 'electro_shop_control_bar',						'woocommerce_catalog_ordering',					10 );
 add_action( 'electro_shop_control_bar',						'electro_shop_view_switcher',					20 );
 add_action( 'electro_shop_control_bar',						'electro_wc_products_per_page',					30 );
