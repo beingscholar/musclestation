@@ -1233,6 +1233,29 @@ if ( ! function_exists( 'woocommerce_taxonomy_archive_description' ) ) {
 			if ( $term && ! empty( $term->description ) ) {
 				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				echo '<div class="about-box"><div class="about-box--head"><p>About ' . $term->name . '</p></div><div class="about-box--body">' . wc_format_content( $term->description ) . '</div></div>';
+				echo '<div class="sub-category">
+				<h3><span>Sub category</span></h3>
+				<ul>
+					<li>
+						<a href="/">
+						<span>Product 1</span>
+						<span class="arrow">Arrow</span>
+						</a>
+					</li>
+					<li>
+						<a href="/">
+						<span>Product 1</span>
+						<span class="arrow">Arrow</span>
+						</a>
+					</li>
+					<li>
+						<a href="/">
+						<span>Product 1</span>
+						<span class="arrow">Arrow</span>
+						</a>
+					</li>
+				</ul>
+			</div>'
 			}
 		}
 	}
