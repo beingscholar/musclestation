@@ -337,6 +337,16 @@ if ( ! function_exists( 'electro_dokan_vendor_control_bar' ) ) {
 		$store_id = $store_user->ID;
 		?>
 		<div class="shop-control-bar">
+			<form class="woocommerce-ordering" method="get">
+				<select name="orderby" class="orderby" aria-label="<?php esc_attr_e( 'Seller Items order', 'electro' ); ?>">
+					<?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
+						<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $orderby, $id ); ?>><?php echo esc_html( $name ); ?></option>
+					<?php endforeach; ?>
+				</select>
+				<input type="hidden" name="author" value="<?php echo esc_attr( $store_id ); ?>" />
+				<input type="hidden" name="post_type" value="product" />
+				<?php wc_query_string_form_fields( null, array( 'orderby', 'submit', 'paged', 'product-page' ) ); ?>
+			</form>
 			<?php
 			electro_shop_view_switcher();
 			$show_default_orderby    = 'menu_order' === apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby', 'menu_order' ) );
@@ -372,7 +382,7 @@ if ( ! function_exists( 'electro_dokan_vendor_control_bar' ) ) {
 			if ( ! array_key_exists( $orderby, $catalog_orderby_options ) ) {
 				$orderby = current( array_keys( $catalog_orderby_options ) );
 			}
-
+			/*
 			?>
 			<form class="woocommerce-ordering" method="get">
 				<select name="orderby" class="orderby" aria-label="<?php esc_attr_e( 'Seller Items order', 'electro' ); ?>">
@@ -386,6 +396,7 @@ if ( ! function_exists( 'electro_dokan_vendor_control_bar' ) ) {
 			</form>
 		</div>
 		<?php
+		*/
 	}
 }
 
