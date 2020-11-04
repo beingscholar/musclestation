@@ -338,6 +338,7 @@ if ( ! function_exists( 'electro_dokan_vendor_control_bar' ) ) {
 		?>
 		<div class="shop-control-bar">
 			<?php
+			electro_shop_view_switcher();
 			$show_default_orderby    = 'menu_order' === apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby', 'menu_order' ) );
 			$catalog_orderby_options = apply_filters(
 				'woocommerce_catalog_orderby',
@@ -385,7 +386,6 @@ if ( ! function_exists( 'electro_dokan_vendor_control_bar' ) ) {
 			</form>
 		</div>
 		<?php
-		electro_shop_view_switcher();
 	}
 }
 
