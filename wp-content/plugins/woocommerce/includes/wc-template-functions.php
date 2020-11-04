@@ -1255,7 +1255,7 @@ if ( ! function_exists( 'woocommerce_taxonomy_archive_description' ) ) {
 						</a>
 					</li>
 				</ul>
-			</div>'
+			</div>';
 			}
 		}
 	}
