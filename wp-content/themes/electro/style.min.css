@@ -8964,7 +8964,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
   border-bottom: 1px solid #dadada;
 }
 
-.sidebar .widget-title:after,
+/* .sidebar .widget-title:after,
 .sidebar-blog .widget-title:after {
   content: " ";
   width: 3.684em;
@@ -8972,7 +8972,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
   display: block;
   position: absolute;
   bottom: -1px;
-}
+} */
 
 .sidebar .widget-title + ul,
 .sidebar ul.menu,
@@ -9001,7 +9001,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
 .sidebar-blog ul.menu li > a:only-child {
   color: #333e48;
   padding: 0.5em 0;
-  display: inline-block;
+  display: block;
 }
 
 .sidebar .widget-title + ul .cat-item > a:focus,
@@ -9096,14 +9096,14 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
   margin-bottom: 0;
 }
 
-.widget_electro_products_filter .widget .widget-title {
+/* .widget_electro_products_filter .widget .widget-title {
   font-weight: 700;
   font-size: 1em;
   color: #575560;
   margin-bottom: 1.572em;
   border: none;
   padding: 0;
-}
+} */
 
 .widget_electro_products_filter .widget .widget-title::after {
   content: none;
@@ -9671,7 +9671,7 @@ section.section-posts-carousel .likes a:before {
   margin-bottom: 9px !important;
 }
 
-.sidebar-blog .widget-title,
+/* .sidebar-blog .widget-title,
 .sidebar > .widget > .widget-title {
   font-size: 17px !important;
   font-weight: 600;
@@ -9679,7 +9679,7 @@ section.section-posts-carousel .likes a:before {
   color: #222222 !important;
   margin-bottom: 11px !important;
   padding-bottom: 10px;
-}
+} */
 
 .page-header {
   border-bottom: 0 !important;
@@ -9931,15 +9931,15 @@ section.section-posts-carousel .likes a:before {
   list-style: none;
 }
 
-.widget_product_categories .product-categories,
+/* .widget_product_categories .product-categories,
 .widget_product_categories .widget-title + ul {
   padding: 0 !important;
   border: 2px solid #ececec;
   border-radius: 6px;
-}
+} */
 
 .widget_product_categories ul li {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid rgba(0,0,0,.06);
 }
 
 .widget_product_categories ul li:first-child {
@@ -10578,7 +10578,7 @@ section.section-posts-carousel .likes a:before {
 
 .footer-widgets {
   margin-bottom: 0 !important;
-  padding: 34px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #333;
 }
 
@@ -19507,17 +19507,17 @@ body .pum-close.popmake-close:hover {
 	background-image: url(https://www.nutritionwarehouse.com.au/skin/frontend/ultimo/nwh/images/newdesign/close-popup.png) !important;
 }
 
-.customer-service {
+.customer-services {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.customer-service a img {
+.customer-services a img {
 	height: 90px;
 }
 
-.customer-service p {
+.customer-services p {
 	/* width: 165px; */
 	font-size: 14px;
 	font-weight: 500;
@@ -19529,12 +19529,12 @@ float: left;
 margin: 11px 0 0 10px;
 }
 
-.customer-service p a {
+.customer-services p a {
 	font-size: 30px;
 	font-weight: 700;
-line-height: 26px;
-color: #fff;
-display: block;
+	line-height: 26px;
+	color: #fff;
+	display: block;
 }
 
 
@@ -19664,4 +19664,42 @@ border-style: solid;
 border-width: 5px 0 5px 10px;
 border-color: transparent transparent transparent #ffffff;
 
+}
+
+body .sidebar .widget-title {
+	background: #e31e31;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 4px 15px 0;
+	line-height: 38px;
+	margin-bottom: 10px;
+	border: 0;
+}
+body .sidebar .product-categories *:not(i) {
+	font-family: Arial,Helvetica,sans-serif;
+}
+body .sidebar .product-categories li a {
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+}
+body .sidebar .product-categories > li > a {
+	font-size: 13px;
+	line-height: 20px;
+	padding: 10px 10px 10px 10px !important;
+	color: #333 !important;
+}
+body .sidebar .product-categories li a span {
+	order: 2
+}
+
+body .sidebar .product-categories li ul li {
+	border-top: 1px solid rgba(0,0,0,.06);
+}
+
+body .sidebar .product-categories li ul li a {
+	padding-left: 20px !important;
 }

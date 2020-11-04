@@ -357,7 +357,7 @@ li.product .product-inner {
 
 .widget_product_categories .category-single .show-all-cat .show-all-cat-dropdown,
 .widget_product_categories .product_cat>span {
-	padding: 1.06em 2em
+	padding: 10px 20px 10px 10px
 }
 
 .widget_product_categories .product_cat>ul {
@@ -372,12 +372,12 @@ li.product .product-inner {
 	border-top: none
 }
 
-.sidebar-blog .widget-title,
+/* .sidebar-blog .widget-title,
 .sidebar>.widget>.widget-title {
 	font-size: 1.286em;
 	line-height: 1em;
 	margin-bottom: 1.75em
-}
+} */
 
 .sidebar .widget.widget_electro_products_filter>.widget-title {
 	margin-bottom: 1.95em
