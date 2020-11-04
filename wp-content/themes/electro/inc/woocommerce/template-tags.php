@@ -244,8 +244,9 @@ if ( ! function_exists( 'electro_wc_loop_title' ) ) {
 			} ?>
 
 			<header class="page-header">
+				<?php /*
 				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-
+				*/ ?>
 				<?php 
 				if ( ! electro_is_prdctfltr_activated() ) {
 					woocommerce_result_count(); 
