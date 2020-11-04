@@ -42,8 +42,8 @@ add_action( 'woocommerce_before_shop_loop',					'electro_wc_loop_title',						10
 add_action( 'woocommerce_before_shop_loop',					'electro_shop_control_bar',						11 );
 add_action( 'woocommerce_before_shop_loop',					'electro_reset_woocommerce_loop', 				90 );
 add_action( 'electro_shop_control_bar',						'electro_wc_handheld_sidebar',					8 );
-add_action( 'electro_shop_control_bar',						'electro_shop_view_switcher',					10 );
-add_action( 'electro_shop_control_bar',						'woocommerce_catalog_ordering',					20 );
+add_action( 'electro_shop_control_bar',						'woocommerce_catalog_ordering',					10 );
+add_action( 'electro_shop_control_bar',						'electro_shop_view_switcher',					20 );
 add_action( 'electro_shop_control_bar',						'electro_wc_products_per_page',					30 );
 add_action( 'electro_shop_control_bar',						'electro_advanced_pagination',					40 );
 add_action( 'woocommerce_after_shop_loop',					'electro_shop_control_bar_bottom',				90 );
