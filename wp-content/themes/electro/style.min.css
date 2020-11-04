@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
 	box-sizing: border-box;
-	font-family: 'Exo', sans-serif !important;
+	
 }
 
 body {
@@ -105,8 +105,7 @@ button,
 input,
 textarea {
   color: #333e48;
-  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light",
-    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Exo', sans-serif !important;
   line-height: 1.714em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -120,8 +119,7 @@ input {
 
 select {
   color: initial;
-  font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light",
-    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Exo', sans-serif !important;
 }
 
 .h1,
@@ -19508,3 +19506,34 @@ body .pum-close.popmake-close {
 body .pum-close.popmake-close:hover {
 	background-image: url(https://www.nutritionwarehouse.com.au/skin/frontend/ultimo/nwh/images/newdesign/close-popup.png) !important;
 }
+
+.customer-service {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.customer-service a img {
+	height: 90px;
+}
+
+.customer-service p {
+	/* width: 165px; */
+	font-size: 14px;
+	font-weight: 500;
+	/* text-align: center; */
+line-height: 22px;
+color: #fff;
+text-transform: uppercase;
+float: left;
+margin: 11px 0 0 10px;
+}
+
+.customer-service p a {
+	font-size: 30px;
+	font-weight: 700;
+line-height: 26px;
+color: #fff;
+display: block;
+}
+

@@ -60,6 +60,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="footer-bottom-section">
 		<?php
       /**
