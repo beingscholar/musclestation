@@ -19179,7 +19179,7 @@ body .vc_row.vc_row-o-full-height {
 	align-items: center;
 	background-color: #f0f0f0;
 	padding: 10px 0;
-	margin: 0 0 40px !important;
+	margin: 0 0 calc(2.857em + 0px) !important;
 }
 
 .delivery-info .wrap .wpb_wrapper {
