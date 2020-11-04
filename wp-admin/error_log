@@ -645,3 +645,11 @@ Stack trace:
 [02-Oct-2020 16:07:39 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, bool given in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-content/plugins/woo-single-product-page-customizer/woocommerce-single-product-page-customizer.php on line 103
 [02-Oct-2020 16:07:39 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, bool given in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-content/plugins/woo-single-product-page-customizer/woocommerce-single-product-page-customizer.php on line 103
 [02-Oct-2020 16:07:39 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, bool given in /home/xxploreautomotiv/demo.xxploreautomotive.in/wp-content/plugins/woo-single-product-page-customizer/woocommerce-single-product-page-customizer.php on line 103
+[03-Nov-2020 18:43:25 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+
+[03-Nov-2020 18:43:25 UTC] Class ZipArchive
+[03-Nov-2020 18:43:31 UTC] number_of_existing_backups
+[03-Nov-2020 18:43:31 UTC] 1
+[03-Nov-2020 18:43:31 UTC] number_of_backups_from_user
+[03-Nov-2020 18:43:31 UTC] 
