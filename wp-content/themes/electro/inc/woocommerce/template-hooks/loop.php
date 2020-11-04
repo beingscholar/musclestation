@@ -40,10 +40,10 @@ add_action( 'woocommerce_after_shop_loop_item_title', 'electro_template_loop_foo
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_wc_template_loop_sale', 99 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_wrap_price_and_add_to_cart', 100 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 110 );  
-// add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_add_to_cart', 120 );
+add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_add_to_cart', 120 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'electro_wrap_price_and_add_to_cart_close', 130 );
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_product_title', 131 );
-// add_action( 'woocommerce_after_shop_loop_item', 'electro_template_loop_hover',          140 );
+add_action( 'woocommerce_after_shop_loop_item', 'electro_template_loop_hover',          140 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_template_loop_footer_close',   145 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_wrap_product_inner_close',     150 );
 add_action( 'woocommerce_after_shop_loop_item', 'electro_wrap_product_outer_close',     160 );
