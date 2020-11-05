@@ -1221,9 +1221,9 @@ li.product .product-inner {
 	color: #fff;
 	font-weight: 700;
 	border-radius: 4px;
-	margin: 0;
-	position: absolute;
-	top: -21px
+	margin: 0 0 10px;
+	/* position: absolute; */
+	/* top: -21px */
 }
 
 .owl-item>.product .product-thumbnail>img,
@@ -3983,8 +3983,8 @@ body .content-area {
 
 @media (min-width:1200px) {
 	body .content-area {
-		flex: 0 0 75%;
-		max-width: 75%
+		flex: 0 0 80%;
+		max-width: 80%
 	}
 }
 
@@ -4002,8 +4002,8 @@ body .sidebar-blog {
 @media (min-width:1200px) {
 	body .sidebar,
 	body .sidebar-blog {
-		flex: 0 0 25%;
-		max-width: 25%
+		flex: 0 0 20%;
+		max-width: 20%;
 	}
 }
 
