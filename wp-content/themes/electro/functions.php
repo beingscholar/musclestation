@@ -86,7 +86,7 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
  
    }
      
-   $string = '<div class="quantity"><span>Qty</span><select name="' . $args['input_name'] . '">' . $options . '</select></div>';
+   $string = '<div class="quantity"><span>Quantity</span><select name="' . $args['input_name'] . '">' . $options . '</select></div>';
  
    if ( $echo ) {
       echo $string;

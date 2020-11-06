@@ -1149,7 +1149,7 @@ li.product .product-inner {
 	font-size: .857em;
 	line-height: 1.167em;
 	height: 2.334em;
-	color: #0062bd
+	/* color: #0062bd */
 }
 
 @media (min-width:992px) {
