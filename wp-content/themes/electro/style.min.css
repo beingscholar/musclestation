@@ -19286,6 +19286,7 @@ body .vc_row.vc_row-o-full-height {
 	font-weight: 800;
 	font-size: 18px;
 }
+
 .primary-footer .footer-top-section .customer-service ul {
 	margin: 0;
 	padding: 0 0 0 15px;
@@ -20359,11 +20360,43 @@ body .elementor-5356 .elementor-element > .elementor-widget-container {
 	margin: 0 auto !important;
 }
 
+.special-deals-block .arrow-container:hover {
+	background-color: #e31e31;
+}
+
+.special-deals-block .arrow-container:hover .arrow.arrow__right {
+	border-left-color: #e31e31;
+}
+
+body #menu-footer-menu-3 li a {
+	position: relative;
+	padding-left: 20px;
+}
+
+body #menu-footer-menu-3 li a:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-right: 2px solid #222;
+	border-top: 2px solid #222;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%) rotate(45deg);
+}
+
+body #menu-footer-menu-3 li a:hover:after {
+	border-color: #e31e31;
+}
+
 
 
 /* Responsive */
 
 @media screen and (min-width: 768px) {
+	.primary-footer .footer-top-section h3 span {
+		display: block;
+	}
 	body .elementor-5356 .elementor-element.elementor-element-fc9c81b {
 		width: 27.52%;
 		/* width: 30%; */
@@ -20471,6 +20504,30 @@ body .elementor-5356 .elementor-element > .elementor-widget-container {
 
 
 @media screen and (max-width: 767px) {
+	
+	.handheld-header-v2 .header-logo img, .mobile-header-v1 .header-logo img, .mobile-header-v2-inner .header-logo img {
+		width: 90px;
+	}
+	.primary-footer .footer-top-section .connect-with-us .wrap ul li img {
+		width: 32px;
+		height: 32px;
+	}
+	.primary-footer .footer-top-section .connect-with-us .wrap {
+		justify-content: space-between;
+	}
+	.primary-footer .footer-top-section .connect-with-us .wrap h3 {
+		width: auto;
+		text-align: left;
+	}
+	.primary-footer .footer-top-section h3 {
+		text-align: center;
+	}
+	.primary-footer .footer-top-section .connect-with-us .wrap + .wrap {
+		display: none;
+	}
+	.section-products-carousel.trending-products-carousel {
+		margin-bottom: 0 !important;
+	}
 	.special-deals-block span.title {
 		display: none;
 	}
@@ -20735,10 +20792,10 @@ ul.products[data-view=list-view].columns-8>li.product .product-inner .product-lo
 		padding: 10px 10px !important;
 	}
 	.signup-save {
-		margin: 0;
-		line-height: 1;
-		font-size: 20px;
-		padding: 0 0 10px;
+		margin: -10px 0 0;
+    line-height: 1;
+    font-size: 20px;
+    padding: 0 0 0px;
 	}
 
 	#wpforms-5618 #wpforms-submit-5618 {

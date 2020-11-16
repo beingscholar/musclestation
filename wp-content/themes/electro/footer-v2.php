@@ -22,7 +22,7 @@
 	<div class="footer-top-section">
 		<div class="container">
 			<div class="customer-service">
-				<h3>Customer<br/>Service</h3>
+				<h3>Customer <span>Service</span></h3>
 				<ul class="with-icons">
 					<li class="contact-link"><a href="/">Contact</a></li>
 					<li class="findstore-link"><a href="/">Find a Store</a></li>
@@ -43,7 +43,7 @@
 			</div>
 			<div class="connect-with-us">
 				<div class="wrap">
-					<h3>Connect<br/>with us</h3>
+					<h3>Connect with us</h3>
 					<ul>
 						<li><a href="/"><img src="https://www.nutritionwarehouse.com.au/media/wysiwyg/fb.png" alt=""></a></li>
 						<li><a href="/"><img src="https://www.nutritionwarehouse.com.au/media/wysiwyg/instagram.png" alt=""></a></li>
@@ -52,7 +52,7 @@
 				</div>
 
 				<div class="wrap">
-					<h3>SIGN UP<br/>& SAVE</h3>
+					<h3>SIGN UP & SAVE</h3>
 					
 					<div class="newsletter-subscribe">
 						<?php echo do_shortcode( '[wpforms id="5192"]' ); ?>
