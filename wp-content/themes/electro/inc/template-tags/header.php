@@ -41,13 +41,14 @@ if ( ! function_exists( 'electro_header_icons' ) ) {
      * @since 2.0
      */
     function electro_header_icons() {
+        $my_account_page_url = get_permalink( get_option('woocommerce_myaccount_page_id') );
         ?><div>
 					<ul class="header-links">
 						<li>
-							<a href="/">My Account</a>
+                            <a href="<?php echo esc_url( $my_account_page_url ); ?>"><?php echo esc_attr( esc_html__( 'My Account', 'electro' ) ); ?></a>
 						</li>
 						<li>
-							<a href="/">Login</a>
+                            <a href="<?php echo esc_url( $my_account_page_url ); ?>"><?php echo esc_html__( 'Login', 'electro' ); ?></a>
 						</li>
 					</ul>
 					<div class="header-icons"><?php
