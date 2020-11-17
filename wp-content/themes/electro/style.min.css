@@ -300,9 +300,11 @@ input[type="submit"] {
   font-size: 0.875rem;
   border-radius: 4px;
 	padding: 0 2.134em;
-	height: 42px;
+	min-height: 42px;
+	align-items: center;
+	justify-content: center;
   border-width: 0;
-  display: inline-block;
+  display: inline-flex;
 	color: #fff;
 	/* min-width: 196px; */
 	/* background-color: #efecec; */
@@ -829,8 +831,20 @@ ul.wpb_thumbnails-fluid > li {
 	color: #000000;
 } */
 
-.mega-menu-row .mega-sub-menu .mega-menu-column .mega-sub-menu .mega-menu-item .menu li:first-child a {
+.woocommerce-form.woocommerce-form-login.login  .woocommerce-button,
+.woocommerce-form.woocommerce-form-register.register  .woocommerce-button {
+	background-color: #333 !important;
+	min-width: 196px;
+}
+
+.woocommerce-form.woocommerce-form-login.login .woocommerce-button:hover,
+.woocommerce-form.woocommerce-form-register.register .woocommerce-button:hover {
+	background-color: #000 !important;
+}
+
+.mega-menu-row .mega-sub-menu .mega-menu-column .mega-sub-menu .mega-menu-item .menu > li > a {
 	font-weight: 700 !important;
+	margin-bottom: 5px !important;
 	color: #000000 !important;
 }
 
@@ -4586,7 +4600,9 @@ table.cart .coupon .input-text {
   border: 1px solid #ddd;
   border-right: 0;
   border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   padding: 0.534em 1.8em;
 }
 
@@ -4681,11 +4697,11 @@ table.cart input[name="update_cart"]:disabled:hover {
   color: #333e48;
 }
 
-.cart-collaterals {
+/* .cart-collaterals {
   margin-left: -0.9375rem;
   margin-right: -0.9375rem;
   padding-top: 5em;
-}
+} */
 
 .cart-collaterals::after {
   content: "";
@@ -4743,17 +4759,17 @@ table.cart input[name="update_cart"]:disabled:hover {
   position: relative;
   float: left;
   min-height: 1px;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  /* padding-left: 0.9375rem;
+  padding-right: 0.9375rem; */
   width: 100%;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .cart-collaterals .cart_totals {
     width: 41.6666666667%;
     margin-left: 58.3333333333%;
   }
-}
+} */
 
 .cart-collaterals .cart_totals table.shop_table {
   width: 100%;
@@ -16729,7 +16745,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
   font-size: 1em;
   line-height: 1.286em;
   font-weight: 700;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   margin-right: 16px;
 }
 
@@ -16746,7 +16762,7 @@ div.wpforms-container-full .wpforms-form textarea {
   outline: 0;
   border: 0;
   -webkit-appearance: none;
-  border-radius: 1.571em;
+  border-radius: 4px;
   box-sizing: border-box;
   border-width: 1px;
   border-style: solid;
@@ -16754,9 +16770,36 @@ div.wpforms-container-full .wpforms-form textarea {
   height: 44px;
   font-size: 1em;
 }
-
+div.wpforms-container-full .wpforms-form input[type="email"]:focus,
+div.wpforms-container-full .wpforms-form input[type="password"]:focus,
+div.wpforms-container-full .wpforms-form input[type="search"]:focus,
+div.wpforms-container-full .wpforms-form input[type="text"]:focus,
+div.wpforms-container-full .wpforms-form input[type="url"]:focus,
+div.wpforms-container-full .wpforms-form textarea:focus {
+	border-color:#000 !important;
+}
 div.wpforms-container-full .wpforms-form .wpforms-field {
   padding: 0 !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field + .wpforms-field {
+	margin-top: 20px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+	margin-top: 20px;
+}
+
+.enquiry-form button {
+	min-width: 196px;
+	height: 40px !important;
+	padding: 0 !important;
+	text-align: center;
+	border-radius: 4px !important;
+}
+
+.enquiry-form button:not(:hover) {
+	background-color: #333 !important;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
@@ -20437,6 +20480,139 @@ body #menu-footer-menu-3 li a:hover:after {
 	border-color: #e31e31;
 }
 
+body .elementor .elementor-element.full-width-row .elementor-element {
+width: 100% !important;
+}
+
+.post.type-post {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post.type-post .media-attachment{
+	margin-bottom: 0;
+	width: 160px;
+	padding-right: 30px;
+}
+
+.post.type-post .content-body{
+	width: calc(100% - 160px);
+}
+
+.post.type-post .content-body p {
+	color: #000;
+}
+
+.sidebar-blog .widget {
+	margin-bottom: 30px !important;
+}
+
+.sidebar-blog .widget h3 {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.cart-page {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.cart-page tbody td p {
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 200px;
+	margin: 0;
+	font-weight: 500;
+	color: #000;
+}
+
+.cart-page tbody td a {
+	font-size: 14px;
+	margin: 0;
+	color: #e31e31;
+	font-weight: 500;
+}
+.cart-page tbody td a:hover {
+	text-decoration: underline;
+	color: #e31e31;
+}
+.cart-page tbody td .quantity span {
+	display: none;
+}
+
+.cart-page tbody td .quantity select {
+position: relative;
+opacity: 1;
+border: 1px solid #ddd;
+font-size: 14px;
+color: #000;
+/* width: 100%; */
+padding: 0 10px;
+max-width: 100%;
+cursor: pointer;
+height: 40px;
+}
+.cart-page tbody td .quantity select:focus {
+	border: 1px solid #ddd;
+	box-shadow: none;
+}
+.cart-page h3 {
+	background-color: #ee1e11;
+font-size: 20px;
+color: #fff;
+padding: 10px 12px;
+font-weight: 700;
+border-radius: 3px;
+text-transform: uppercase;
+/* height: 22px; */
+line-height: normal;
+}
+
+.cart-page-header {
+	display: flex;
+	padding-bottom: 10px;
+border-bottom: 1px solid #ddd;
+margin-bottom: 10px;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.cart-page-header p {
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	margin: 0;
+}
+
+.cart-page-header strong {
+	color: #000;
+font-size: 18px;
+display: block;
+font-weight: 700;
+text-align: right;
+text-transform: uppercase;
+}
+
+.cart-page-header a {
+	color: #000;
+	display: block;
+font-size: 13px;
+text-align: right;
+font-weight: normal;
+text-transform: none;
+line-height: 15px;
+}
+body .woocommerce-cart-form {
+	width: calc(100% - 250px);
+	padding-right: 15px;
+}
+body .cart-collaterals {
+	width: 250px;
+}
 
 
 /* Responsive */

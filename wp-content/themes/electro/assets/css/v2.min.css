@@ -5972,8 +5972,8 @@ body.page-template-template-page-sidebar-left .sidebar-blog {
 body .cart-collaterals {
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px
+	/* margin-right: -15px;
+	margin-left: -15px */
 }
 
 body .cart-collaterals .cart_totals,
@@ -5981,13 +5981,13 @@ body .cart-collaterals .cross-sells {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	/* padding-right: 15px;
+	padding-left: 15px; */
 	flex: 0 0 100%;
 	max-width: 100%
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
 	body .cart-collaterals .cart_totals {
 		flex: 0 0 41.6666666667%;
 		max-width: 41.6666666667%;
@@ -6000,7 +6000,7 @@ body .cart-collaterals .cross-sells {
 		flex: 0 0 50%;
 		max-width: 50%
 	}
-}
+} */
 
 body .cart-collaterals .cross-sells ul.products>li.product:nth-child(even)::after {
 	content: none
