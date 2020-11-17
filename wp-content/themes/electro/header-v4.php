@@ -39,7 +39,7 @@
 				<div class="marquee">
                                  <p>
 								 <span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span>
-<span class="font28_mi_blk">ON ALL ORDERS OVER $150*</span>
+<span class="font28_mi_blk">ON ALL ORDERS OVER $199*</span>
 								 </p>
                                  <p>  
 								 <span class="font28_bi_red">SAME DAY DISPATCH</span> <span class="font28_mi_blk">ON ORDERS </span>
@@ -48,23 +48,6 @@
 								 <p><span class="font28_bi_red">30 DAY</span> <span class="font28_mi_blk"> MONEY BACK </span>
 <span class="font28_bi_red">GUARANTEE</span></p>
                 </div>
-				<!-- <marquee width = "50%">
-<ul>
-<li>
-<span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span>
-<span class="font28_mi_blk">ON ALL ORDERS OVER $150*</span>
-</li>
-<li>
-<span class="font28_bi_red">SAME DAY DISPATCH</span> <span class="font28_mi_blk">ON ORDERS </span>
-<span class="font28_bi_red">BEFORE </span><span class="font28_mi_blk">3PM*</span>
-</li>
-<li>
-<span class="font28_bi_red">30 DAY</span> <span class="font28_mi_blk"> MONEY BACK </span>
-<span class="font28_bi_red">GUARANTEE</span>
-</li>
-</ul>
-</marquee> -->
-					
 				</div>
 			
 		</div>

@@ -354,7 +354,7 @@ class Perfect_Woocommerce_Brands
     if ($position_selected == 'meta') {
       add_action('woocommerce_product_meta_end', [$this, 'action_woocommerce_single_product_summary']);
     } else {
-      add_action('woocommerce_single_product_summary', [$this, 'action_woocommerce_single_product_summary'], $position);
+      // add_action('woocommerce_single_product_summary', [$this, 'action_woocommerce_single_product_summary'], $position);
     }
   }
 
