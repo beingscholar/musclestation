@@ -1,0 +1,466 @@
+{
+	"observerUrl": "./preview/dist/faq-observer.js",
+	"preferences": {
+		"previewUpdateTimeout": 0,
+		"enableCustomCSS": true
+	},
+	"settings": {
+		"tabs": [
+			{
+				"id": "content",
+				"name": "Content",
+				"active": true
+			},
+			{
+				"id": "layout",
+				"name": "Layout"
+			},
+			{
+				"id": "style",
+				"name": "Style"
+			},
+			{
+				"id": "advanced",
+				"name": "Advanced"
+			}
+		],
+		"properties": [
+			{
+				"id": "displayCategoriesNames",
+				"name": "Display Category Titles",
+				"tab": "content",
+				"type": "toggle",
+				"defaultValue": true,
+				"description": "Set this option to ON to display questions arranged by categories. Set it to OFF to display the questions from all the categories in a list."
+			},
+			{
+				"id": "categories",
+				"name": "Question categories",
+				"tab": "content",
+				"type": "complex",
+				"complex": {
+					"properties": [
+						{
+							"id": "name",
+							"name": "Category Title",
+							"type": "text",
+							"defaultValue": "",
+							"allowEmpty": true,
+							"description": "Set the category title to display above the category questions. This option is available only when Display Category Titles is set to ON."
+						},
+						{
+							"id": "icon",
+							"name": "Category Icon",
+							"type": "select-visual",
+							"select": {
+								"options": [
+									{
+										"value": "",
+										"name": "No icon",
+										"img": ""
+									},
+									{
+										"value": "attention",
+										"name": "Attention",
+										"img": "https://elfsight.com/assets/faq/icons/1.svg"
+									},
+									{
+										"value": "blank",
+										"name": "Blank",
+										"img": "https://elfsight.com/assets/faq/icons/2.svg"
+									},
+									{
+										"value": "book",
+										"name": "Book",
+										"img": "https://elfsight.com/assets/faq/icons/3.svg"
+									},
+									{
+										"value": "calendar",
+										"name": "Calendar",
+										"img": "https://elfsight.com/assets/faq/icons/4.svg"
+									},
+									{
+										"value": "case",
+										"name": "Case",
+										"img": "https://elfsight.com/assets/faq/icons/5.svg"
+									},
+									{
+										"value": "chat",
+										"name": "Chat",
+										"img": "https://elfsight.com/assets/faq/icons/6.svg"
+									},
+									{
+										"value": "checkmark",
+										"name": "Checkmark",
+										"img": "https://elfsight.com/assets/faq/icons/7.svg"
+									},
+									{
+										"value": "clock",
+										"name": "Clock",
+										"img": "https://elfsight.com/assets/faq/icons/8.svg"
+									},
+									{
+										"value": "cloud",
+										"name": "Cloud",
+										"img": "https://elfsight.com/assets/faq/icons/9.svg"
+									},
+									{
+										"value": "community",
+										"name": "Community",
+										"img": "https://elfsight.com/assets/faq/icons/10.svg"
+									},
+									{
+										"value": "creditcard",
+										"name": "Creditcard",
+										"img": "https://elfsight.com/assets/faq/icons/11.svg"
+									},
+									{
+										"value": "delivery",
+										"name": "Delivery",
+										"img": "https://elfsight.com/assets/faq/icons/12.svg"
+									},
+									{
+										"value": "desktop",
+										"name": "Desktop",
+										"img": "https://elfsight.com/assets/faq/icons/13.svg"
+									},
+									{
+										"value": "discount",
+										"name": "Discount",
+										"img": "https://elfsight.com/assets/faq/icons/14.svg"
+									},
+									{
+										"value": "doc",
+										"name": "Doc",
+										"img": "https://elfsight.com/assets/faq/icons/15.svg"
+									},
+									{
+										"value": "download",
+										"name": "Download",
+										"img": "https://elfsight.com/assets/faq/icons/16.svg"
+									},
+									{
+										"value": "folder",
+										"name": "Folder",
+										"img": "https://elfsight.com/assets/faq/icons/17.svg"
+									},
+									{
+										"value": "gear",
+										"name": "Gear",
+										"img": "https://elfsight.com/assets/faq/icons/18.svg"
+									},
+									{
+										"value": "globe",
+										"name": "Globe",
+										"img": "https://elfsight.com/assets/faq/icons/19.svg"
+									},
+									{
+										"value": "growth",
+										"name": "Growth",
+										"img": "https://elfsight.com/assets/faq/icons/20.svg"
+									},
+									{
+										"value": "home",
+										"name": "Home",
+										"img": "https://elfsight.com/assets/faq/icons/21.svg"
+									},
+									{
+										"value": "info",
+										"name": "Info",
+										"img": "https://elfsight.com/assets/faq/icons/22.svg"
+									},
+									{
+										"value": "location",
+										"name": "Location",
+										"img": "https://elfsight.com/assets/faq/icons/23.svg"
+									},
+									{
+										"value": "map",
+										"name": "Map",
+										"img": "https://elfsight.com/assets/faq/icons/24.svg"
+									},
+									{
+										"value": "message",
+										"name": "Message",
+										"img": "https://elfsight.com/assets/faq/icons/25.svg"
+									},
+									{
+										"value": "navigation",
+										"name": "Navigation",
+										"img": "https://elfsight.com/assets/faq/icons/26.svg"
+									},
+									{
+										"value": "payment",
+										"name": "Payment",
+										"img": "https://elfsight.com/assets/faq/icons/27.svg"
+									},
+									{
+										"value": "protection",
+										"name": "Protection",
+										"img": "https://elfsight.com/assets/faq/icons/28.svg"
+									},
+									{
+										"value": "special",
+										"name": "Special",
+										"img": "https://elfsight.com/assets/faq/icons/29.svg"
+									},
+									{
+										"value": "support",
+										"name": "Support",
+										"img": "https://elfsight.com/assets/faq/icons/30.svg"
+									},
+									{
+										"value": "tag",
+										"name": "Tag",
+										"img": "https://elfsight.com/assets/faq/icons/31.svg"
+									},
+									{
+										"value": "upload",
+										"name": "Upload",
+										"img": "https://elfsight.com/assets/faq/icons/32.svg"
+									},
+									{
+										"value": "user",
+										"name": "User",
+										"img": "https://elfsight.com/assets/faq/icons/33.svg"
+									},
+									{
+										"value": "watch",
+										"name": "Watch",
+										"img": "https://elfsight.com/assets/faq/icons/34.svg"
+									},
+									{
+										"value": "webpage",
+										"name": "Webpage",
+										"img": "https://elfsight.com/assets/faq/icons/35.svg"
+									}
+								],
+								"layout": "two-cols"
+							},
+							"defaultValue": "",
+							"allowEmpty": true,
+							"description": "Set a suitable icon to display left of the category title."
+						},
+						{
+							"id": "items",
+							"name": "Questions",
+							"type": "complex",
+							"complex": {
+								"properties": [
+									{
+										"id": "question",
+										"name": "Question",
+										"type": "text",
+										"defaultValue": "",
+										"allowEmpty": true,
+										"description": "Enter question text here."
+									},
+									{
+										"id": "answer",
+										"name": "Answer",
+										"type": "textarea",
+										"defaultValue": "",
+										"textarea": {
+											"enableRichEdit": true,
+											"enableRichEditHtml": true
+										},
+										"allowEmpty": true,
+										"description": "Enter answer text here. This field supports HTML tags.",
+										"caption": "You can add YouTube and images URLs to be displayed as media content."
+									}
+								]
+							},
+							"defaultValue": "",
+							"description": "Enter the category's questions, set their display order."
+						}
+					],
+					"nameProperty": "name"
+				},
+				"defaultValue": [
+					{
+						"name": "Subscription",
+						"icon": "clock",
+						"items": [
+							{
+								"question": "Can I cancel my subscription at anytime?",
+								"answer": "Sure. Your paid subscription can be cancelled anytime by shifting to Lite plan."
+							},
+							{
+								"question": "Can I change my plan later on?",
+								"answer": "Absolutely! You can upgrade or downgrade your plan anytime. The money paid for the previous subscription will be recalculated to the new plan."
+							},
+							{
+								"question": "Will you renew my subscription automatically?",
+								"answer": "Yes, your subscription will be automatically renewed according to your pay period."
+							},
+							{
+								"question": "Do you offer any discounts?",
+								"answer": "Yes! We offer 17% discount for payment per year. There may be other temporary discounts, check for this inside the service."
+							},
+							{
+								"question": "Can I request a refund?",
+								"answer": "Sure, you will be welcome to request your refund within 14 days of subscribing to any paid plan."
+							}
+						]
+					},
+					{
+						"name": "Application",
+						"icon": "special",
+						"items": [
+							{
+								"question": "How many sites can I install the widgets of this app to?",
+								"answer": "Widgets of our app can be installed on as many sites as you need."
+							},
+							{
+								"question": "100,000 views - how much is it?",
+								"answer": "The number of views equals the number of times the app loads on your website. As usual, 100,000 views approximately equals 100,000 of visits to your site per month. But it still depends on  each specific case and the numbers may differ. More details about views are here."
+							},
+							{
+								"question": "What are widgets?",
+								"answer": "Widget is an adjusted display of the application. Every app may have multiple widgets. Widget defines how the application will look and function on your website."
+							},
+							{
+								"question": "Do I get updates for the app?",
+								"answer": "Sure! Automatic updates are available free of charge to all our users."
+							}
+						]
+					},
+					{
+						"name": "Support",
+						"icon": "support",
+						"items": [
+							{
+								"question": "Do you offer support if I need help?",
+								"answer": "Yes! High-quality customer support is extremely important for a quality product, that’s why we do our best to resolve any issues you may encounter."
+							},
+							{
+								"question": "What does premium support include?",
+								"answer": "We value our clients and you can always feel free to contact us for:<ul><li>Installing and adjusting</li><li>bug fixing and troubleshooting</li><li>analysis of your use-cases and recommendations on use of the app</li><li>minor individual modifications of the interface and functions of the app (if possible to carry out)</li></ul>"
+							},
+							{
+								"question": "What should I do if I need help with installation and adjusting?",
+								"answer": "We are ready to help with this! You can always contact us at apps@elfsight.com and we will help you to set up and change the settings of the app on your website the way you need."
+							}
+						]
+					}
+				],
+				"description": "Arrange your questions in topic categories, or set Display Category Titles to OFF to have them displayed in a list. In this case you need to add the questions to any category."
+			},
+			{
+				"id": "widgetTitle",
+				"name": "Widget Title",
+				"tab": "content",
+				"type": "text",
+				"allowEmpty": true,
+				"defaultValue": "Frequently Asked Questions",
+				"description": "Add a title to your FAQ widget."
+			},
+			{
+				"id": "layout",
+				"name": "Layout",
+				"tab": "layout",
+				"type": "select-inline",
+				"selectInline": {
+					"options": [
+						{
+							"value": "accordion",
+							"name": "Accordion"
+						},
+						{
+							"value": "list",
+							"name": "List"
+						},
+						{
+							"value": "multicolumn",
+							"name": "Multicolumn"
+						}
+					]
+				},
+				"defaultValue": "accordion",
+				"description": "Choose one of the three available layouts: Accordion, List, Multicolumn."
+			},
+			{
+				"id": "accordionIcon",
+				"name": "Accordion Icon",
+				"tab": "layout",
+				"type": "select-inline",
+				"selectInline": {
+					"options": [
+						{
+							"value": "plus",
+							"name": "Plus"
+						},
+						{
+							"value": "arrow",
+							"name": "Arrow"
+						}
+					]
+				},
+				"defaultValue": "plus",
+				"visible": false,
+				"description": "Choose the question's open/closed indicator icon - plus or arrow. This option is only available for the Accordion layout."
+			},
+			{
+				"id": "template",
+				"name": "Template",
+				"tab": "style",
+				"type": "select",
+				"select": {
+					"options": [
+						{
+							"value": "clean",
+							"name": "Clear"
+						},
+						{
+							"value": "bg",
+							"name": "Background"
+						},
+						{
+							"value": "bg-shadow",
+							"name": "Background & Shadow"
+						},
+						{
+							"value": "bg-border",
+							"name": "Background & Border"
+						}
+					]
+				},
+				"defaultValue": "bg",
+				"description": "Choose one of the four available display templates for your questions. This setting defines the appearance - with or without background, shadow, border. Choose the best one for your website."
+			},
+			{
+				"id": "itemBackgroundColor",
+				"name": "Item Background Color",
+				"tab": "style",
+				"type": "color",
+				"defaultValue": "rgb(250, 250, 250)",
+				"description": "Set the background color of your questions."
+			},
+			{
+				"id": "questionTextColor",
+				"name": "Question Text Color",
+				"tab": "style",
+				"type": "color",
+				"defaultValue": "",
+				"description": "Set the text color of your questions."
+			},
+			{
+				"id": "answerTextColor",
+				"name": "Answer Text Color",
+				"tab": "style",
+				"type": "color",
+				"defaultValue": "rgb(100, 100, 100)",
+				"description": "Set the text color for the answers."
+			},
+			{
+				"id": "categoryTextColor",
+				"name": "Category Text Color",
+				"tab": "style",
+				"type": "color",
+				"defaultValue": "",
+				"visible": false,
+				"description": "Set category title color."
+			}
+		]
+	}
+}
