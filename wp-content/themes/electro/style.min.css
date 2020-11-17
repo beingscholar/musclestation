@@ -298,15 +298,42 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   font-size: 0.875rem;
-  border-radius: 1.571em;
-  padding: 1.036em 2.134em;
+  border-radius: 4px;
+	padding: 0 2.134em;
+	height: 42px;
   border-width: 0;
   display: inline-block;
-  color: #333e48;
-  background-color: #efecec;
+	color: #fff;
+	/* min-width: 196px; */
+	/* background-color: #efecec; */
+	background-color: #333;
   border-color: #efecec;
   transition: all 0.2s ease-in-out;
 }
+/* .input-group-btn .btn,
+.add-to-cart-wrap .button,
+.wpforms-submit-container button {
+	min-width: 1px;
+}
+
+.add-to-cart-wrap .button,
+.wpforms-submit-container button {
+	background-color: transparent !important;
+}
+
+.wpforms-submit-container button:hover {
+	background-color: #fff !important;
+} */
+
+/* .btn:hover,
+.button:hover,
+.hero-action-btn:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color: #000 !important;
+} */
 
 .btn:hover,
 .button:hover,
@@ -12600,17 +12627,18 @@ form.woocommerce-checkout .order-review-wrapper {
   display: block;
   position: relative;
   padding-bottom: 0.4em;
-  border-bottom: 1px solid #dadada;
+	border-bottom: 1px solid #e31e31;
+	color: #e31e31;
   margin-bottom: 1.36em;
 }
 
 .woocommerce-account .woocommerce h2::after {
   content: " ";
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid #e31e31 !important;
   display: block;
   width: 20%;
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
 }
 
 .woocommerce-edit-address form h3 {
