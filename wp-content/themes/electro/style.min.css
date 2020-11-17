@@ -1450,6 +1450,11 @@ img.desaturate:hover {
   font-weight: 700;
 }
 
+#mega-menu-wrap-navbar-primary #mega-menu-navbar-primary ul, #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary li, #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary p, #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary img:not(.mega-menu-logo), #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary div, #mega-menu-wrap-navbar-primary #mega-menu-navbar-primary a {
+	color: #333;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+
 .primary-nav .nav-inline > .menu-item > a:focus,
 .primary-nav .nav-inline > .menu-item > a:hover,
 .primary-nav-menu .nav-inline > .menu-item > a:focus,
