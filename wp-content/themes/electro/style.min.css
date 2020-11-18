@@ -20657,7 +20657,7 @@ body .cart-collaterals {
 .woocommerce-mini-cart__buttons.buttons a {
 	flex-grow: 1;
 	font-weight: 700;
-	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+	text-shadow: 1px 0 1px rgba(0,0,0,0.3);
 }
 
 .woocommerce-mini-cart__buttons.buttons a.checkout {
