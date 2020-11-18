@@ -69,6 +69,30 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 		do_action( 'woocommerce_mini_cart_contents' );
 		?>
 	</ul>
+	
+
+<div class="inner">
+	<div class="gift_bg">
+    <div class="free_gift">
+      <div class="gif-img">
+        <img src="https://musclestation.com.au/public/frontendAssets/skin/frontend/ultimo/nwh/images/newdesign/transportation.png">
+      </div>
+      <div class="gif-message">
+				<?php 
+				$cart_total  = WC()->cart->total;
+				$cart_remaining  = 199 - WC()->cart->total;
+				if($cart_remaining > 0) { 
+				?>
+					<h2 class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</h2>
+					<h4 class="ampromo-so-close" style="color:white;">Add another $<?php echo $cart_remaining; ?> to your cart to receive your FREE SHIPPING.</h4>
+					<div>Spend over $199 and recieve a free Shipping!</div>
+				<?php } else { ?>
+					<h2 class="ampromo-so-close" style="color:white;">YOU'VE EARNED A FREE SHIPPING!</h2>
+				<?php } ?>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<p class="woocommerce-mini-cart__total total">
 		<?php
