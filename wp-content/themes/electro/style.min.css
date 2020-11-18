@@ -2164,8 +2164,10 @@ table.cart .coupon .navbar-search .input-text {
 
 .dropdown-menu-mini-cart .mini_cart_item {
   margin-bottom: 1em;
-  padding-bottom: 1.143em;
-  border-bottom: 1px solid #ddd;
+    padding-bottom: 1.143em;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding-right: 15px;
 }
 
 .dropdown-menu-mini-cart p.total {
@@ -2184,7 +2186,7 @@ table.cart .coupon .navbar-search .input-text {
 
 .dropdown-menu-mini-cart .wc-forward {
   padding: 0.75em 2.07em;
-  margin: 0 0.5em;
+  /* margin: 0 0.5em; */
 }
 
 .dropdown-menu-mini-cart .wc-forward::after {
@@ -9887,7 +9889,7 @@ section.section-posts-carousel .likes a:before {
 }
 
 .product_list_widget a {
-  color: #0062bd;
+  color: #333;
   font-weight: 700;
 }
 
@@ -9947,8 +9949,12 @@ section.section-posts-carousel .likes a:before {
 }
 
 .product_list_widget .mini_cart_item .remove {
-  float: right;
-  color: #e00;
+	font-size: 20px;
+	position: absolute;
+	line-height: 1;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #e00;
+	right: 0;
 }
 
 .product_list_widget .mini_cart_item a:nth-child(2) {
@@ -20267,6 +20273,21 @@ margin-right: 10px;
 	min-height: 56px; */
 }
 
+.free_gift .gif-message span {
+	color: #3fb15c;
+	display: block;
+	line-height: normal;
+	border-top: 1px dashed #3fb15c;
+	border-bottom: 1px dashed #3fb15c;
+	padding: 5px 0;
+	margin: 10px 0;
+}
+
+.free_gift .gif-message em {
+	display: block;
+	font-style: normal;
+}
+
 .ampromo-so-close {
 	line-height: normal;
 	margin-top: 0;
@@ -20617,6 +20638,33 @@ body .woocommerce-cart-form {
 }
 body .cart-collaterals {
 	width: 250px;
+}
+
+#wpforms-form-5618 .wpforms-submit-container {
+	margin-top: 0 !important;
+}
+
+.dropdown-menu-mini-cart .inner {
+	padding: 0;
+}
+
+.woocommerce-mini-cart__buttons.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.woocommerce-mini-cart__buttons.buttons a {
+	flex-grow: 1;
+}
+
+.woocommerce-mini-cart__buttons.buttons a.checkout {
+	background: #3fb15c;
+	margin-left: 10px;
+}
+
+.woocommerce-mini-cart__buttons.buttons a.checkout:hover {
+	background: #35864a;
 }
 
 

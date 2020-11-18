@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         }
         if($sidebar_id === 'single-product-sidebar-widgets') {
 ?>
-<div class="inner">
+
   <div class="feature-wrapper bottom-border">
     <!-- <div class="box-brand">
       <a class="fade-on-hover" href="https://musclestation.com.au/brandDetails/25" title="Click to see more Brands from PRO SUPPS" style="opacity: 1;">
@@ -103,8 +103,8 @@ if ( ! defined( 'ABSPATH' ) ) {
       </div>
     </div>
   </div>
-</div>
-<?
+
+<?php
         } else {
             dynamic_sidebar( $sidebar_id );
         }

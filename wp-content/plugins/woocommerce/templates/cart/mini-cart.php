@@ -71,7 +71,6 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 	</ul>
 	
 
-<div class="inner">
 	<div class="gift_bg">
     <div class="free_gift">
       <div class="gif-img">
@@ -83,16 +82,15 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 				$cart_remaining  = 199 - WC()->cart->total;
 				if($cart_remaining > 0) { 
 				?>
-					<h2 class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</h2>
-					<h4 class="ampromo-so-close" style="color:white;">Add another $<?php echo $cart_remaining; ?> to your cart to receive your FREE SHIPPING.</h4>
-					<div>Spend over $199 and recieve a free Shipping!</div>
+					<p class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</p>
+					<span>Add another $<?php echo $cart_remaining; ?> to your cart to receive your FREE SHIPPING.</span>
+					<em>Spend over $199 and recieve a free Shipping!</em>
 				<?php } else { ?>
-					<h2 class="ampromo-so-close" style="color:white;">YOU'VE EARNED A FREE SHIPPING!</h2>
+					<em>YOU'VE EARNED A FREE SHIPPING!</em>
 				<?php } ?>
       </div>
     </div>
   </div>
-</div>
 
 	<p class="woocommerce-mini-cart__total total">
 		<?php
