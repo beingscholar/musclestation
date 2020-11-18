@@ -196,3 +196,78 @@ mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privile
 [04-Nov-2020 09:01:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
 [04-Nov-2020 09:01:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
 [04-Nov-2020 09:01:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1259
+[17-Nov-2020 18:55:22 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+
+[17-Nov-2020 18:55:26 UTC] Class ZipArchive
+[17-Nov-2020 18:55:34 UTC] number_of_existing_backups
+[17-Nov-2020 18:55:34 UTC] 3
+[17-Nov-2020 18:55:34 UTC] number_of_backups_from_user
+[17-Nov-2020 18:55:34 UTC] 
+[17-Nov-2020 18:56:10 UTC] mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+
+[17-Nov-2020 18:56:10 UTC] Class ZipArchive
+[17-Nov-2020 18:56:16 UTC] number_of_existing_backups
+[17-Nov-2020 18:56:16 UTC] 4
+[17-Nov-2020 18:56:16 UTC] number_of_backups_from_user
+[17-Nov-2020 18:56:16 UTC] 
+[18-Nov-2020 06:51:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/formatting.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-settings.php on line 109
+[18-Nov-2020 06:51:24 UTC] PHP Warning:  include_once(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/megamenu/classes/pages/themes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/megamenu/megamenu.php on line 403
+[18-Nov-2020 06:51:30 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/post-type-archive.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/plugin.php on line 145
+[18-Nov-2020 06:51:30 UTC] PHP Fatal error:  Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Conditions\Post_Type_Archive' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/archive.php:46
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/condition-base.php(66): ElementorPro\Modules\ThemeBuilder\Conditions\Archive->register_sub_conditions()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(195): ElementorPro\Modules\ThemeBuilder\Conditions\Condition_Base->__construct(Array)
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(206): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('archive', Array)
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elemen in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/archive.php on line 46
+[18-Nov-2020 06:51:30 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/Gutenberg/FormSelector.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:51:30 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/pricing/module.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/plugin.php on line 145
+[18-Nov-2020 06:51:30 UTC] PHP Fatal error:  Uncaught Error: Class '\ElementorPro\Modules\Pricing\Module' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/core/modules-manager.php:60
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/plugin.php(273): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/class-wp-hook.php(287): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/includes/plugin.php(509): do_action('elementor/init')
+#5 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/class-wp-hook.php(287): Elementor\Plugin->init('')
+#6 /home/xxploreautomotiv/muscles.xxploreauto in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/core/modules-manager.php on line 60
+[18-Nov-2020 06:51:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/js_composer/include/classes/core/shared-templates/class-vc-shared-templates.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/js_composer/include/classes/core/class-vc-manager.php on line 706
+[18-Nov-2020 06:51:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/src/inc/utils.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/src/inc/functions.php on line 14
+[18-Nov-2020 06:51:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/../brain/nonces/inc/helpers.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/autoload_real.php on line 66
+[18-Nov-2020 06:51:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/core/common/modules/connect/apps/base-user-app.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/includes/autoloader.php on line 268
+[18-Nov-2020 06:51:46 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/../../src/Bootstrapper.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:51:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WCPayPalPlus\Bootstrapper' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php:44
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php(54): WCPayPalPlus\{closure}()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-settings.php(377): include_once('/home/xxploreau...')
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-config.php(91): require_once('/home/xxploreau...')
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-load.php(37): require_once('/home/xxploreau...')
+#4 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-cron.php(44): require_once('/home/xxploreau...')
+#5 {main}
+  thrown in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php on line 44
+[18-Nov-2020 06:51:46 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/../../src/Bootstrapper.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:51:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WCPayPalPlus\Bootstrapper' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php:44
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php(54): WCPayPalPlus\{closure}()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-settings.php(377): include_once('/home/xxploreau...')
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-config.php(91): require_once('/home/xxploreau...')
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-load.php(37): require_once('/home/xxploreau...')
+#4 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-blog-header.php(13): require_once('/home/xxploreau...')
+#5 /home/xxploreautomotiv/muscles.xxploreautomotive.in/index.php(17): require('/home/xxploreau...')
+#6 {main}
+  thrown in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/paypalplus-woocommerce.php on line 44
+[18-Nov-2020 06:51:46 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/../../src/PayPalPlus.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:52:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/core/common/modules/connect/apps/library.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/includes/autoloader.php on line 268
+[18-Nov-2020 06:52:09 UTC] PHP Warning:  include_once(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-fee-data-store.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 430
+[18-Nov-2020 06:52:09 UTC] PHP Warning:  include_once(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/interfaces/class-wc-coupon-data-store-interface.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 333
+[18-Nov-2020 06:52:09 UTC] PHP Warning:  include_once(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-product-data-store.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 431
+[18-Nov-2020 06:52:14 UTC] PHP Fatal error:  Uncaught Error: Interface 'WC_Coupon_Data_Store_Interface' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php:17
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php(422): include_once()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php(167): WooCommerce->includes()
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/class-woocommerce.php(126): WooCommerce->__construct()
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/woocommerce.php(47): WooCommerce::instance()
+#4 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/woocommerce.php(61): WC()
+#5 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-settings.php(377): include_once('/home/xxploreau...')
+#6 /hom in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php on line 17

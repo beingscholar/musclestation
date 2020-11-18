@@ -653,3 +653,14 @@ mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privile
 [03-Nov-2020 18:43:31 UTC] 1
 [03-Nov-2020 18:43:31 UTC] number_of_backups_from_user
 [03-Nov-2020 18:43:31 UTC] 
+[18-Nov-2020 06:51:30 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Admin/Pages/SMTP.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:51:30 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Admin/Pages/SMTP.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/woo-paypalplus/vendor/composer/ClassLoader.php on line 444
+[18-Nov-2020 06:52:43 UTC] PHP Warning:  include(): Failed opening '/home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/fonts-manager.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/plugin.php on line 145
+[18-Nov-2020 06:52:43 UTC] PHP Fatal error:  Uncaught Error: Class 'ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager' not found in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/assets-manager/module.php:52
+Stack trace:
+#0 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor/core/base/module.php(83): ElementorPro\Modules\AssetsManager\Module->__construct()
+#1 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/core/modules-manager.php(61): Elementor\Core\Base\Module::instance()
+#2 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/plugin.php(273): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/class-wp-hook.php(287): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/xxploreautomotiv/muscles.xxploreautomotive.in/ in /home/xxploreautomotiv/muscles.xxploreautomotive.in/wp-content/plugins/elementor-pro/modules/assets-manager/module.php on line 52
