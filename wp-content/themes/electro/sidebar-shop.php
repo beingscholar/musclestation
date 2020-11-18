@@ -53,7 +53,7 @@ if ( ! defined( 'ABSPATH' ) ) {
             foreach ($brands as $brand) {
               $brand_link = get_term_link($brand->term_id, 'pwb-brand');
               $attachment_id = get_term_meta($brand->term_id, 'pwb_brand_image', 1);
-  
+              $brand_banner = get_term_meta($brand->term_id, 'pwb_brand_banner', true);
               $image_size = 'thumbnail';
               $image_size_selected = get_option('wc_pwb_admin_tab_brand_logo_size', 'thumbnail');
               if ($image_size_selected != false) {
@@ -63,7 +63,8 @@ if ( ! defined( 'ABSPATH' ) ) {
               $attachment_html = wp_get_attachment_image($attachment_id, $image_size);
   
               if (!empty($attachment_html) && $show_as == 'brand_image' || !empty($attachment_html) && !$show_as) {
-                echo '<a href="' . $brand_link . '" title="' . $brand->name . '">' . $attachment_html . '</a>';
+                // echo '<a href="' . $brand_link . '" title="' . $brand->name . '">' . $attachment_html . '</a>';
+                echo wp_get_attachment_image($brand_banner, 'full', false);
               } else {
                 echo '<a href="' . $brand_link . '" title="' . esc_html__('View brand', 'perfect-woocommerce-brands') . '">' . $brand->name . '</a>';
               }

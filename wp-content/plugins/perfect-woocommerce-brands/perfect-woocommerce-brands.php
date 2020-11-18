@@ -102,8 +102,8 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
     require 'classes/admin/class-pwb-exporter-support.php';
     new PWB_Exporter_Support();
   } else {
-    include_once 'classes/class-pwb-product-tab.php';
-    new PWB_Product_Tab();
+    // include_once 'classes/class-pwb-product-tab.php';
+    // new PWB_Product_Tab();
   }
 
   new \Perfect_Woocommerce_Brands\Perfect_Woocommerce_Brands();

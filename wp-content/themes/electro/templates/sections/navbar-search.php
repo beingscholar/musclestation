@@ -26,7 +26,7 @@ $navbar_search_dropdown_text = apply_filters( 'electro_navbar_search_dropdown_te
 	<label class="sr-only screen-reader-text" for="search"><?php echo esc_html__( 'Search for:', 'electro' );?></label>
 	<div class="input-group">
     	<div class="input-search-field">
-    		<input type="text" id="search" class="form-control search-field product-search-field" dir="<?php echo esc_attr( $dir_value ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" placeholder="<?php echo esc_attr( $navbar_search_text ); ?>" autocomplete="off" />
+    		<input type="text" id="search" class="form-control search-field product-search-field" dir="<?php echo esc_attr( $dir_value ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" placeholder="<?php echo esc_attr( "Search entire store here..." ); ?>" autocomplete="off" />
     	</div>
     	<?php if( apply_filters( 'electro_enable_search_categories_filter', true ) ) : ?>
 		<div class="input-group-addon search-categories">
