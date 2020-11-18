@@ -359,7 +359,7 @@ class WC_Widget_Layered_Nav extends WC_Widget {
 			}
 		}
 
-		$exclude_variable_products_tax_query_sql = $this->get_extra_tax_query_sql( 'product_type', array( 'variable' ), 'NOT IN' );
+		$exclude_variable_products_tax_query_sql = $this->get_extra_tax_query_sql( 'product_type', array(), 'NOT IN' );
 
 		$meta_query_sql     = ( new WP_Meta_Query( $meta_query ) )->get_sql( 'post', $wpdb->posts, 'ID' );
 		$main_tax_query_sql = $this->convert_tax_query_to_sql( $main_tax_query );
