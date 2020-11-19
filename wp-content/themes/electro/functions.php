@@ -95,27 +95,56 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
    }
   
 }
-//Hide Price Range for WooCommerce Variable Products
-add_filter('woocommerce_variable_sale_price_html', 'lw_variable_product_price', 10, 2);
-add_filter('woocommerce_variable_price_html', 'lw_variable_product_price', 10, 2);
-function lw_variable_product_price($v_price, $v_product)
-{
-  // Product Price
-  $prod_prices    = array(
-    $v_product->get_variation_price('min', true),
-    $v_product->get_variation_price('max', true)
-  );
-  $prod_price     = $prod_prices[0] !== $prod_prices[1] ? sprintf(__('%1$s', 'woocommerce'), wc_price($prod_prices[0])) : wc_price($prod_prices[0]);
-  // Regular Price
-  $regular_prices = array(
-    $v_product->get_variation_regular_price('min', true),
-    $v_product->get_variation_regular_price('max', true)
-  );
-  sort($regular_prices);
-  $regular_price = $regular_prices[0] !== $regular_prices[1] ? sprintf(__('%1$s', 'woocommerce'), wc_price($regular_prices[0])) : wc_price($regular_prices[0]);
-  if ($prod_price !== $regular_price) {
-     $prod_price = '<span class="from-price">From: </span>'.
-     $prod_price . ' <br /><span class="rrp-price">RRP:</span> <del>' . $regular_price . $v_product->get_price_suffix() . '</del>';
+
+/**
+ * @snippet       Variable Product Price Range: "From: $$$min_price"
+ * @how-to        Get CustomizeWoo.com FREE
+ * @sourcecode    https://businessbloomer.com/?p=275
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.5.4
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+ 
+/* add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format_min', 9999, 2 );
+  
+function bbloomer_variation_price_format_min( $price, $product ) {
+   $prices = $product->get_variation_prices( true );
+   $min_price = current( $prices['price'] );
+   $price = sprintf( __( 'From: %1$s', 'woocommerce' ), wc_price( $min_price ) );
+   return $price;
+} */
+
+/**
+ * @snippet       Variable Product Price Range: "From: <del>$$$min_reg_price</del> $$$min_sale_price"
+ * @how-to        Get CustomizeWoo.com FREE
+ * @sourcecode    https://businessbloomer.com/?p=275
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.5.4
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+ 
+add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format', 9999, 2 );
+ 
+function bbloomer_variation_price_format( $price, $product ) {
+ 
+// 1. Get min/max regular and sale variation prices
+ 
+$min_var_reg_price = $product->get_variation_regular_price( 'min', true );
+$min_var_sale_price = $product->get_variation_sale_price( 'min', true );
+$max_var_reg_price = $product->get_variation_regular_price( 'max', true );
+$max_var_sale_price = $product->get_variation_sale_price( 'max', true );
+ 
+// 2. New $price, unless all variations have exact same prices
+ 
+if ( ! ( $min_var_reg_price == $max_var_reg_price && $min_var_sale_price == $max_var_sale_price ) ) {   
+   if ( $min_var_sale_price < $min_var_reg_price ) {
+      $price = sprintf( __( 'From: <del>%1$s</del><ins>%2$s</ins>', 'woocommerce' ), wc_price( $min_var_reg_price ), wc_price( $min_var_sale_price ) );
+   } else {
+      $price = sprintf( __( 'From: %1$s', 'woocommerce' ), wc_price( $min_var_reg_price ) );
+   }
 }
-  return $prod_price;
+ 
+// 3. Return $price
+ 
+return $price;
 }
