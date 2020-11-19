@@ -25,7 +25,7 @@ require get_template_directory() . '/inc/init.php';
 add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
 function woo_rename_tabs( $tabs ) {
 
-	$tabs['description']['title'] = __( 'PRODUCCT DESCRIPTION' );		// Rename the description tab
+	$tabs['description']['title'] = __( 'DESCRIPTION' );		// Rename the description tab
 	
 
 	return $tabs;

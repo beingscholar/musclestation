@@ -94,13 +94,13 @@ if ( ! class_exists( 'Electro_WooCommerce' ) ) :
 			}
 
 			// Specification tab - shows attributes
-			if ( $product && ( !empty( $specifications ) || ( $specifications_display_attributes == 'yes' && ( $product->has_attributes() || ( apply_filters( 'wc_product_enable_dimensions_display', true ) && ( $product->has_dimensions() || $product->has_weight() ) ) ) ) ) ) {
+			/* if ( $product && ( !empty( $specifications ) || ( $specifications_display_attributes == 'yes' && ( $product->has_attributes() || ( apply_filters( 'wc_product_enable_dimensions_display', true ) && ( $product->has_dimensions() || $product->has_weight() ) ) ) ) ) ) {
 				$tabs['specification'] = array(
 					'title'    => esc_html__( 'Specification', 'electro' ),
 					'priority' => 20,
 					'callback' => 'electro_product_specification_tab'
 				);
-			}
+			} */
 
 			$accessories = Electro_WC_Helper::get_accessories( $product );
 
