@@ -24,30 +24,27 @@
 			<div class="customer-service">
 				<h3>Customer <span>Service</span></h3>
 				<ul class="with-icons">
-					<li class="contact-link"><a href="/">Contact</a></li>
-					<li class="findstore-link"><a href="/">Find a Store</a></li>
-					<li class="checkout-link"><a href="/">Checkout</a></li>
-					<li class="rewards-icon-footer"><a href="/">My Active Rewards</a></li>
-					<li class="gift-card-footer"><a href="/">Gift Cards</a></li>
+					<li class="contact-link"><a href="contact">Contact</a></li>
+					<li><a href="store-directory">Store Directory</a></li>
+					<li class="checkout-link"><a href="my-account">MY ACCOUNT</a></li>
+					<li class="checkout-link"><a href="checkout">Checkout</a></li>
 				</ul>
 
 				<ul>
-					<li><a href="/">FAQs</a></li>
-					<li><a href="/">Ordering</a></li>
-					<li><a href="/">Shipping</a></li>
-					<li><a href="/">Returns</a></li>
-					<li><a href="/">Track Your Order</a></li>
-					<li><a href="/">Customer Service</a></li>
-					<li><a href="/">About Us</a></li>
+					<li><a href="faq">FAQs</a></li>
+					<li><a href="login">Login</a></li>
+					<li><a href="track-your-order">Track Your Order</a></li>
+					<li><a href="customer-service">Customer Service</a></li>
+					<li><a href="about">About Us</a></li>
 				</ul>
 			</div>
 			<div class="connect-with-us">
 				<div class="wrap">
 					<h3>Connect with us</h3>
 					<ul>
-						<li><a href="/"><img src="https://www.nutritionwarehouse.com.au/media/wysiwyg/fb.png" alt=""></a></li>
-						<li><a href="/"><img src="https://www.nutritionwarehouse.com.au/media/wysiwyg/instagram.png" alt=""></a></li>
-						<li><a href="/"><img src="https://www.nutritionwarehouse.com.au/media/wysiwyg/twitter.png" alt=""></a></li>
+						<li><a href="https://www.facebook.com/musclestationsupplement"><img src="wp-content/uploads/2020/11/fb.png" alt=""></a></li>
+						<li><a href="https://www.instagram.com/musclestationsupplements/"><img src="wp-content/uploads/2020/11/instagram.png" alt=""></a></li>
+						<li><a href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"><img src="wp-content/uploads/2020/11/twitter.png" alt=""></a></li>
 					</ul>
 				</div>
 
