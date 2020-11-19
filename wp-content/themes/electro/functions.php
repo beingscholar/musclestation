@@ -105,14 +105,14 @@ function lw_variable_product_price($v_price, $v_product)
     $v_product->get_variation_price('min', true),
     $v_product->get_variation_price('max', true)
   );
-  $prod_price     = $prod_prices[0] !== $prod_prices[1] ? sprintf(__('From: %1$s', 'woocommerce'), wc_price($prod_prices[0])) : wc_price($prod_prices[0]);
+  $prod_price     = $prod_prices[0] !== $prod_prices[1] ? sprintf(__('%1$s', 'woocommerce'), wc_price($prod_prices[0])) : wc_price($prod_prices[0]);
   // Regular Price
   $regular_prices = array(
     $v_product->get_variation_regular_price('min', true),
     $v_product->get_variation_regular_price('max', true)
   );
   sort($regular_prices);
-  $regular_price = $regular_prices[0] !== $regular_prices[1] ? sprintf(__('From: %1$s', 'woocommerce'), wc_price($regular_prices[0])) : wc_price($regular_prices[0]);
+  $regular_price = $regular_prices[0] !== $regular_prices[1] ? sprintf(__('%1$s', 'woocommerce'), wc_price($regular_prices[0])) : wc_price($regular_prices[0]);
   if ($prod_price !== $regular_price) {
      $prod_price = '<span class="from-price">From: </span>'.
      $prod_price . ' <br /><span class="rrp-price">RRP:</span> <del>' . $regular_price . $v_product->get_price_suffix() . '</del>';
