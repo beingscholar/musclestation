@@ -96,55 +96,47 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
   
 }
 
-/**
- * @snippet       Variable Product Price Range: "From: $$$min_price"
- * @how-to        Get CustomizeWoo.com FREE
- * @sourcecode    https://businessbloomer.com/?p=275
- * @author        Rodolfo Melogli
- * @compatible    WooCommerce 3.5.4
- * @donate $9     https://businessbloomer.com/bloomer-armada/
- */
- 
-/* add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format_min', 9999, 2 );
-  
-function bbloomer_variation_price_format_min( $price, $product ) {
-   $prices = $product->get_variation_prices( true );
-   $min_price = current( $prices['price'] );
-   $price = sprintf( __( 'From: %1$s', 'woocommerce' ), wc_price( $min_price ) );
-   return $price;
-} */
+//Remove Price Range
+add_filter('woocommerce_variable_sale_price_html', 'detect_variation_price_format', 10, 2);
+add_filter('woocommerce_variable_price_html', 'detect_variation_price_format', 10, 2);
+function detect_variation_price_format($price, $product) {
 
-/**
- * @snippet       Variable Product Price Range: "From: <del>$$$min_reg_price</del> $$$min_sale_price"
- * @how-to        Get CustomizeWoo.com FREE
- * @sourcecode    https://businessbloomer.com/?p=275
- * @author        Rodolfo Melogli
- * @compatible    WooCommerce 3.5.4
- * @donate $9     https://businessbloomer.com/bloomer-armada/
- */
- 
-add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format', 9999, 2 );
- 
-function bbloomer_variation_price_format( $price, $product ) {
- 
-// 1. Get min/max regular and sale variation prices
- 
-$min_var_reg_price = $product->get_variation_regular_price( 'min', true );
-$min_var_sale_price = $product->get_variation_sale_price( 'min', true );
-$max_var_reg_price = $product->get_variation_regular_price( 'max', true );
-$max_var_sale_price = $product->get_variation_sale_price( 'max', true );
- 
-// 2. New $price, unless all variations have exact same prices
- 
-if ( ! ( $min_var_reg_price == $max_var_reg_price && $min_var_sale_price == $max_var_sale_price ) ) {   
-   if ( $min_var_sale_price < $min_var_reg_price ) {
-      $price = sprintf( __( 'From: <del>%1$s</del><ins>%2$s</ins>', 'woocommerce' ), wc_price( $min_var_reg_price ), wc_price( $min_var_sale_price ) );
-   } else {
-      $price = sprintf( __( 'From: %1$s', 'woocommerce' ), wc_price( $min_var_reg_price ) );
+   // Main Price
+   $prices = array($product->get_variation_price('min', true), $product->get_variation_price('max', true));
+   /* echo '<pre>';
+   print_r($prices[0]);
+   echo '</pre>'; */
+   if ($prices[0] !== $prices[1] && is_product()) {
+      $price = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
    }
+    // Main Price
+    /* $prices = array($product->get_variation_price('min', true), $product->get_variation_price('max', true));
+    if ($prices[0] !== $prices[1]) {
+        $price = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
+    } */
+    // Sale Price
+    $prices = array($product->get_variation_regular_price('min', true), $product->get_variation_regular_price('max', true));
+    sort($prices);
+    $saleprice = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
+    if ($price !== $saleprice) {
+        $price = '<ins>' . $price . '</ins>';
+    }
+    return $price;
 }
- 
-// 3. Return $price
- 
-return $price;
+//Move Variations price above variations to have the same template even if variations prices are the same
+remove_action('woocommerce_single_variation', 'woocommerce_single_variation', 10);
+add_action('woocommerce_before_variations_form', 'woocommerce_single_variation', 10);
+
+function bd_rrp_sale_price_html( $price, $product ) {
+   if ( $product->is_on_sale() && $price) {
+      $has_sale_text = array(
+         '<ins>' => '<span class="from-price">From: </span> ',
+         '<del>' => '<br/><span class="rrp-price">RRP: </span>'
+      );
+      $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
+   } else {
+      $return_string = 'RRP: ' . $price;
+   }
+   return $return_string;
 }
+add_filter( 'woocommerce_get_price_html', 'bd_rrp_sale_price_html', 100, 2 );
