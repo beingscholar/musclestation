@@ -33,23 +33,14 @@
 
 		<header id="masthead" class="site-header stick-this header-v4">
 		<div class="topbar_head">
-			
 				<div class="container">
-
-				<div class="marquee">
-                                 <p>
-								 <span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span>
-<span class="font28_mi_blk">ON ALL ORDERS OVER $199*</span>
-								 </p>
-                                 <p>  
-								 <span class="font28_bi_red">SAME DAY DISPATCH</span> <span class="font28_mi_blk">ON ORDERS </span>
-<span class="font28_bi_red">BEFORE </span><span class="font28_mi_blk">3PM*</span>
-                                 </p>
-								 <p><span class="font28_bi_red">30 DAY</span> <span class="font28_mi_blk"> MONEY BACK </span>
-<span class="font28_bi_red">GUARANTEE</span></p>
-                </div>
+					<div class="marquee">
+						<p><span class="font28_bi_red">FREE SHIPPING</span> <span class="font28_mi_blk">OR</span> <span class="font28_bi_red">GIFT </span><span class="font28_mi_blk">ON ALL ORDERS OVER $199*</span></p>
+						<p><span class="font28_bi_red">SAME DAY DISPATCH</span> <span class="font28_mi_blk">ON ORDERS </span><span class="font28_bi_red">BEFORE </span><span class="font28_mi_blk">3PM*</span></p>
+						<!-- <p><span class="font28_bi_red">30 DAY</span> <span class="font28_mi_blk"> MONEY BACK </span> -->
+						<p><span class="font28_bi_red">RETAIL PRICE MATCH</span> <span class="font28_mi_blk"> GUARANTEED </span></p>
+					</div>
 				</div>
-			
 		</div>
 			<div class="container <?php echo esc_attr( has_electro_mobile_header() ? electro_desktop_header_responsive_class() : '' );  ?>">
 				<?php
