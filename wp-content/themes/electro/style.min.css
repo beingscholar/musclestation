@@ -20283,13 +20283,19 @@ margin-right: 10px;
 }
 
 .free_gift span {
-	color: #3fb15c;
+	color: #fff;
 	display: block;
 	line-height: normal;
-	border-top: 1px dashed #3fb15c;
-	border-bottom: 1px dashed #3fb15c;
-	padding: 5px 0;
-	margin: 10px 0;
+	border-top: 1px solid #fff;
+	/* border-bottom: 1px dashed #fff; */
+	padding: 10px 0 5px;
+	margin: 10px 0 0;
+}
+
+.free_gift span i {
+	font-style: normal;
+	color: #ffe380;
+	font-weight: bold;
 }
 
 .free_gift .wrap {
@@ -20379,8 +20385,8 @@ font-size: 14px;
 	align-items: center;
 }
 .info-with-icon li .icon {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	flex-shrink: 0;
 	border-radius: 50%;
 	border: 1px solid #ddd;
@@ -20391,8 +20397,8 @@ font-size: 14px;
 }
 
 .info-with-icon li .icon img {
-	width: 30px;
-height: 30px;
+	width: 20px;
+height: 20px;
 object-position: center;
 object-fit: contain;
 }

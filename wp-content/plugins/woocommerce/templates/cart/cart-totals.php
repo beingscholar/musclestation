@@ -118,7 +118,7 @@ defined( 'ABSPATH' ) || exit;
 				$cart_remaining  = 199 - WC()->cart->total;
 				if($cart_remaining > 0) { 
 				?>
-					<span>Add another <strong>$<?php echo $cart_remaining; ?></strong> to your cart to receive your FREE SHIPPING.</span>
+					<span>Add another <strong>$<?php echo $cart_remaining; ?></strong> to your cart to receive your <i>FREE SHIPPING.</i></span>
 					<em>Spend over <strong>$199</strong> and recieve a free Shipping!</em>
 					
 				<?php } else { ?>
