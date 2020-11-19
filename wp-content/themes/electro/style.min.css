@@ -2624,7 +2624,7 @@ li.product .hover-area .action-buttons span {
 
 .ttl h4:hover {
   color: #ee1e11;
-  font-size: inherit!important;
+  /* font-size: inherit!important; */
   text-align: center;
   margin: auto;
   font-weight: 700;

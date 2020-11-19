@@ -62,6 +62,36 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
    );
  
    $args = apply_filters( 'woocommerce_quantity_input_args', wp_parse_args( $args, $defaults ), $product );
+
+   if ($product->is_type( 'variable' )){
+
+      // Get the available variations for the variable product
+      $available_variations = $product->get_available_variations();
+  
+      // Initializing variables
+      $variations_count = count($available_variations);
+      $loop_count = 0;
+  
+      // Iterating through each available product variation
+      foreach( $available_variations as $key => $values ) {
+          $loop_count++;
+          // Get the term color name
+          $attribute_color = $values['attributes']['attribute_pa_color'];
+          $wp_term = get_term_by( 'slug', $attribute_color, 'pa_color' );
+          $term_name = $wp_term->name; // Color name
+  
+          // Get the variation quantity
+          $variation_obj = wc_get_product( $values['variation_id'] );
+          $stock_qty = $variation_obj->get_stock_quantity(); // Stock qty
+  
+          // The display
+          $separator_string = " // ";
+          $separator = $variations_count < $loop_count ? $separator_string : '';
+  
+          echo $term_name . ' = ' . $stock_qty . $separator;
+      }
+  
+  }
   
    // Apply sanity to min/max args - min cannot be lower than 0.
    $args['min_value'] = max( $args['min_value'], 0 );
