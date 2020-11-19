@@ -62,37 +62,7 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
    );
  
    $args = apply_filters( 'woocommerce_quantity_input_args', wp_parse_args( $args, $defaults ), $product );
-
-   if ($product->is_type( 'variable' )){
-
-      // Get the available variations for the variable product
-      $available_variations = $product->get_available_variations();
-  
-      // Initializing variables
-      $variations_count = count($available_variations);
-      $loop_count = 0;
-  
-      // Iterating through each available product variation
-      foreach( $available_variations as $key => $values ) {
-          $loop_count++;
-          // Get the term color name
-          $attribute_color = $values['attributes']['attribute_pa_color'];
-          $wp_term = get_term_by( 'slug', $attribute_color, 'pa_color' );
-          $term_name = $wp_term->name; // Color name
-  
-          // Get the variation quantity
-          $variation_obj = wc_get_product( $values['variation_id'] );
-          $stock_qty = $variation_obj->get_stock_quantity(); // Stock qty
-  
-          // The display
-          $separator_string = " // ";
-          $separator = $variations_count < $loop_count ? $separator_string : '';
-  
-          echo $term_name . ' = ' . $stock_qty . $separator;
-      }
-  
-  }
-  
+   
    // Apply sanity to min/max args - min cannot be lower than 0.
    $args['min_value'] = max( $args['min_value'], 0 );
    // Note: change 20 to whatever you like
@@ -170,3 +140,54 @@ function bd_rrp_sale_price_html( $price, $product ) {
    return $return_string;
 }
 add_filter( 'woocommerce_get_price_html', 'bd_rrp_sale_price_html', 100, 2 );
+
+//add stock qty and status to variation dropdown
+add_filter('woocommerce_dropdown_variation_attribute_options_html', 'variations_options_html_callback', 10, 2);
+function variations_options_html_callback($html, $args) {
+    $args = wp_parse_args(apply_filters('woocommerce_dropdown_variation_attribute_options_args', $args), array('options' => false, 'attribute' => false, 'product' => false, 'selected' => false, 'name' => '', 'id' => '', 'class' => '', 'show_option_none' => __('Choose an option', 'woocommerce'),));
+    $options = $args['options'];
+    $product = $args['product'];
+    $attribute = $args['attribute'];
+    $name = $args['name'] ? $args['name'] : 'attribute_' . sanitize_title($attribute);
+    $id = $args['id'] ? $args['id'] : sanitize_title($attribute);
+    $class = $args['class'];
+    $show_option_none = $args['show_option_none'] ? true : false;
+    $show_option_none_text = $args['show_option_none'] ? $args['show_option_none'] : __('Choose an option', 'woocommerce'); // We'll do our best to hide the placeholder, but we'll need to show something when resetting options.
+    if (empty($options) && !empty($product) && !empty($attribute)) {
+        $attributes = $product->get_variation_attributes();
+        $options = $attributes[$attribute];
+    }
+    $html = '<select id="' . esc_attr($id) . '" class="' . esc_attr($class) . '" name="' . esc_attr($name) . '" data-attribute_name="attribute_' . esc_attr(sanitize_title($attribute)) . '" data-show_option_none="' . ($show_option_none ? 'yes' : 'no') . '">';
+    $html.= '<option value="">' . esc_html($show_option_none_text) . '</option>';
+    if (!empty($options)) {
+        if ($product && taxonomy_exists($attribute)) {
+            // Get terms if this is a taxonomy - ordered. We need the names too.
+            $terms = wc_get_product_terms($product->get_id(), $attribute, array('fields' => 'all'));
+            foreach ($terms as $term) {
+                if (in_array($term->slug, $options)) {
+                    $stock_status = get_variation_stock_status($product, $name, $term->slug);
+                    $html.= '<option value="' . esc_attr($term->slug) . '" ' . selected(sanitize_title($args['selected']), $term->slug, false) . '>' . esc_html(apply_filters('woocommerce_variation_option_name', $term->name) . $stock_status) . '</option>';
+                }
+            }
+        } else {
+            foreach ($options as $option) {
+                // This handles < 2.4.0 bw compatibility where text attributes were not sanitized.
+                $selected = sanitize_title($args['selected']) === $args['selected'] ? selected($args['selected'], sanitize_title($option), false) : selected($args['selected'], $option, false);
+                $html.= '<option value="' . esc_attr($option) . '" ' . $selected . '>' . esc_html(apply_filters('woocommerce_variation_option_name', $option)) . '</option>';
+            }
+        }
+    }
+    $html.= '</select>';
+    return $html;
+}
+function get_variation_stock_status($product, $name, $term_slug) {
+    foreach ($product->get_available_variations() as $variation) {
+        if ($variation['attributes'][$name] == $term_slug) {
+            $variation_obj = wc_get_product($variation['variation_id']);
+            $stock_qty = $variation_obj->get_stock_quantity();
+            break;
+        }
+    }
+    if($name !== 'attribute_pa_size')
+      return $stock_qty == 0 ? ' - (Out Of Stock)' : ' - ' . $stock_qty . ' (In Stock)';
+}
