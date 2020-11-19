@@ -191,3 +191,7 @@ function get_variation_stock_status($product, $name, $term_slug) {
     if($name !== 'attribute_pa_size')
       return $stock_qty == 0 ? ' - (Out Of Stock)' : ' - ' . $stock_qty . ' (In Stock)';
 }
+add_filter('woocommerce_is_purchasable', 'vna_is_purchasable', 10, 2);
+function vna_is_purchasable( $purchasable, $product ){
+    return true || false; // depending on your condition
+}
