@@ -109,14 +109,17 @@ defined( 'ABSPATH' ) || exit;
         <img src="https://musclestation.com.au/public/frontendAssets/skin/frontend/ultimo/nwh/images/newdesign/transportation.png">
       </div>
       <div class="gif-message">
+				<p class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</p>
+			</div>
+			
+			<div class="wrap">
 				<?php 
 				$cart_total  = WC()->cart->total;
 				$cart_remaining  = 199 - WC()->cart->total;
 				if($cart_remaining > 0) { 
 				?>
-					<p class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</p>
-					<span>Add another $<?php echo $cart_remaining; ?> to your cart to receive your FREE SHIPPING.</span>
-					<em>Spend over $199 and recieve a free Shipping!</em>
+					<span>Add another <strong>$<?php echo $cart_remaining; ?></strong> to your cart to receive your FREE SHIPPING.</span>
+					<em>Spend over <strong>$199</strong> and recieve a free Shipping!</em>
 					
 				<?php } else { ?>
 					<em>YOU'VE EARNED A FREE SHIPPING!</em>

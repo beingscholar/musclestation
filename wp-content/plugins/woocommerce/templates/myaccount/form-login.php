@@ -29,7 +29,9 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 <?php endif; ?>
 
-		<h2><?php esc_html_e( 'Login', 'woocommerce' ); ?></h2>
+		<div class="primary-heading">
+			<span><?php esc_html_e( 'Login', 'woocommerce' ); ?></span>
+		</div>
 
 		<form class="woocommerce-form woocommerce-form-login login" method="post">
 
@@ -67,7 +69,9 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 	<div class="u-column2 col-2">
 
-		<h2><?php esc_html_e( 'Register', 'woocommerce' ); ?></h2>
+		<div class="primary-heading">
+			<span><?php esc_html_e( 'Register', 'woocommerce' ); ?></span>
+		</div>
 
 		<form method="post" class="woocommerce-form woocommerce-form-register register" <?php do_action( 'woocommerce_register_form_tag' ); ?> >
 

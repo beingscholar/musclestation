@@ -926,13 +926,13 @@ ul.wpb_thumbnails-fluid > li {
 /* .site-content-inner, .container{background:#e1e1e1;} */
 
 #menu-footer-menu-3 {
-  padding-left: 7px;
+  /* padding-left: 7px; */
   list-style: none;
 }
 
-#menu-footer-menu-3 li {
+/* #menu-footer-menu-3 li {
   margin-bottom: 3px;
-}
+} */
 
 /* #menu-footer-menu-3 li a {
   color: #222;
@@ -4786,7 +4786,7 @@ table.cart input[name="update_cart"]:disabled:hover {
 
 .cart-collaterals .cart_totals table.shop_table td,
 .cart-collaterals .cart_totals table.shop_table th {
-  padding: 0.75rem;
+  padding: 0.75rem 0;
   line-height: 1.5;
   vertical-align: top;
   border-top: 1px solid #eceeef;
@@ -4838,7 +4838,10 @@ table.cart input[name="update_cart"]:disabled:hover {
 }
 
 .cart-collaterals .cart_totals table.shop_table {
-  display: block;
+	display: block;
+	background-image: url('https://fm.nutritionwarehouse.com.au/media/images/paper-bg2.png');
+	background-size: cover;
+	padding: 0 15px;
 }
 
 .cart-collaterals .cart_totals table.shop_table tbody,
@@ -4859,7 +4862,7 @@ table.cart input[name="update_cart"]:disabled:hover {
 .cart-collaterals .cart_totals table.shop_table tbody > tr + tr,
 .cart-collaterals .cart_totals table.shop_table tfoot > tr + tr,
 .cart-collaterals .cart_totals table.shop_table thead > tr + tr {
-  border-top: 1px solid #eceeef;
+  border-top: 1px solid #ccc;
 }
 
 .cart-collaterals .cart_totals table.shop_table tbody > tr td,
@@ -6935,7 +6938,7 @@ li.product-type-auction span.winning {
 
 #shipping_method li label {
   font-weight: 400;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 #shipping_method li label > span {
@@ -13125,7 +13128,9 @@ p.order-again .button:after {
 .shipping-calculator-button {
   font-size: 0.857em;
   font-weight: 700;
-  border-bottom: 1px solid #3e3e3e;
+	/* border-bottom: 1px solid #3e3e3e; */
+	padding-bottom: 0.75rem;
+	display: inline-block;
 }
 
 .woocommerce-cart .actions button {
@@ -20238,6 +20243,7 @@ padding: 10px;
 margin-top: 5px;
 border-radius: 5px;
 display: flex;
+flex-wrap: wrap;
 margin-bottom: 20px;
 }
 
@@ -20256,7 +20262,9 @@ margin-right: 10px;
 /* margin-top: 12px; */
 }
 
-
+.free_gift strong {
+	font-weight: 800;
+}
 
 .free_gift img {
 	width: 20px;
@@ -20267,13 +20275,14 @@ margin-right: 10px;
 	box-sizing: border-box;
 	color: #fff;
 	display: block;
+	width: calc(100% - 50px);
 	font-size: 14px;
 	/* padding: 5px 0; */
 	/* margin-top: 10px;
 	min-height: 56px; */
 }
 
-.free_gift .gif-message span {
+.free_gift span {
 	color: #3fb15c;
 	display: block;
 	line-height: normal;
@@ -20283,7 +20292,11 @@ margin-right: 10px;
 	margin: 10px 0;
 }
 
-.free_gift .gif-message em {
+.free_gift .wrap {
+	width: 100%;
+}
+
+.free_gift em {
 	display: block;
 	font-style: normal;
 }
@@ -20487,10 +20500,10 @@ body .elementor-5356 .elementor-element > .elementor-widget-container {
 
 body #menu-footer-menu-3 li a {
 	position: relative;
-	padding-left: 20px;
+	/* padding-left: 20px; */
 }
 
-body #menu-footer-menu-3 li a:after {
+/* body #menu-footer-menu-3 li a:after {
 	content: '';
 	width: 8px;
 	height: 8px;
@@ -20500,11 +20513,11 @@ body #menu-footer-menu-3 li a:after {
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%) rotate(45deg);
-}
+} */
 
-body #menu-footer-menu-3 li a:hover:after {
+/* body #menu-footer-menu-3 li a:hover:after {
 	border-color: #e31e31;
-}
+} */
 
 body .elementor .elementor-element.full-width-row .elementor-element {
 width: 100% !important;
@@ -20565,6 +20578,12 @@ width: 100% !important;
 	text-decoration: underline;
 	color: #e31e31;
 }
+.cart-page tbody td a.checkout-button {
+	background: #3fb15c !important;
+}
+.cart-page tbody td a.checkout-button:hover {
+	text-decoration: none;
+}
 .cart-page tbody td .quantity span {
 	display: none;
 }
@@ -20589,6 +20608,7 @@ height: 40px;
 	background-color: #ee1e11;
 font-size: 20px;
 color: #fff;
+margin: 0;
 padding: 10px 12px;
 font-weight: 700;
 border-radius: 3px;
@@ -20667,6 +20687,41 @@ body .cart-collaterals {
 
 .woocommerce-mini-cart__buttons.buttons a.checkout:hover {
 	background: #35864a;
+}
+
+.primary-heading {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.36em;
+	border-bottom: 3px solid #e31e31;
+}
+
+.primary-heading span {
+	background: #e31e31;
+	color: #fff;
+	float: left;
+	font-family: "Open Sans", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: 42px;
+	line-height: 45px;
+	padding: 0 15px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	/* min-width: 120px; */
+	position: relative;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.primary-heading span:after {
+	bottom: 0;
+	width: auto;
+	content: "";
+	border-bottom: 42px solid #e31e31 !important;
+	border-right: 42px solid transparent !important;
+	float: right;
+	position: absolute;
+	right: -42px;
+	top: 0;
 }
 
 
