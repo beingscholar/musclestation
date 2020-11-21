@@ -375,11 +375,11 @@ class Perfect_Woocommerce_Brands
       } else {
         //show banner and description independently
 
-        if (!$show_banner || $show_banner == 'yes') {
+        /* if (!$show_banner || $show_banner == 'yes') {
           add_action('woocommerce_archive_description', array($this, 'print_brand_banner'), 15);
         } elseif ($show_banner == 'yes_after_loop') {
           add_action('woocommerce_after_main_content', array($this, 'print_brand_banner'), 9);
-        }
+        } */
 
         if (!$show_desc || $show_desc == 'yes') {
           add_action('woocommerce_archive_description', array($this, 'print_brand_desc'), 15);
@@ -860,7 +860,7 @@ class Perfect_Woocommerce_Brands
 
   public function print_brand_banner()
   {
-    $queried_object = get_queried_object();
+    /* $queried_object = get_queried_object();
     $brand_banner = get_term_meta($queried_object->term_id, 'pwb_brand_banner', true);
     $brand_banner_link = get_term_meta($queried_object->term_id, 'pwb_brand_banner_link', true);
     $show_banner = get_option('wc_pwb_admin_tab_brand_banner');
@@ -875,7 +875,7 @@ class Perfect_Woocommerce_Brands
         echo wp_get_attachment_image($brand_banner, 'full', false);
       }
       echo '</div>';
-    }
+    } */
   }
 
   public function print_brand_desc()
@@ -884,12 +884,36 @@ class Perfect_Woocommerce_Brands
     $show_desc = get_option('wc_pwb_admin_tab_brand_desc');
     $show_desc = get_option('wc_pwb_admin_tab_brand_desc');
     $show_desc_class = (!$show_desc || $show_desc == 'yes') ? 'pwb-before-loop' : 'pwb-after-loop';
+    /* echo '<pre>';
+    print_r($queried_object);
+    echo '<pre>'; */
+
+    $brand_banner = get_term_meta($queried_object->term_id, 'pwb_brand_banner', true);
+    $brand_banner_link = get_term_meta($queried_object->term_id, 'pwb_brand_banner_link', true);
+    $show_banner = get_option('wc_pwb_admin_tab_brand_banner');
+    $show_banner = get_option('wc_pwb_admin_tab_brand_banner');
+    $show_banner_class = (!$show_banner || $show_banner == 'yes') ? 'pwb-before-loop' : 'pwb-after-loop';
 
     if ($queried_object->description != '' && $show_desc !== 'no') {
-      echo '<div class="pwb-brand-description ' . $show_desc_class . '">';
+        echo '<div class="about-box"><div class="about-box--head"><p>About ' . $queried_object->name . '</p></div><div class="about-box--body">' . do_shortcode(wpautop($queried_object->description));
+        if ($brand_banner != '') {
+          echo '<div class="pwb-brand-banner pwb-clearfix ' . $show_banner_class . '">';
+          if ($brand_banner_link != '') {
+            echo '<a href="' . site_url($brand_banner_link) . '">' . wp_get_attachment_image($brand_banner, 'full', false) . '</a>';
+          } else {
+            echo wp_get_attachment_image($brand_banner, 'full', false);
+          }
+          echo '</div>';
+        }
+        echo '</div></div>';
+      /* echo '<div class="pwb-brand-description ' . $show_desc_class . '">';
       echo do_shortcode(wpautop($queried_object->description));
-      echo '</div>';
+      echo '</div>'; */
     }
+
+    
+
+    
   }
 
   public function print_brand_banner_and_desc()
