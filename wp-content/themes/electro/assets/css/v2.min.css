@@ -1216,7 +1216,7 @@ li.product .product-inner {
 	text-align: center;
 	line-height: 2em;
 	padding: 0;
-	min-width: 39px;
+	min-width: 60px;
 	background-color: #44b81b;
 	color: #fff;
 	font-weight: 700;
@@ -7954,7 +7954,7 @@ section.product-categories-menu-list {
 	font-weight: 900;
 	content: "";
 	line-height: inherit;
-	float: right;
+	/* float: right; */
 	color: #656565;
 	font-size: 10px
 }
@@ -8091,7 +8091,7 @@ section.product-categories-menu-list {
 	font-weight: 900;
 	content: "\f054";
 	line-height: inherit;
-	float: right;
+	/* float: right; */
 	color: #656565;
 	font-size: 10px
 }
@@ -12143,7 +12143,7 @@ section.home-categories-block header {
 	/* padding-right: 15px;
 	padding-left: 15px; */
 	flex: 0 0 58.3333333333%;
-	max-width: 58.3333333333%;
+	/* max-width: 58.3333333333%; */
 	flex-basis: 0%;
 	flex-grow: 1;
 	max-width: 100%
@@ -12610,7 +12610,7 @@ section.home-categories-block header {
 	.vertical-menu-slider-category-with-das-inner.builder-elementor .elementor-element.slider-with-catogory {
 		width: 100vw;
 		position: relative;
-		margin-left: calc(-50vw + 50% - 8px);
+		/* margin-left: calc(-50vw + 50% - 8px); */
 		margin-left: calc(-50vw + 50% - 0px)
 	}
 }

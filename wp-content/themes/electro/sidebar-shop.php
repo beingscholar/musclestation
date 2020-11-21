@@ -91,6 +91,13 @@ if ( ! defined( 'ABSPATH' ) ) {
         <h3>SAME DAY DISPATCH ORDER BEFORE 3PM AEST Guarantee</h3>
         <!-- <span>Found a better price? We'll beat it! <a href="/best-price-guarantee.html">More Info</a></span> -->
       </div>
+		</li>
+		<li>
+      <img alt="" src="wp-content/uploads/2020/11/muscle-station-100-.png">
+      <div class="std">
+        <h3>RETAIL PRICE MATCH GUARANTEED</h3>
+        <!-- <span>Guaranteed</span> -->
+      </div>
     </li>
   </ul>
   <div class="gift_bg">

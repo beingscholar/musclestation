@@ -121,8 +121,14 @@ if ( ! function_exists( 'electro_copyright_bar_v2' ) ) {
 
         <div class="copyright-bar">
             <div class="container">
-                <div class="copyright"><?php echo wp_kses_post( $footer_copyright_text ); ?></div>
-                <div class="payment"><?php echo wp_kses_post( $credit_card_icons ); ?></div>
+                <div class="wrap">
+									<div class="copyright"><?php echo wp_kses_post( $footer_copyright_text ); ?></div>
+									<!-- <div class="payment"><?php echo wp_kses_post( $credit_card_icons ); ?></div> -->
+									<ul>
+										<li><a href="/">Privacy Policy</a></li>
+										<li><a href="/">Terms &amp; Conditions</a></li>
+									</ul>
+								</div>
             </div>
         </div><?php
 

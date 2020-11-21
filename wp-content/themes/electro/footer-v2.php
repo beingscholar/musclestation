@@ -25,9 +25,9 @@
 				<h3>Customer <span>Service</span></h3>
 				<ul class="with-icons">
 					<li class="contact-link"><a target="_blank" href="contact">Contact</a></li>
-					<li class="directory-link"><a target="_blank" href="store-directory">Store Directory</a></li>
-					<li class="myaccount-link"><a target="_blank" href="my-account">MY ACCOUNT</a></li>
-					<li class="checkout-link"><a target="_blank" href="checkout">Checkout</a></li>
+					<li class="checkout-link"><a target="_blank" href="checkout">Cart</a></li>
+					<li class="rewards-icon-footer"><a target="_blank" href="my-account">My Account</a></li>
+					<!-- <li class="gift-card-footer"><a target="_blank" href="my-account">My Account</a></li> -->
 				</ul>
 
 				<ul>
@@ -42,9 +42,9 @@
 				<div class="wrap">
 					<h3>Connect with us</h3>
 					<ul>
-						<li><a target="_blank" href="https://www.facebook.com/musclestationsupplement"><img src="wp-content/uploads/2020/11/fb.png" alt=""></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/musclestationsupplements/"><img src="wp-content/uploads/2020/11/instagram.png" alt=""></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"><img src="wp-content/uploads/2020/11/twitter.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/musclestationsupplement"><img src="wp-content/uploads/2020/09/ezgif-4-54abf039eba2.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/musclestationsupplements/"><img src="wp-content/uploads/2020/09/ezgif-4-8a6b23e58243.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"><img src="wp-content/uploads/2020/09/ezgif-4-c1da9c97c22f.png" alt=""></a></li>
 					</ul>
 				</div>
 
