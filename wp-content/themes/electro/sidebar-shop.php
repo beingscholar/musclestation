@@ -93,7 +93,7 @@ if ( ! defined( 'ABSPATH' ) ) {
       </div>
 		</li>
 		<li>
-      <img alt="" src="wp-content/uploads/2020/11/muscle-station-100-.png">
+      <img alt="" src="/wp-content/uploads/2020/11/muscle-station-100-.png">
       <div class="std">
         <h3>RETAIL PRICE MATCH GUARANTEED</h3>
         <!-- <span>Guaranteed</span> -->

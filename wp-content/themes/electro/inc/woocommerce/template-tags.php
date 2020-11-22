@@ -865,7 +865,9 @@ if ( ! function_exists( 'electro_shipping_details_header' ) ) {
 	 */
 	function electro_shipping_details_header() {
 		if ( true === WC()->cart->needs_shipping_address() ) : ?>
-		<h3><?php echo esc_html__( 'Shipping Details', 'electro' ); ?></h3>
+		<div class="primary-heading">
+			<span><?php echo esc_html__( 'Shipping Details', 'electro' ); ?></span>
+		</div>
 		<?php endif;
 	}
 }
@@ -1531,7 +1533,10 @@ if ( ! function_exists( 'electro_promoted_products' ) ) {
 if ( ! function_exists( 'electro_wrap_order_review' ) ) {
 	function electro_wrap_order_review() {
 		?><div class="order-review-wrapper">
-			<h3 id="order_review_heading_v2"><?php _e( 'Your order', 'electro' ); ?></h3><?php
+
+			<div class="primary-heading">
+				<span><?php _e( 'Your order', 'electro' ); ?></span>
+			</div><?php
 	}
 }
 

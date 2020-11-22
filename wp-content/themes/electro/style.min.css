@@ -262,7 +262,7 @@ label {
   .select2-container
   .select2-selection.select2-selection--single {
   height: 44px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 .select2-container .select2-selection.select2-selection--multiple,
@@ -2744,7 +2744,7 @@ li.product .product-loop-footer .onsale {
   .loop-product-categories,
 li.product .loop-product-categories {
   display: block;
-  color: #878787;
+  color: #000000;
   overflow: hidden;
 }
 
@@ -2756,7 +2756,7 @@ li.product .loop-product-categories {
   .loop-product-categories
   a,
 li.product .loop-product-categories a {
-  color: #878787;
+  color: #000000;
 }
 
 .owl-item > .product .loop-product-categories a:focus,
@@ -4139,7 +4139,7 @@ article.post .entry-header .entry-meta span {
   font-size: 0.929em;
   line-height: 1.231em;
   padding-right: 0.769em;
-  color: #878787;
+  color: #000000;
 }
 
 article.post .entry-header .entry-meta div:after,
@@ -4174,7 +4174,7 @@ article.post .entry-header .entry-meta .tags-links {
 }
 
 article.post .entry-header .entry-meta a {
-  color: #878787;
+  color: #000000;
 }
 
 article.post .entry-content {
@@ -4293,7 +4293,7 @@ article.post .post-readmore .btn-primary:disabled:hover {
 article.post .comments-link a,
 article.post .likes a {
   position: relative;
-  color: #878787;
+  color: #000000;
   font-size: 0.857em;
   line-height: 1.5em;
 }
@@ -6424,7 +6424,7 @@ body #scrollUp {
 }
 
 .electro_recent_posts_widget ul > li .post-content .post-date {
-  color: #878787;
+  color: #000000;
   font-size: 0.857em;
   line-height: 1em;
 }
@@ -9335,7 +9335,8 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
 }
 
 .maxlist-more {
-  margin-top: 1.14em;
+	margin-top: 1.14em;
+	padding: 0 10px;
 }
 
 .maxlist-more a {
@@ -9424,7 +9425,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
 }
 
 .electro_posts_carousel_widget .post-item .post-content {
-  color: #878787;
+  color: #000000;
 }
 
 .electro_posts_carousel_widget .post-item .post-content .post-name {
@@ -9437,7 +9438,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav a + a {
 
 .electro_posts_carousel_widget .post-item .post-content .post-category a,
 .electro_posts_carousel_widget .post-item .post-content .post-date {
-  color: #878787;
+  color: #000000;
   font-size: 0.857em;
 }
 
@@ -9470,7 +9471,7 @@ section.section-posts-carousel .widget-title {
 section.section-posts-carousel .comments-link a,
 section.section-posts-carousel .likes a {
   position: relative;
-  color: #878787;
+  color: #000000;
   font-size: 0.857em;
   line-height: 1.5em;
 }
@@ -10565,7 +10566,7 @@ section.section-posts-carousel .likes a:before {
 }
 
 .section-products-carousel .product-carousel-alt .loop-product-categories a {
-  color: #878787;
+  color: #000000;
   font-size: 0.857em;
 }
 
@@ -11936,7 +11937,28 @@ article.post .entry-content .gallery figure.gallery-item {
   padding-right: 0;
 }
 
-.woocommerce-checkout h3 {
+.woocommerce-form-coupon-toggle .woocommerce-info {
+	background-color: #e31e31;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info a:hover {
+	text-decoration: underline;
+	color: #fff;
+	opacity: 1;
+}
+
+body .checkout_coupon.woocommerce-form-coupon button {
+	height: 46.69px;
+}
+
+body .woocommerce-checkout-review-order .button.alt:hover {
+	background-color: #e31e31 !important;
+}
+
+/* .woocommerce-checkout h3 {
   font-size: 1.786em;
   line-height: 1.6em;
   display: block;
@@ -11953,7 +11975,7 @@ article.post .entry-content .gallery figure.gallery-item {
   width: 20%;
   position: absolute;
   bottom: -1px;
-}
+} */
 
 .checkout_coupon .form-row-first {
   padding-right: 0;
@@ -13498,7 +13520,7 @@ div.quantity > label {
   display: block;
   font-size: 0.857em;
   line-height: 1.44em;
-  color: #878787;
+  color: #000000;
   overflow: hidden;
   margin-bottom: 5px;
 }
@@ -19775,6 +19797,21 @@ margin: 11px 0 0 10px;
 	display: block;
 }
 
+.woocommerce-terms-and-conditions-wrapper input {
+	position: static !important;
+	margin-left: 0 !important;
+	margin-right: 5px !important;
+}
+
+body .slick-track {
+	display: flex;
+	align-items: center;
+}
+
+body .woocommerce-shipping-methods input {
+	margin-right: 5px;
+}
+
 .about-box--body {
 	padding: 20px;
 	background: #f0f0f0;
@@ -19787,6 +19824,7 @@ margin: 11px 0 0 10px;
 	margin-left: 15px;
 	width: 150px;
 	flex-shrink: 0;
+	margin-bottom: 0;
 }
 
 .about-box--body p {
