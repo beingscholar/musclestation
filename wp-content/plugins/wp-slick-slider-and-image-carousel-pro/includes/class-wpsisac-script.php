@@ -111,7 +111,7 @@ class Wpsisac_Pro_Script {
 
 		// Registring slick slider script
 		if( ! wp_script_is( 'wpos-slick-jquery', 'registered' ) ) {
-			wp_register_script( 'wpos-slick-jquery', WPSISAC_PRO_URL.'assets/js/slick.min.js', array('jquery'), WPSISAC_PRO_VERSION, true );
+			wp_register_script( 'wpos-slick-jquery', WPSISAC_PRO_URL.'assets/js/slick.js', array('jquery'), WPSISAC_PRO_VERSION, true );
 		}
 
 		// Registring and enqueing public script

@@ -20,9 +20,12 @@ global $post; ?>
 		$nav_cls 		= ( ! $slider_nav_img ) ? 'wpsisac-nav-no-img' : '';
 	?>
 		<div class="slick-image-nav <?php echo $nav_cls; ?>">
-			<?php if( $slider_nav_img ) { ?>
-			<img class="wpsisac-slider-nav-img" src="<?php if( empty($lazyload) ) { echo esc_url($slider_nav_img); } ?>" alt="<?php the_title_attribute(); ?>" <?php if($lazyload) { ?>data-lazy="<?php echo esc_url($slider_nav_img); ?>" <?php } ?> />
+			<?php if( $post->post_title ) { ?>
+				<span class="tp-tab-title"><?php echo $post->post_title; ?></span>
 			<?php } ?>
+			<?php /*if( $slider_nav_img ) { ?>
+			<img class="wpsisac-slider-nav-img" src="<?php if( empty($lazyload) ) { echo esc_url($slider_nav_img); } ?>" alt="<?php the_title_attribute(); ?>" <?php if($lazyload) { ?>data-lazy="<?php echo esc_url($slider_nav_img); ?>" <?php } ?> />
+			<?php } */?>
 		</div>
 	<?php endwhile; ?>
 </div>

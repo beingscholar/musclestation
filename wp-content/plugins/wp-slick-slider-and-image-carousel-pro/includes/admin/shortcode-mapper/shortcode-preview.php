@@ -75,7 +75,7 @@ if( !$authenticated ) {
 													)); ?>;
 		//]]>
 		</script>
-		<script type="text/javascript" src="<?php echo WPSISAC_PRO_URL; ?>assets/js/slick.min.js?ver=<?php echo WPSISAC_PRO_VERSION; ?>"></script>
+		<script type="text/javascript" src="<?php echo WPSISAC_PRO_URL; ?>assets/js/slick.js?ver=<?php echo WPSISAC_PRO_VERSION; ?>"></script>
 		<script type="text/javascript" src="<?php echo WPSISAC_PRO_URL; ?>assets/js/wpsisac-pro-public.min.js?ver=<?php echo WPSISAC_PRO_VERSION; ?>"></script>
 		<?php do_action( 'wpsisac_shortcode_preview_footer', $shortcode_val ); ?>
 		<script type="text/javascript">

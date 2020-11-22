@@ -527,7 +527,7 @@
 
         _.$list = _.$slideTrack.wrap(
             '<div class="slick-list"/>').parent();
-        _.$slideTrack.css('opacity', 0);
+        // _.$slideTrack.css('opacity', 0);
 
         if (_.options.centerMode === true || _.options.swipeToSlide === true) {
             _.options.slidesToScroll = 1;
