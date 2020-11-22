@@ -1137,7 +1137,18 @@ p.no-comments {
   border-radius: 2px;
   color: #fff;
   clear: both;
-  border-left: 0.618em solid rgba(0, 0, 0, 0.15);
+	border-left: 0.618em solid rgba(0, 0, 0, 0.15);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.woocommerce-error a,
+.woocommerce-info a,
+.woocommerce-message a,
+.woocommerce-noreviews a,
+p.no-comments a {
+	order: 2;
 }
 
 .woocommerce-error::after,
@@ -20836,7 +20847,7 @@ body .cart-collaterals {
 }
 
 .pwb-carousel .pwb-slick-slide a>img {
-	width: 70%;
+	width: 60%;
 }
 
 .electro-price {
@@ -20988,6 +20999,10 @@ body .cart-collaterals {
 
  .widget.widget_pwb_filter_by_brand_widget ul li {
 	 margin: 0;
+ }
+
+ .widget.widget_pwb_filter_by_brand_widget ul li + li {
+	 margin-top: 10px;
  }
 
  .widget.widget_pwb_filter_by_brand_widget ul li label {
