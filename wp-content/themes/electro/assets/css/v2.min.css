@@ -9614,7 +9614,7 @@ section header .owl-nav>a+a {
 }
 
 section header .action-text {
-	color: #606060;
+	color: #000;
 	display: flex;
 	align-items: center;
 	font-size: 12px
@@ -9623,7 +9623,7 @@ section header .action-text {
 section header .action-text:after {
 	content: '\79';
 	transform: rotate(-90deg);
-	color: #606060;
+	color: #000;
 	font-size: 16px;
 	font-family: font-electro;
 	margin-left: 1px

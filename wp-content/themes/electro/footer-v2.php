@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="wrap">
-					<h3>SIGN UP & SAVE</h3>
+					<h3>SIGN UP & GET 10% OFF ON FIRST ORDER</h3>
 					
 					<div class="newsletter-subscribe">
 						<?php echo do_shortcode( '[wpforms id="5192"]' ); ?>
