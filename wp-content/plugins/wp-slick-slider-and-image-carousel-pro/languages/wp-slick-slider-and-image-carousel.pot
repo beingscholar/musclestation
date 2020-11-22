@@ -1,0 +1,2850 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Slick Slider and Image Carousel Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-04 13:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3"
+
+#: edd-slickslider-plugin.php:30
+msgid "WP Slick Slider Plugin License"
+msgstr ""
+
+#: edd-slickslider-plugin.php:30
+msgid "Plugin License"
+msgstr ""
+
+#: edd-slickslider-plugin.php:46
+msgid "WP Slick Slider and Image Carousel Pro - License Options"
+msgstr ""
+
+#: edd-slickslider-plugin.php:53
+#: includes/admin/settings/wpsisac-settings.php:24
+msgid "Your changes saved successfully."
+msgstr ""
+
+#: edd-slickslider-plugin.php:63
+msgid "Plugin license activated successfully"
+msgstr ""
+
+#: edd-slickslider-plugin.php:67
+msgid "Please activate plugin license to get automatic update of plugin."
+msgstr ""
+
+#: edd-slickslider-plugin.php:75
+msgid "License Key"
+msgstr ""
+
+#: edd-slickslider-plugin.php:79
+msgid "Enter plugin license key."
+msgstr ""
+
+#: edd-slickslider-plugin.php:116
+msgid "Steps to Activate the License"
+msgstr ""
+
+#: edd-slickslider-plugin.php:118
+msgid ""
+"Enter your license key into 'License Key' field and press 'Save Changes' "
+"button."
+msgstr ""
+
+#: edd-slickslider-plugin.php:119
+msgid ""
+"After save changes you can see an another button named 'Activate License'."
+msgstr ""
+
+#: edd-slickslider-plugin.php:120
+msgid ""
+"Press 'Activate License'. If your key is valid then you can see green "
+"'Active' text."
+msgstr ""
+
+#: edd-slickslider-plugin.php:121
+msgid "That's it. Now you can get auto update of this plugin."
+msgstr ""
+
+#: edd-slickslider-plugin.php:123
+msgid ""
+"Note: If you do not activate the license then you will not get automatic "
+"update of this plugin any more."
+msgstr ""
+
+#: edd-slickslider-plugin.php:124
+msgid ""
+"You will receive license key within your product purchase email. If you do "
+"not have license key then you can get it from your"
+msgstr ""
+
+#: edd-slickslider-plugin.php:124 edd-slickslider-plugin.php:125
+msgid "Account Page"
+msgstr ""
+
+#: edd-slickslider-plugin.php:192 edd-slickslider-plugin.php:239
+#: edd-slickslider-plugin.php:299
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd-slickslider-plugin.php:206
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd-slickslider-plugin.php:213
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd-slickslider-plugin.php:218
+msgid ""
+"Plugin license is invalid. Please be sure you have entered right plugin "
+"license key."
+msgstr ""
+
+#: edd-slickslider-plugin.php:224
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd-slickslider-plugin.php:229
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd-slickslider-plugin.php:234
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: edd-slickslider-plugin.php:334
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: edd-slickslider-plugin.php:349
+msgid "Activate Plugin License"
+msgstr ""
+
+#: edd-slickslider-plugin.php:349
+msgid "License"
+msgstr ""
+
+#: wp-slick-image-slider.php:202
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: wp-slick-image-slider.php:203
+#, php-format
+msgid ""
+"It looks like you had FREE version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:22 includes/wpsisac-post-types.php:23
+#: includes/wpsisac-functions.php:350
+#: includes/admin/wpsisac-how-it-work.php:143
+#: includes/admin/supports/class-wpsisac-vc.php:37 assets/js/blocks.build.js:1
+msgid "Slick Slider"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:24
+msgid "All Slides"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:25
+msgid "Add Slide"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:26
+msgid "Add New slide"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:27
+msgid "Edit Slick Slider"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:28
+msgid "New Slick Slider"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:29
+msgid "View Slick Slider"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:30
+msgid "Search Slide"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:31
+msgid "No Slick Slider Items found"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:32
+msgid "No Slick Slider Items found in Trash"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:34
+msgid "Slick Slider Pro"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:35
+msgid "Slide Image"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:36
+msgid "Set slide image"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:37
+msgid "Remove slide image"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:38
+msgid "Use as slide image"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:69 includes/wpsisac-post-types.php:70
+#: includes/wpsisac-post-types.php:79
+msgid "Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:71
+msgid "Search Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:72
+msgid "All Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:73
+msgid "Parent Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:74
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:75
+msgid "Edit Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:76
+msgid "Update Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:77
+msgid "Add New Category"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:78
+msgid "New Category Name"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:111 includes/wpsisac-post-types.php:114
+msgid "Slider updated."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:112
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:113
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:115
+#, php-format
+msgid "Slider restored to revision from %s"
+msgstr ""
+
+#: includes/wpsisac-post-types.php:116
+msgid "Slider published."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:117
+msgid "Slider saved."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:118
+msgid "Slider submitted."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:119
+#, php-format
+msgid "Slider scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/wpsisac-post-types.php:120
+msgid "Slider draft updated."
+msgstr ""
+
+#: includes/wpsisac-functions.php:222 includes/wpsisac-functions.php:264
+#: includes/wpsisac-functions.php:306 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 1"
+msgstr ""
+
+#: includes/wpsisac-functions.php:223 includes/wpsisac-functions.php:265
+#: includes/wpsisac-functions.php:307 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 2"
+msgstr ""
+
+#: includes/wpsisac-functions.php:224 includes/wpsisac-functions.php:266
+#: includes/wpsisac-functions.php:308 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 3"
+msgstr ""
+
+#: includes/wpsisac-functions.php:225 includes/wpsisac-functions.php:267
+#: includes/wpsisac-functions.php:309 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 4"
+msgstr ""
+
+#: includes/wpsisac-functions.php:226 includes/wpsisac-functions.php:268
+#: includes/wpsisac-functions.php:310 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 5"
+msgstr ""
+
+#: includes/wpsisac-functions.php:227 includes/wpsisac-functions.php:269
+#: includes/wpsisac-functions.php:311 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 6"
+msgstr ""
+
+#: includes/wpsisac-functions.php:228 includes/wpsisac-functions.php:270
+#: includes/wpsisac-functions.php:312 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 7"
+msgstr ""
+
+#: includes/wpsisac-functions.php:229 includes/wpsisac-functions.php:271
+#: includes/wpsisac-functions.php:313 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 8"
+msgstr ""
+
+#: includes/wpsisac-functions.php:230 includes/wpsisac-functions.php:272
+#: includes/wpsisac-functions.php:314 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 9"
+msgstr ""
+
+#: includes/wpsisac-functions.php:231 includes/wpsisac-functions.php:273
+#: includes/wpsisac-functions.php:315 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 10"
+msgstr ""
+
+#: includes/wpsisac-functions.php:232 includes/wpsisac-functions.php:274
+#: includes/wpsisac-functions.php:316 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 11"
+msgstr ""
+
+#: includes/wpsisac-functions.php:233 includes/wpsisac-functions.php:275
+#: includes/wpsisac-functions.php:317 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 12"
+msgstr ""
+
+#: includes/wpsisac-functions.php:234 includes/wpsisac-functions.php:276
+#: includes/wpsisac-functions.php:318 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 13"
+msgstr ""
+
+#: includes/wpsisac-functions.php:235 includes/wpsisac-functions.php:277
+#: includes/wpsisac-functions.php:319 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 14"
+msgstr ""
+
+#: includes/wpsisac-functions.php:236 includes/wpsisac-functions.php:278
+#: includes/wpsisac-functions.php:320 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 15"
+msgstr ""
+
+#: includes/wpsisac-functions.php:237 includes/wpsisac-functions.php:279
+#: includes/wpsisac-functions.php:321 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 16"
+msgstr ""
+
+#: includes/wpsisac-functions.php:238 includes/wpsisac-functions.php:280
+#: includes/wpsisac-functions.php:322 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 17"
+msgstr ""
+
+#: includes/wpsisac-functions.php:239 includes/wpsisac-functions.php:281
+#: includes/wpsisac-functions.php:323 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 18"
+msgstr ""
+
+#: includes/wpsisac-functions.php:240 includes/wpsisac-functions.php:282
+#: includes/wpsisac-functions.php:324 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 19"
+msgstr ""
+
+#: includes/wpsisac-functions.php:241 includes/wpsisac-functions.php:283
+#: includes/wpsisac-functions.php:325 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 20"
+msgstr ""
+
+#: includes/wpsisac-functions.php:242 includes/wpsisac-functions.php:284
+#: includes/wpsisac-functions.php:326 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 21"
+msgstr ""
+
+#: includes/wpsisac-functions.php:243 includes/wpsisac-functions.php:285
+#: includes/wpsisac-functions.php:327 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 22"
+msgstr ""
+
+#: includes/wpsisac-functions.php:244 includes/wpsisac-functions.php:286
+#: includes/wpsisac-functions.php:328 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 23"
+msgstr ""
+
+#: includes/wpsisac-functions.php:245 includes/wpsisac-functions.php:287
+#: includes/wpsisac-functions.php:329 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 24"
+msgstr ""
+
+#: includes/wpsisac-functions.php:246 includes/wpsisac-functions.php:288
+#: includes/wpsisac-functions.php:330 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design 25"
+msgstr ""
+
+#: includes/wpsisac-functions.php:247 includes/wpsisac-functions.php:289
+#: includes/wpsisac-functions.php:331 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 26"
+msgstr ""
+
+#: includes/wpsisac-functions.php:248 includes/wpsisac-functions.php:290
+#: includes/wpsisac-functions.php:332 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 27"
+msgstr ""
+
+#: includes/wpsisac-functions.php:249 includes/wpsisac-functions.php:291
+#: includes/wpsisac-functions.php:333 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 28"
+msgstr ""
+
+#: includes/wpsisac-functions.php:250 includes/wpsisac-functions.php:292
+#: includes/wpsisac-functions.php:334 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 29"
+msgstr ""
+
+#: includes/wpsisac-functions.php:251 includes/wpsisac-functions.php:293
+#: includes/wpsisac-functions.php:335 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Design 30"
+msgstr ""
+
+#: includes/wpsisac-functions.php:336
+msgid "Design 31"
+msgstr ""
+
+#: includes/wpsisac-functions.php:337
+msgid "Design 32"
+msgstr ""
+
+#: includes/wpsisac-functions.php:338
+msgid "Design 33"
+msgstr ""
+
+#: includes/wpsisac-functions.php:351
+#: includes/admin/wpsisac-how-it-work.php:144 assets/js/blocks.build.js:1
+msgid "Slick Carousel Slider"
+msgstr ""
+
+#: includes/wpsisac-functions.php:352
+#: includes/admin/wpsisac-how-it-work.php:145 assets/js/blocks.build.js:1
+msgid "Slick Variable Slider"
+msgstr ""
+
+#: includes/class-wpsisac-script.php:61
+msgid ""
+"Sorry, Something happened wrong. Kindly please be sure that you have choosen "
+"relevant shortocde from the dropdown."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:23
+msgid "Getting Started - WP Slick Slider and Image Carousel Pro"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:23
+#: includes/admin/wpsisac-how-it-work.php:114
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:75
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:106
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:118
+msgid "Step-1. Go to \"Slick Slider Pro --> Add Slide tab\"."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:119
+msgid "Step-2. Add image title, description and images as a featured image"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:120
+msgid "Step-3. Repeat this process for number of slides you want."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:121
+msgid ""
+"Step-4. To display multiple slider, you can use category shortcode under "
+"\"Slick Slider Pro --> Slider Category\""
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:128
+msgid "How Shortcode Works"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:132
+msgid "Step-1. Create a page like Slider OR add the shortcode in any page."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:133
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:140
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:147
+msgid "Try Our Shortcode Builder!!"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:162
+msgid "Need Support?"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:165
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:166
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:167
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:173
+msgid "Need PRO Support?"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:176
+msgid "Hire our experts for any WordPress task."
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:177
+msgid "Know More"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:183
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:186
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr ""
+
+#: includes/admin/wpsisac-how-it-work.php:186
+msgid "5 stars!"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:146
+msgid "Shortcode Builder - WP Slick Slider and Image Carousel Pro"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:146
+msgid "Shortcode Builder"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:149
+msgid "Settings - WP Slick Slider and Image Carousel Pro"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:149
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:152
+#: includes/admin/shortcode-mapper/shortcode-preview.php:46
+msgid "Shortcode Preview"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:199
+msgid "All Categories"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:247
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:248 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Order"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:297
+msgid "Sort Slides"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:316
+msgid "Save Sort Order"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:332
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:34
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:90
+msgid "Sorry, Something happened wrong."
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:359
+msgid "Slides order saved successfully."
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:378
+msgid "View Documentation"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:378
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:379
+msgid "Premium Support - For any Customization"
+msgstr ""
+
+#: includes/admin/class-wpsisac-admin.php:379
+msgid "Premium Support"
+msgstr ""
+
+#: includes/shortcode/wpsisac-variable-slider.php:31
+#: includes/shortcode/wpsisac-variable-slider.php:73
+#: includes/shortcode/wpsisac-slider.php:36
+#: includes/shortcode/wpsisac-slider.php:80
+#: includes/shortcode/wpsisac-carousel.php:37
+#: includes/shortcode/wpsisac-carousel.php:78
+#: includes/admin/supports/wpsisac-shortcode-fields.php:89
+#: includes/admin/supports/wpsisac-shortcode-fields.php:479
+#: includes/admin/supports/wpsisac-shortcode-fields.php:885
+#: includes/admin/supports/class-wpsisac-vc.php:112
+#: includes/admin/supports/class-wpsisac-vc.php:555
+#: includes/admin/supports/class-wpsisac-vc.php:1019
+msgid "Read More"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:24
+#: includes/admin/supports/wpsisac-shortcode-fields.php:414
+#: includes/admin/supports/wpsisac-shortcode-fields.php:817
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "General Parameters"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:29
+#: includes/admin/supports/wpsisac-shortcode-fields.php:419
+#: includes/admin/supports/wpsisac-shortcode-fields.php:822
+#: includes/admin/supports/class-wpsisac-vc.php:48
+#: includes/admin/supports/class-wpsisac-vc.php:491
+#: includes/admin/supports/class-wpsisac-vc.php:952 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Design"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:32
+#: includes/admin/supports/class-wpsisac-vc.php:51
+msgid "Slider Design 1"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:33
+#: includes/admin/supports/class-wpsisac-vc.php:52
+msgid "Slider Design 2"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:34
+#: includes/admin/supports/class-wpsisac-vc.php:53
+msgid "Slider Design 3"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:35
+#: includes/admin/supports/class-wpsisac-vc.php:54
+msgid "Slider Design 4"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:36
+#: includes/admin/supports/class-wpsisac-vc.php:55
+msgid "Slider Design 5"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:37
+#: includes/admin/supports/class-wpsisac-vc.php:56
+msgid "Slider Design 6"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:38
+#: includes/admin/supports/class-wpsisac-vc.php:57
+msgid "Slider Design 7"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:39
+#: includes/admin/supports/class-wpsisac-vc.php:58
+msgid "Slider Design 8"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:40
+#: includes/admin/supports/class-wpsisac-vc.php:59
+msgid "Slider Design 9"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:41
+#: includes/admin/supports/class-wpsisac-vc.php:60
+msgid "Slider Design 10"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:42
+#: includes/admin/supports/class-wpsisac-vc.php:61
+msgid "Slider Design 11"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:43
+#: includes/admin/supports/class-wpsisac-vc.php:62
+msgid "Slider Design 12"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:44
+#: includes/admin/supports/class-wpsisac-vc.php:63
+msgid "Slider Design 13"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:45
+#: includes/admin/supports/class-wpsisac-vc.php:64
+msgid "Slider Design 14"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:46
+#: includes/admin/supports/class-wpsisac-vc.php:65
+msgid "Slider Design 15"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:47
+#: includes/admin/supports/class-wpsisac-vc.php:66
+msgid "Slider Design 16"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:48
+#: includes/admin/supports/class-wpsisac-vc.php:67
+msgid "Slider Design 17"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:49
+#: includes/admin/supports/class-wpsisac-vc.php:68
+msgid "Slider Design 18"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:50
+#: includes/admin/supports/class-wpsisac-vc.php:69
+msgid "Slider Design 19"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:51
+#: includes/admin/supports/class-wpsisac-vc.php:70
+msgid "Slider Design 20"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:52
+#: includes/admin/supports/class-wpsisac-vc.php:71
+msgid "Slider Design 21"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:53
+#: includes/admin/supports/class-wpsisac-vc.php:72
+msgid "Slider Design 22"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:54
+#: includes/admin/supports/class-wpsisac-vc.php:73
+msgid "Slider Design 23"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:55
+#: includes/admin/supports/class-wpsisac-vc.php:74
+msgid "Slider Design 24"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:56
+#: includes/admin/supports/class-wpsisac-vc.php:75
+msgid "Slider Design 25"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:57
+#: includes/admin/supports/class-wpsisac-vc.php:76
+msgid "Slider Design 26"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:58
+#: includes/admin/supports/class-wpsisac-vc.php:77
+msgid "Slider Design 27"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:59
+#: includes/admin/supports/class-wpsisac-vc.php:78
+msgid "Slider Design 28"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:60
+#: includes/admin/supports/class-wpsisac-vc.php:79
+msgid "Slider Design 29"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:61
+#: includes/admin/supports/class-wpsisac-vc.php:80
+msgid "Slider Design 30"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:63
+#: includes/admin/supports/wpsisac-shortcode-fields.php:453
+#: includes/admin/supports/wpsisac-shortcode-fields.php:859
+#: includes/admin/supports/class-wpsisac-vc.php:82
+#: includes/admin/supports/class-wpsisac-vc.php:525
+#: includes/admin/supports/class-wpsisac-vc.php:989
+msgid "Choose design."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:67
+#: includes/admin/supports/wpsisac-shortcode-fields.php:457
+#: includes/admin/supports/wpsisac-shortcode-fields.php:863
+#: includes/admin/supports/class-wpsisac-vc.php:88
+#: includes/admin/supports/class-wpsisac-vc.php:531
+#: includes/admin/supports/class-wpsisac-vc.php:995 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid "Show Content"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:70
+#: includes/admin/supports/wpsisac-shortcode-fields.php:80
+#: includes/admin/supports/wpsisac-shortcode-fields.php:119
+#: includes/admin/supports/wpsisac-shortcode-fields.php:152
+#: includes/admin/supports/wpsisac-shortcode-fields.php:186
+#: includes/admin/supports/wpsisac-shortcode-fields.php:216
+#: includes/admin/supports/wpsisac-shortcode-fields.php:244
+#: includes/admin/supports/wpsisac-shortcode-fields.php:256
+#: includes/admin/supports/wpsisac-shortcode-fields.php:277
+#: includes/admin/supports/wpsisac-shortcode-fields.php:291
+#: includes/admin/supports/wpsisac-shortcode-fields.php:365
+#: includes/admin/supports/wpsisac-shortcode-fields.php:460
+#: includes/admin/supports/wpsisac-shortcode-fields.php:470
+#: includes/admin/supports/wpsisac-shortcode-fields.php:509
+#: includes/admin/supports/wpsisac-shortcode-fields.php:542
+#: includes/admin/supports/wpsisac-shortcode-fields.php:576
+#: includes/admin/supports/wpsisac-shortcode-fields.php:620
+#: includes/admin/supports/wpsisac-shortcode-fields.php:648
+#: includes/admin/supports/wpsisac-shortcode-fields.php:670
+#: includes/admin/supports/wpsisac-shortcode-fields.php:680
+#: includes/admin/supports/wpsisac-shortcode-fields.php:694
+#: includes/admin/supports/wpsisac-shortcode-fields.php:768
+#: includes/admin/supports/wpsisac-shortcode-fields.php:866
+#: includes/admin/supports/wpsisac-shortcode-fields.php:876
+#: includes/admin/supports/wpsisac-shortcode-fields.php:915
+#: includes/admin/supports/wpsisac-shortcode-fields.php:948
+#: includes/admin/supports/wpsisac-shortcode-fields.php:982
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1012
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1040
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1062
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1072
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1086
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1159
+#: includes/admin/supports/class-wpsisac-vc.php:91
+#: includes/admin/supports/class-wpsisac-vc.php:102
+#: includes/admin/supports/class-wpsisac-vc.php:144
+#: includes/admin/supports/class-wpsisac-vc.php:220
+#: includes/admin/supports/class-wpsisac-vc.php:259
+#: includes/admin/supports/class-wpsisac-vc.php:282
+#: includes/admin/supports/class-wpsisac-vc.php:321
+#: includes/admin/supports/class-wpsisac-vc.php:356
+#: includes/admin/supports/class-wpsisac-vc.php:390
+#: includes/admin/supports/class-wpsisac-vc.php:403
+#: includes/admin/supports/class-wpsisac-vc.php:428
+#: includes/admin/supports/class-wpsisac-vc.php:444
+#: includes/admin/supports/class-wpsisac-vc.php:534
+#: includes/admin/supports/class-wpsisac-vc.php:545
+#: includes/admin/supports/class-wpsisac-vc.php:587
+#: includes/admin/supports/class-wpsisac-vc.php:663
+#: includes/admin/supports/class-wpsisac-vc.php:702
+#: includes/admin/supports/class-wpsisac-vc.php:725
+#: includes/admin/supports/class-wpsisac-vc.php:764
+#: includes/admin/supports/class-wpsisac-vc.php:817
+#: includes/admin/supports/class-wpsisac-vc.php:852
+#: includes/admin/supports/class-wpsisac-vc.php:876
+#: includes/admin/supports/class-wpsisac-vc.php:888
+#: includes/admin/supports/class-wpsisac-vc.php:904
+#: includes/admin/supports/class-wpsisac-vc.php:998
+#: includes/admin/supports/class-wpsisac-vc.php:1009
+#: includes/admin/supports/class-wpsisac-vc.php:1051
+#: includes/admin/supports/class-wpsisac-vc.php:1127
+#: includes/admin/supports/class-wpsisac-vc.php:1166
+#: includes/admin/supports/class-wpsisac-vc.php:1189
+#: includes/admin/supports/class-wpsisac-vc.php:1228
+#: includes/admin/supports/class-wpsisac-vc.php:1263
+#: includes/admin/supports/class-wpsisac-vc.php:1297
+#: includes/admin/supports/class-wpsisac-vc.php:1323
+#: includes/admin/supports/class-wpsisac-vc.php:1335
+#: includes/admin/supports/class-wpsisac-vc.php:1351
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "True"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:71
+#: includes/admin/supports/wpsisac-shortcode-fields.php:81
+#: includes/admin/supports/wpsisac-shortcode-fields.php:120
+#: includes/admin/supports/wpsisac-shortcode-fields.php:153
+#: includes/admin/supports/wpsisac-shortcode-fields.php:187
+#: includes/admin/supports/wpsisac-shortcode-fields.php:217
+#: includes/admin/supports/wpsisac-shortcode-fields.php:245
+#: includes/admin/supports/wpsisac-shortcode-fields.php:257
+#: includes/admin/supports/wpsisac-shortcode-fields.php:278
+#: includes/admin/supports/wpsisac-shortcode-fields.php:292
+#: includes/admin/supports/wpsisac-shortcode-fields.php:366
+#: includes/admin/supports/wpsisac-shortcode-fields.php:461
+#: includes/admin/supports/wpsisac-shortcode-fields.php:471
+#: includes/admin/supports/wpsisac-shortcode-fields.php:510
+#: includes/admin/supports/wpsisac-shortcode-fields.php:543
+#: includes/admin/supports/wpsisac-shortcode-fields.php:577
+#: includes/admin/supports/wpsisac-shortcode-fields.php:621
+#: includes/admin/supports/wpsisac-shortcode-fields.php:649
+#: includes/admin/supports/wpsisac-shortcode-fields.php:671
+#: includes/admin/supports/wpsisac-shortcode-fields.php:681
+#: includes/admin/supports/wpsisac-shortcode-fields.php:695
+#: includes/admin/supports/wpsisac-shortcode-fields.php:769
+#: includes/admin/supports/wpsisac-shortcode-fields.php:867
+#: includes/admin/supports/wpsisac-shortcode-fields.php:877
+#: includes/admin/supports/wpsisac-shortcode-fields.php:916
+#: includes/admin/supports/wpsisac-shortcode-fields.php:949
+#: includes/admin/supports/wpsisac-shortcode-fields.php:983
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1013
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1041
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1063
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1073
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1087
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1160
+#: includes/admin/supports/class-wpsisac-vc.php:92
+#: includes/admin/supports/class-wpsisac-vc.php:103
+#: includes/admin/supports/class-wpsisac-vc.php:145
+#: includes/admin/supports/class-wpsisac-vc.php:221
+#: includes/admin/supports/class-wpsisac-vc.php:260
+#: includes/admin/supports/class-wpsisac-vc.php:283
+#: includes/admin/supports/class-wpsisac-vc.php:322
+#: includes/admin/supports/class-wpsisac-vc.php:357
+#: includes/admin/supports/class-wpsisac-vc.php:391
+#: includes/admin/supports/class-wpsisac-vc.php:404
+#: includes/admin/supports/class-wpsisac-vc.php:429
+#: includes/admin/supports/class-wpsisac-vc.php:445
+#: includes/admin/supports/class-wpsisac-vc.php:535
+#: includes/admin/supports/class-wpsisac-vc.php:546
+#: includes/admin/supports/class-wpsisac-vc.php:588
+#: includes/admin/supports/class-wpsisac-vc.php:664
+#: includes/admin/supports/class-wpsisac-vc.php:703
+#: includes/admin/supports/class-wpsisac-vc.php:726
+#: includes/admin/supports/class-wpsisac-vc.php:765
+#: includes/admin/supports/class-wpsisac-vc.php:818
+#: includes/admin/supports/class-wpsisac-vc.php:851
+#: includes/admin/supports/class-wpsisac-vc.php:877
+#: includes/admin/supports/class-wpsisac-vc.php:889
+#: includes/admin/supports/class-wpsisac-vc.php:905
+#: includes/admin/supports/class-wpsisac-vc.php:999
+#: includes/admin/supports/class-wpsisac-vc.php:1010
+#: includes/admin/supports/class-wpsisac-vc.php:1052
+#: includes/admin/supports/class-wpsisac-vc.php:1128
+#: includes/admin/supports/class-wpsisac-vc.php:1167
+#: includes/admin/supports/class-wpsisac-vc.php:1190
+#: includes/admin/supports/class-wpsisac-vc.php:1229
+#: includes/admin/supports/class-wpsisac-vc.php:1264
+#: includes/admin/supports/class-wpsisac-vc.php:1298
+#: includes/admin/supports/class-wpsisac-vc.php:1324
+#: includes/admin/supports/class-wpsisac-vc.php:1336
+#: includes/admin/supports/class-wpsisac-vc.php:1352
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "False"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:73
+#: includes/admin/supports/class-wpsisac-vc.php:1001
+msgid "Show content."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:77
+#: includes/admin/supports/wpsisac-shortcode-fields.php:467
+#: includes/admin/supports/wpsisac-shortcode-fields.php:873
+#: includes/admin/supports/class-wpsisac-vc.php:99
+#: includes/admin/supports/class-wpsisac-vc.php:542
+#: includes/admin/supports/class-wpsisac-vc.php:1006
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Show Read More"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:83
+#: includes/admin/supports/wpsisac-shortcode-fields.php:473
+#: includes/admin/supports/wpsisac-shortcode-fields.php:879
+#: includes/admin/supports/class-wpsisac-vc.php:105
+#: includes/admin/supports/class-wpsisac-vc.php:548
+#: includes/admin/supports/class-wpsisac-vc.php:1012
+msgid "Display read more."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:87
+#: includes/admin/supports/wpsisac-shortcode-fields.php:477
+#: includes/admin/supports/wpsisac-shortcode-fields.php:883
+#: includes/admin/supports/class-wpsisac-vc.php:110
+#: includes/admin/supports/class-wpsisac-vc.php:553
+#: includes/admin/supports/class-wpsisac-vc.php:1017
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Read More Text"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:90
+#: includes/admin/supports/wpsisac-shortcode-fields.php:480
+#: includes/admin/supports/wpsisac-shortcode-fields.php:886
+#: includes/admin/supports/class-wpsisac-vc.php:113
+#: includes/admin/supports/class-wpsisac-vc.php:556
+#: includes/admin/supports/class-wpsisac-vc.php:1020
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enter read more text."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:99
+#: includes/admin/supports/wpsisac-shortcode-fields.php:489
+#: includes/admin/supports/wpsisac-shortcode-fields.php:895
+#: includes/admin/supports/class-wpsisac-vc.php:122
+#: includes/admin/supports/class-wpsisac-vc.php:565
+#: includes/admin/supports/class-wpsisac-vc.php:1029
+msgid "Link Behaviour"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:102
+#: includes/admin/supports/wpsisac-shortcode-fields.php:492
+#: includes/admin/supports/wpsisac-shortcode-fields.php:898
+#: includes/admin/supports/class-wpsisac-vc.php:125
+#: includes/admin/supports/class-wpsisac-vc.php:568
+#: includes/admin/supports/class-wpsisac-vc.php:1032
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Same Window"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:103
+#: includes/admin/supports/wpsisac-shortcode-fields.php:493
+#: includes/admin/supports/wpsisac-shortcode-fields.php:899
+#: includes/admin/supports/class-wpsisac-vc.php:126
+#: includes/admin/supports/class-wpsisac-vc.php:569
+#: includes/admin/supports/class-wpsisac-vc.php:1033
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "New Window"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:105
+#: includes/admin/supports/wpsisac-shortcode-fields.php:495
+#: includes/admin/supports/wpsisac-shortcode-fields.php:901
+#: includes/admin/supports/class-wpsisac-vc.php:128
+#: includes/admin/supports/class-wpsisac-vc.php:571
+#: includes/admin/supports/class-wpsisac-vc.php:1035
+msgid "Choose link bahaviour."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:109
+#: includes/admin/supports/wpsisac-shortcode-fields.php:499
+#: includes/admin/supports/wpsisac-shortcode-fields.php:905
+#: includes/admin/supports/class-wpsisac-vc.php:133
+#: includes/admin/supports/class-wpsisac-vc.php:576
+#: includes/admin/supports/class-wpsisac-vc.php:1040
+msgid "Slider Image Height"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:112
+#: includes/admin/supports/wpsisac-shortcode-fields.php:502
+#: includes/admin/supports/wpsisac-shortcode-fields.php:908
+#: includes/admin/supports/class-wpsisac-vc.php:136
+#: includes/admin/supports/class-wpsisac-vc.php:579
+#: includes/admin/supports/class-wpsisac-vc.php:1043
+msgid ""
+"Control height of the featured image. You can enter any numeric number. e.g "
+"250. Leave empty for default height."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:116
+#: includes/admin/supports/wpsisac-shortcode-fields.php:506
+#: includes/admin/supports/wpsisac-shortcode-fields.php:912
+#: includes/admin/supports/class-wpsisac-vc.php:141
+#: includes/admin/supports/class-wpsisac-vc.php:584
+#: includes/admin/supports/class-wpsisac-vc.php:1048
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Image Fit"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:122
+#: includes/admin/supports/wpsisac-shortcode-fields.php:512
+#: includes/admin/supports/wpsisac-shortcode-fields.php:918
+#: includes/admin/supports/class-wpsisac-vc.php:147
+#: includes/admin/supports/class-wpsisac-vc.php:590
+#: includes/admin/supports/class-wpsisac-vc.php:1054
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Fill the post image in a whole container."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:126
+#: includes/admin/supports/wpsisac-shortcode-fields.php:516
+#: includes/admin/supports/wpsisac-shortcode-fields.php:922
+#: includes/admin/supports/class-wpsisac-vc.php:152
+#: includes/admin/supports/class-wpsisac-vc.php:595
+#: includes/admin/supports/class-wpsisac-vc.php:1059
+msgid "Image Size"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:129
+#: includes/admin/supports/wpsisac-shortcode-fields.php:519
+#: includes/admin/supports/wpsisac-shortcode-fields.php:925
+#: includes/admin/supports/class-wpsisac-vc.php:155
+#: includes/admin/supports/class-wpsisac-vc.php:598
+#: includes/admin/supports/class-wpsisac-vc.php:1062
+msgid "Choose WordPress registered image size. e.g"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:133
+#: includes/admin/supports/wpsisac-shortcode-fields.php:523
+#: includes/admin/supports/wpsisac-shortcode-fields.php:929
+#: includes/admin/supports/class-wpsisac-vc.php:160
+#: includes/admin/supports/class-wpsisac-vc.php:603
+#: includes/admin/supports/class-wpsisac-vc.php:1067
+msgid "Extra Class"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:137
+#: includes/admin/supports/wpsisac-shortcode-fields.php:527
+#: includes/admin/supports/wpsisac-shortcode-fields.php:933
+#: includes/admin/supports/class-wpsisac-vc.php:163
+#: includes/admin/supports/class-wpsisac-vc.php:606
+#: includes/admin/supports/class-wpsisac-vc.php:1070
+msgid "Enter extra CSS class for design customization."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:137
+#: includes/admin/supports/wpsisac-shortcode-fields.php:527
+#: includes/admin/supports/wpsisac-shortcode-fields.php:933
+#: includes/admin/supports/class-wpsisac-vc.php:163
+#: includes/admin/supports/class-wpsisac-vc.php:606
+#: includes/admin/supports/class-wpsisac-vc.php:1070
+msgid ""
+"Note: Extra class added as parent so using extra class you customize your "
+"design."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:144
+#: includes/admin/supports/wpsisac-shortcode-fields.php:534
+#: includes/admin/supports/wpsisac-shortcode-fields.php:940
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Slider Parameters"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:149
+#: includes/admin/supports/wpsisac-shortcode-fields.php:539
+#: includes/admin/supports/wpsisac-shortcode-fields.php:945
+#: includes/admin/supports/class-wpsisac-vc.php:279
+#: includes/admin/supports/class-wpsisac-vc.php:722
+#: includes/admin/supports/class-wpsisac-vc.php:1186
+msgid "Slider Navigation Dots"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:155
+#: includes/admin/supports/wpsisac-shortcode-fields.php:545
+#: includes/admin/supports/class-wpsisac-vc.php:285
+#: includes/admin/supports/class-wpsisac-vc.php:728
+#: includes/admin/supports/class-wpsisac-vc.php:1192
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Show pagination dots."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:159
+#: includes/admin/supports/wpsisac-shortcode-fields.php:549
+#: includes/admin/supports/wpsisac-shortcode-fields.php:955
+#: includes/admin/supports/class-wpsisac-vc.php:291
+#: includes/admin/supports/class-wpsisac-vc.php:734
+#: includes/admin/supports/class-wpsisac-vc.php:1198
+msgid "Slider Dots Design"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:162
+#: includes/admin/supports/wpsisac-shortcode-fields.php:552
+#: includes/admin/supports/wpsisac-shortcode-fields.php:958
+#: includes/admin/supports/class-wpsisac-vc.php:294
+#: includes/admin/supports/class-wpsisac-vc.php:737
+#: includes/admin/supports/class-wpsisac-vc.php:1201
+msgid "Dots Design 1"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:163
+#: includes/admin/supports/wpsisac-shortcode-fields.php:553
+#: includes/admin/supports/wpsisac-shortcode-fields.php:959
+#: includes/admin/supports/class-wpsisac-vc.php:295
+#: includes/admin/supports/class-wpsisac-vc.php:738
+#: includes/admin/supports/class-wpsisac-vc.php:1202
+msgid "Dots Design 2"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:164
+#: includes/admin/supports/wpsisac-shortcode-fields.php:554
+#: includes/admin/supports/wpsisac-shortcode-fields.php:960
+#: includes/admin/supports/class-wpsisac-vc.php:296
+#: includes/admin/supports/class-wpsisac-vc.php:739
+#: includes/admin/supports/class-wpsisac-vc.php:1203
+msgid "Dots Design 3"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:165
+#: includes/admin/supports/wpsisac-shortcode-fields.php:555
+#: includes/admin/supports/wpsisac-shortcode-fields.php:961
+#: includes/admin/supports/class-wpsisac-vc.php:297
+#: includes/admin/supports/class-wpsisac-vc.php:740
+#: includes/admin/supports/class-wpsisac-vc.php:1204
+msgid "Dots Design 4"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:166
+#: includes/admin/supports/wpsisac-shortcode-fields.php:556
+#: includes/admin/supports/wpsisac-shortcode-fields.php:962
+#: includes/admin/supports/class-wpsisac-vc.php:298
+#: includes/admin/supports/class-wpsisac-vc.php:741
+#: includes/admin/supports/class-wpsisac-vc.php:1205
+msgid "Dots Design 5"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:167
+#: includes/admin/supports/wpsisac-shortcode-fields.php:557
+#: includes/admin/supports/wpsisac-shortcode-fields.php:963
+#: includes/admin/supports/class-wpsisac-vc.php:299
+#: includes/admin/supports/class-wpsisac-vc.php:742
+#: includes/admin/supports/class-wpsisac-vc.php:1206
+msgid "Dots Design 6"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:168
+#: includes/admin/supports/wpsisac-shortcode-fields.php:558
+#: includes/admin/supports/wpsisac-shortcode-fields.php:964
+#: includes/admin/supports/class-wpsisac-vc.php:300
+#: includes/admin/supports/class-wpsisac-vc.php:743
+#: includes/admin/supports/class-wpsisac-vc.php:1207
+msgid "Dots Design 7"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:169
+#: includes/admin/supports/wpsisac-shortcode-fields.php:559
+#: includes/admin/supports/wpsisac-shortcode-fields.php:965
+#: includes/admin/supports/class-wpsisac-vc.php:301
+#: includes/admin/supports/class-wpsisac-vc.php:744
+#: includes/admin/supports/class-wpsisac-vc.php:1208
+msgid "Dots Design 8"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:170
+#: includes/admin/supports/wpsisac-shortcode-fields.php:560
+#: includes/admin/supports/wpsisac-shortcode-fields.php:966
+#: includes/admin/supports/class-wpsisac-vc.php:302
+#: includes/admin/supports/class-wpsisac-vc.php:745
+#: includes/admin/supports/class-wpsisac-vc.php:1209
+msgid "Dots Design 9"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:171
+#: includes/admin/supports/wpsisac-shortcode-fields.php:561
+#: includes/admin/supports/wpsisac-shortcode-fields.php:967
+#: includes/admin/supports/class-wpsisac-vc.php:303
+#: includes/admin/supports/class-wpsisac-vc.php:746
+#: includes/admin/supports/class-wpsisac-vc.php:1210
+msgid "Dots Design 10"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:172
+#: includes/admin/supports/wpsisac-shortcode-fields.php:562
+#: includes/admin/supports/wpsisac-shortcode-fields.php:968
+#: includes/admin/supports/class-wpsisac-vc.php:304
+#: includes/admin/supports/class-wpsisac-vc.php:747
+#: includes/admin/supports/class-wpsisac-vc.php:1211
+msgid "Dots Design 11"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:173
+#: includes/admin/supports/wpsisac-shortcode-fields.php:563
+#: includes/admin/supports/wpsisac-shortcode-fields.php:969
+#: includes/admin/supports/class-wpsisac-vc.php:305
+#: includes/admin/supports/class-wpsisac-vc.php:748
+#: includes/admin/supports/class-wpsisac-vc.php:1212
+msgid "Dots Design 12"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:175
+#: includes/admin/supports/wpsisac-shortcode-fields.php:565
+#: includes/admin/supports/wpsisac-shortcode-fields.php:971
+#: includes/admin/supports/class-wpsisac-vc.php:307
+#: includes/admin/supports/class-wpsisac-vc.php:750
+#: includes/admin/supports/class-wpsisac-vc.php:1214
+msgid "Choose dots design."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:183
+#: includes/admin/supports/wpsisac-shortcode-fields.php:573
+#: includes/admin/supports/wpsisac-shortcode-fields.php:979
+#: includes/admin/supports/class-wpsisac-vc.php:318
+#: includes/admin/supports/class-wpsisac-vc.php:761
+#: includes/admin/supports/class-wpsisac-vc.php:1225
+msgid "Slider Arrows"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:189
+#: includes/admin/supports/wpsisac-shortcode-fields.php:579
+#: includes/admin/supports/class-wpsisac-vc.php:324
+#: includes/admin/supports/class-wpsisac-vc.php:767
+#: includes/admin/supports/class-wpsisac-vc.php:1231
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Show prev - next arrows."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:193
+#: includes/admin/supports/wpsisac-shortcode-fields.php:583
+#: includes/admin/supports/wpsisac-shortcode-fields.php:989
+#: includes/admin/supports/class-wpsisac-vc.php:330
+#: includes/admin/supports/class-wpsisac-vc.php:773
+#: includes/admin/supports/class-wpsisac-vc.php:1237
+msgid "Slider Arrows Design"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:196
+#: includes/admin/supports/wpsisac-shortcode-fields.php:586
+#: includes/admin/supports/wpsisac-shortcode-fields.php:992
+#: includes/admin/supports/class-wpsisac-vc.php:333
+#: includes/admin/supports/class-wpsisac-vc.php:776
+#: includes/admin/supports/class-wpsisac-vc.php:1240
+msgid "Arrows Design 1"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:197
+#: includes/admin/supports/wpsisac-shortcode-fields.php:587
+#: includes/admin/supports/wpsisac-shortcode-fields.php:993
+#: includes/admin/supports/class-wpsisac-vc.php:334
+#: includes/admin/supports/class-wpsisac-vc.php:777
+#: includes/admin/supports/class-wpsisac-vc.php:1241
+msgid "Arrows Design 2"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:198
+#: includes/admin/supports/wpsisac-shortcode-fields.php:588
+#: includes/admin/supports/wpsisac-shortcode-fields.php:994
+#: includes/admin/supports/class-wpsisac-vc.php:335
+#: includes/admin/supports/class-wpsisac-vc.php:778
+#: includes/admin/supports/class-wpsisac-vc.php:1242
+msgid "Arrows Design 3"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:199
+#: includes/admin/supports/wpsisac-shortcode-fields.php:589
+#: includes/admin/supports/wpsisac-shortcode-fields.php:995
+#: includes/admin/supports/class-wpsisac-vc.php:336
+#: includes/admin/supports/class-wpsisac-vc.php:779
+#: includes/admin/supports/class-wpsisac-vc.php:1243
+msgid "Arrows Design 4"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:200
+#: includes/admin/supports/wpsisac-shortcode-fields.php:590
+#: includes/admin/supports/wpsisac-shortcode-fields.php:996
+#: includes/admin/supports/class-wpsisac-vc.php:337
+#: includes/admin/supports/class-wpsisac-vc.php:780
+#: includes/admin/supports/class-wpsisac-vc.php:1244
+msgid "Arrows Design 5"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:201
+#: includes/admin/supports/wpsisac-shortcode-fields.php:591
+#: includes/admin/supports/wpsisac-shortcode-fields.php:997
+#: includes/admin/supports/class-wpsisac-vc.php:338
+#: includes/admin/supports/class-wpsisac-vc.php:781
+#: includes/admin/supports/class-wpsisac-vc.php:1245
+msgid "Arrows Design 6"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:202
+#: includes/admin/supports/wpsisac-shortcode-fields.php:592
+#: includes/admin/supports/wpsisac-shortcode-fields.php:998
+#: includes/admin/supports/class-wpsisac-vc.php:339
+#: includes/admin/supports/class-wpsisac-vc.php:782
+#: includes/admin/supports/class-wpsisac-vc.php:1246
+msgid "Arrows Design 7"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:203
+#: includes/admin/supports/wpsisac-shortcode-fields.php:593
+#: includes/admin/supports/wpsisac-shortcode-fields.php:999
+#: includes/admin/supports/class-wpsisac-vc.php:340
+#: includes/admin/supports/class-wpsisac-vc.php:783
+#: includes/admin/supports/class-wpsisac-vc.php:1247
+msgid "Arrows Design 8"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:205
+#: includes/admin/supports/wpsisac-shortcode-fields.php:595
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1001
+#: includes/admin/supports/class-wpsisac-vc.php:342
+#: includes/admin/supports/class-wpsisac-vc.php:785
+#: includes/admin/supports/class-wpsisac-vc.php:1249
+msgid "Choose arrows design."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:213
+#: includes/admin/supports/wpsisac-shortcode-fields.php:617
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1009
+#: includes/admin/supports/class-wpsisac-vc.php:353
+#: includes/admin/supports/class-wpsisac-vc.php:814
+#: includes/admin/supports/class-wpsisac-vc.php:1260
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:219
+#: includes/admin/supports/wpsisac-shortcode-fields.php:623
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1015
+#: includes/admin/supports/class-wpsisac-vc.php:359
+#: includes/admin/supports/class-wpsisac-vc.php:820
+#: includes/admin/supports/class-wpsisac-vc.php:1266
+msgid "Enable autoplay."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:223
+#: includes/admin/supports/wpsisac-shortcode-fields.php:627
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1019
+#: includes/admin/supports/class-wpsisac-vc.php:365
+#: includes/admin/supports/class-wpsisac-vc.php:826
+#: includes/admin/supports/class-wpsisac-vc.php:1272
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Autoplay Interval"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:226
+#: includes/admin/supports/wpsisac-shortcode-fields.php:630
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1022
+#: includes/admin/supports/class-wpsisac-vc.php:368
+#: includes/admin/supports/class-wpsisac-vc.php:829
+#: includes/admin/supports/class-wpsisac-vc.php:1275
+msgid "Enter autoplay speed."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:234
+#: includes/admin/supports/wpsisac-shortcode-fields.php:638
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1030
+#: includes/admin/supports/class-wpsisac-vc.php:378
+#: includes/admin/supports/class-wpsisac-vc.php:839
+#: includes/admin/supports/class-wpsisac-vc.php:1285
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Speed"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:237
+#: includes/admin/supports/class-wpsisac-vc.php:381
+msgid "Enter slider speed."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:241
+#: includes/admin/supports/class-wpsisac-vc.php:387
+msgid "Show Fade Effect"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:248
+#: includes/admin/supports/class-wpsisac-vc.php:394 assets/js/blocks.build.js:1
+msgid "Enable fade effect instead of slide effect."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:253
+#: includes/admin/supports/wpsisac-shortcode-fields.php:667
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1059
+#: includes/admin/supports/class-wpsisac-vc.php:400
+#: includes/admin/supports/class-wpsisac-vc.php:873
+#: includes/admin/supports/class-wpsisac-vc.php:1320
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Loop"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:259
+#: includes/admin/supports/wpsisac-shortcode-fields.php:673
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1065
+#: includes/admin/supports/class-wpsisac-vc.php:406
+#: includes/admin/supports/class-wpsisac-vc.php:879
+#: includes/admin/supports/class-wpsisac-vc.php:1326
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enable infinite loop for continuous sliding."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:263
+#: includes/admin/supports/class-wpsisac-vc.php:412
+msgid "Slider Navigation Columns"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:266
+#: includes/admin/supports/class-wpsisac-vc.php:419 assets/js/blocks.build.js:1
+msgid "Enter slider navigation columns. Only applicable to Design 4,5,6."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:274
+#: includes/admin/supports/wpsisac-shortcode-fields.php:677
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1069
+#: includes/admin/supports/class-wpsisac-vc.php:425
+#: includes/admin/supports/class-wpsisac-vc.php:885
+#: includes/admin/supports/class-wpsisac-vc.php:1332
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Pause On Hover"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:284
+#: includes/admin/supports/wpsisac-shortcode-fields.php:687
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1079
+#: includes/admin/supports/class-wpsisac-vc.php:435
+#: includes/admin/supports/class-wpsisac-vc.php:895
+#: includes/admin/supports/class-wpsisac-vc.php:1342
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Pause slider autoplay on hover."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:288
+#: includes/admin/supports/wpsisac-shortcode-fields.php:691
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1083
+#: includes/admin/supports/class-wpsisac-vc.php:441
+#: includes/admin/supports/class-wpsisac-vc.php:901
+#: includes/admin/supports/class-wpsisac-vc.php:1348
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Pause On Focus"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:299
+#: includes/admin/supports/wpsisac-shortcode-fields.php:702
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1094
+#: includes/admin/supports/class-wpsisac-vc.php:452
+#: includes/admin/supports/class-wpsisac-vc.php:912
+#: includes/admin/supports/class-wpsisac-vc.php:1359
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Pause slider autoplay when slider element is focused."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:303
+#: includes/admin/supports/wpsisac-shortcode-fields.php:706
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1098
+#: includes/admin/supports/class-wpsisac-vc.php:458
+#: includes/admin/supports/class-wpsisac-vc.php:918
+#: includes/admin/supports/class-wpsisac-vc.php:1365
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Slider Lazyload"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:306
+#: includes/admin/supports/wpsisac-shortcode-fields.php:709
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1101
+#: includes/admin/supports/class-wpsisac-vc.php:461
+#: includes/admin/supports/class-wpsisac-vc.php:921
+#: includes/admin/supports/class-wpsisac-vc.php:1368
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Select Lazyload"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:307
+#: includes/admin/supports/wpsisac-shortcode-fields.php:710
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1102
+#: includes/admin/supports/class-wpsisac-vc.php:462
+#: includes/admin/supports/class-wpsisac-vc.php:922
+#: includes/admin/supports/class-wpsisac-vc.php:1369
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Ondemand"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:308
+#: includes/admin/supports/wpsisac-shortcode-fields.php:711
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1103
+#: includes/admin/supports/class-wpsisac-vc.php:463
+#: includes/admin/supports/class-wpsisac-vc.php:923
+#: includes/admin/supports/class-wpsisac-vc.php:1370
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Progressive"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:310
+#: includes/admin/supports/wpsisac-shortcode-fields.php:713
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1105
+#: includes/admin/supports/class-wpsisac-vc.php:465
+#: includes/admin/supports/class-wpsisac-vc.php:926
+#: includes/admin/supports/class-wpsisac-vc.php:1373
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Select option to use lazy loading in slider."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:317
+#: includes/admin/supports/wpsisac-shortcode-fields.php:720
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1111
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Query Parameters"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:322
+#: includes/admin/supports/wpsisac-shortcode-fields.php:725
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1116
+#: includes/admin/supports/class-wpsisac-vc.php:170
+#: includes/admin/supports/class-wpsisac-vc.php:613
+#: includes/admin/supports/class-wpsisac-vc.php:1077
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Total items"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:326
+#: includes/admin/supports/class-wpsisac-vc.php:173
+msgid "Enter number of slides to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:330
+#: includes/admin/supports/wpsisac-shortcode-fields.php:733
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1124
+#: includes/admin/supports/class-wpsisac-vc.php:179
+#: includes/admin/supports/class-wpsisac-vc.php:622
+#: includes/admin/supports/class-wpsisac-vc.php:1086
+msgid "Post Order By"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:333
+#: includes/admin/supports/wpsisac-shortcode-fields.php:736
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1127
+#: includes/admin/supports/class-wpsisac-vc.php:182
+#: includes/admin/supports/class-wpsisac-vc.php:625
+#: includes/admin/supports/class-wpsisac-vc.php:1089
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Post Date"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:334
+#: includes/admin/supports/wpsisac-shortcode-fields.php:737
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1128
+#: includes/admin/supports/class-wpsisac-vc.php:183
+#: includes/admin/supports/class-wpsisac-vc.php:626
+#: includes/admin/supports/class-wpsisac-vc.php:1090
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Post ID"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:335
+#: includes/admin/supports/wpsisac-shortcode-fields.php:738
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1129
+#: includes/admin/supports/class-wpsisac-vc.php:184
+#: includes/admin/supports/class-wpsisac-vc.php:627
+#: includes/admin/supports/class-wpsisac-vc.php:1091
+msgid "Post Author"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:336
+#: includes/admin/supports/wpsisac-shortcode-fields.php:739
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1130
+#: includes/admin/supports/class-wpsisac-vc.php:185
+#: includes/admin/supports/class-wpsisac-vc.php:628
+#: includes/admin/supports/class-wpsisac-vc.php:1092
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Post Title"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:337
+#: includes/admin/supports/wpsisac-shortcode-fields.php:740
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1131
+#: includes/admin/supports/class-wpsisac-vc.php:186
+#: includes/admin/supports/class-wpsisac-vc.php:629
+#: includes/admin/supports/class-wpsisac-vc.php:1093
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Post Modified Date"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:338
+#: includes/admin/supports/wpsisac-shortcode-fields.php:741
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1132
+#: includes/admin/supports/class-wpsisac-vc.php:187
+#: includes/admin/supports/class-wpsisac-vc.php:630
+#: includes/admin/supports/class-wpsisac-vc.php:1094
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Random"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:339
+#: includes/admin/supports/wpsisac-shortcode-fields.php:742
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1133
+#: includes/admin/supports/class-wpsisac-vc.php:188
+#: includes/admin/supports/class-wpsisac-vc.php:631
+#: includes/admin/supports/class-wpsisac-vc.php:1095
+msgid "Menu Order"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:341
+#: includes/admin/supports/wpsisac-shortcode-fields.php:744
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1135
+#: includes/admin/supports/class-wpsisac-vc.php:190
+#: includes/admin/supports/class-wpsisac-vc.php:633
+#: includes/admin/supports/class-wpsisac-vc.php:1097
+msgid "Select order type."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:345
+#: includes/admin/supports/wpsisac-shortcode-fields.php:748
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1139
+#: includes/admin/supports/class-wpsisac-vc.php:196
+#: includes/admin/supports/class-wpsisac-vc.php:639
+#: includes/admin/supports/class-wpsisac-vc.php:1103
+msgid "Post Order"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:348
+#: includes/admin/supports/wpsisac-shortcode-fields.php:751
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1142
+#: includes/admin/supports/class-wpsisac-vc.php:199
+#: includes/admin/supports/class-wpsisac-vc.php:642
+#: includes/admin/supports/class-wpsisac-vc.php:1106
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Descending"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:349
+#: includes/admin/supports/wpsisac-shortcode-fields.php:752
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1143
+#: includes/admin/supports/class-wpsisac-vc.php:200
+#: includes/admin/supports/class-wpsisac-vc.php:643
+#: includes/admin/supports/class-wpsisac-vc.php:1107
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:351
+#: includes/admin/supports/wpsisac-shortcode-fields.php:754
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1145
+#: includes/admin/supports/class-wpsisac-vc.php:202
+#: includes/admin/supports/class-wpsisac-vc.php:645
+#: includes/admin/supports/class-wpsisac-vc.php:1109
+msgid "Select sorting order."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:355
+#: includes/admin/supports/wpsisac-shortcode-fields.php:758
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1149
+#: includes/admin/supports/class-wpsisac-vc.php:208
+#: includes/admin/supports/class-wpsisac-vc.php:651
+#: includes/admin/supports/class-wpsisac-vc.php:1115
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Display Specific Category"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:358
+#: includes/admin/supports/wpsisac-shortcode-fields.php:761
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1152
+#: includes/admin/supports/class-wpsisac-vc.php:211
+#: includes/admin/supports/class-wpsisac-vc.php:654
+#: includes/admin/supports/class-wpsisac-vc.php:1118
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enter category id to display categories wise."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:358
+#: includes/admin/supports/wpsisac-shortcode-fields.php:375
+#: includes/admin/supports/wpsisac-shortcode-fields.php:761
+#: includes/admin/supports/wpsisac-shortcode-fields.php:778
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1152
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1169
+#: includes/admin/supports/class-wpsisac-vc.php:211
+#: includes/admin/supports/class-wpsisac-vc.php:232
+#: includes/admin/supports/class-wpsisac-vc.php:654
+#: includes/admin/supports/class-wpsisac-vc.php:675
+#: includes/admin/supports/class-wpsisac-vc.php:1118
+#: includes/admin/supports/class-wpsisac-vc.php:1139
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid ""
+"You can pass multiple ids with comma seperated. You can find id at relevant "
+"category listing page."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:362
+#: includes/admin/supports/wpsisac-shortcode-fields.php:765
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1156
+#: includes/admin/supports/class-wpsisac-vc.php:217
+#: includes/admin/supports/class-wpsisac-vc.php:660
+#: includes/admin/supports/class-wpsisac-vc.php:1124
+msgid "Include Category Children"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:368
+#: includes/admin/supports/wpsisac-shortcode-fields.php:771
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1162
+#: includes/admin/supports/class-wpsisac-vc.php:223
+#: includes/admin/supports/class-wpsisac-vc.php:666
+#: includes/admin/supports/class-wpsisac-vc.php:1130
+msgid ""
+"If you are using parent category then whether to display child category team "
+"member or not."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:372
+#: includes/admin/supports/wpsisac-shortcode-fields.php:775
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1166
+#: includes/admin/supports/class-wpsisac-vc.php:229
+#: includes/admin/supports/class-wpsisac-vc.php:672
+#: includes/admin/supports/class-wpsisac-vc.php:1136
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Exclude Category"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:375
+#: includes/admin/supports/wpsisac-shortcode-fields.php:778
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1169
+#: includes/admin/supports/class-wpsisac-vc.php:232
+#: includes/admin/supports/class-wpsisac-vc.php:675
+#: includes/admin/supports/class-wpsisac-vc.php:1139
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Exclude post category. Works only if `Category` field is empty."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:379
+#: includes/admin/supports/wpsisac-shortcode-fields.php:782
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1173
+#: includes/admin/supports/class-wpsisac-vc.php:238
+#: includes/admin/supports/class-wpsisac-vc.php:681
+#: includes/admin/supports/class-wpsisac-vc.php:1145
+msgid "Display Specific Post"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:382
+#: includes/admin/supports/wpsisac-shortcode-fields.php:785
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1176
+#: includes/admin/supports/class-wpsisac-vc.php:241
+#: includes/admin/supports/class-wpsisac-vc.php:684
+#: includes/admin/supports/class-wpsisac-vc.php:1148
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enter id of the post which you want to display."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:382
+#: includes/admin/supports/wpsisac-shortcode-fields.php:389
+#: includes/admin/supports/wpsisac-shortcode-fields.php:785
+#: includes/admin/supports/wpsisac-shortcode-fields.php:792
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1176
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1183
+#: includes/admin/supports/class-wpsisac-vc.php:241
+#: includes/admin/supports/class-wpsisac-vc.php:250
+#: includes/admin/supports/class-wpsisac-vc.php:684
+#: includes/admin/supports/class-wpsisac-vc.php:693
+#: includes/admin/supports/class-wpsisac-vc.php:1148
+#: includes/admin/supports/class-wpsisac-vc.php:1157
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+msgid ""
+"You can pass multiple ids with comma seperated. You can find id at relevant "
+"post listing page."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:386
+#: includes/admin/supports/wpsisac-shortcode-fields.php:789
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1180
+#: includes/admin/supports/class-wpsisac-vc.php:247
+#: includes/admin/supports/class-wpsisac-vc.php:690
+#: includes/admin/supports/class-wpsisac-vc.php:1154
+msgid "Exclude Post"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:389
+#: includes/admin/supports/wpsisac-shortcode-fields.php:792
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1183
+#: includes/admin/supports/class-wpsisac-vc.php:250
+#: includes/admin/supports/class-wpsisac-vc.php:693
+#: includes/admin/supports/class-wpsisac-vc.php:1157
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enter id of the post which you do not want to display."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:393
+#: includes/admin/supports/wpsisac-shortcode-fields.php:796
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1187
+#: includes/admin/supports/class-wpsisac-vc.php:268
+#: includes/admin/supports/class-wpsisac-vc.php:711
+#: includes/admin/supports/class-wpsisac-vc.php:1175
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Query Offset"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:396
+#: includes/admin/supports/wpsisac-shortcode-fields.php:799
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1190
+#: includes/admin/supports/class-wpsisac-vc.php:271
+#: includes/admin/supports/class-wpsisac-vc.php:714
+#: includes/admin/supports/class-wpsisac-vc.php:1178
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Exclude number of posts from starting."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:396
+#: includes/admin/supports/wpsisac-shortcode-fields.php:799
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1190
+#: includes/admin/supports/class-wpsisac-vc.php:271
+#: includes/admin/supports/class-wpsisac-vc.php:714
+#: includes/admin/supports/class-wpsisac-vc.php:1178
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid ""
+"e.g if you pass 5 then it will skip first five post. Note: This will not "
+"work with limit=-1."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:422
+#: includes/admin/supports/class-wpsisac-vc.php:494
+msgid "Carousel Design 1"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:423
+#: includes/admin/supports/class-wpsisac-vc.php:495
+msgid "Carousel Design 2"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:424
+#: includes/admin/supports/class-wpsisac-vc.php:496
+msgid "Carousel Design 3"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:425
+#: includes/admin/supports/class-wpsisac-vc.php:497
+msgid "Carousel Design 4"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:426
+#: includes/admin/supports/class-wpsisac-vc.php:498
+msgid "Carousel Design 5"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:427
+#: includes/admin/supports/class-wpsisac-vc.php:499
+msgid "Carousel Design 6"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:428
+#: includes/admin/supports/class-wpsisac-vc.php:500
+msgid "Carousel Design 7"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:429
+#: includes/admin/supports/class-wpsisac-vc.php:501
+msgid "Carousel Design 8"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:430
+#: includes/admin/supports/class-wpsisac-vc.php:502
+msgid "Carousel Design 9"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:431
+#: includes/admin/supports/class-wpsisac-vc.php:503
+msgid "Carousel Design 10"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:432
+#: includes/admin/supports/class-wpsisac-vc.php:504
+msgid "Carousel Design 11"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:433
+#: includes/admin/supports/class-wpsisac-vc.php:505
+msgid "Carousel Design 12"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:434
+#: includes/admin/supports/class-wpsisac-vc.php:506
+msgid "Carousel Design 13"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:435
+#: includes/admin/supports/class-wpsisac-vc.php:507
+msgid "Carousel Design 14"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:436
+#: includes/admin/supports/class-wpsisac-vc.php:508
+msgid "Carousel Design 15"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:437
+#: includes/admin/supports/class-wpsisac-vc.php:509
+msgid "Carousel Design 16"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:438
+#: includes/admin/supports/class-wpsisac-vc.php:510
+msgid "Carousel Design 17"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:439
+#: includes/admin/supports/class-wpsisac-vc.php:511
+msgid "Carousel Design 18"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:440
+#: includes/admin/supports/class-wpsisac-vc.php:512
+msgid "Carousel Design 19"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:441
+#: includes/admin/supports/class-wpsisac-vc.php:513
+msgid "Carousel Design 20"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:442
+#: includes/admin/supports/class-wpsisac-vc.php:514
+msgid "Carousel Design 21"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:443
+#: includes/admin/supports/class-wpsisac-vc.php:515
+msgid "Carousel Design 22"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:444
+#: includes/admin/supports/class-wpsisac-vc.php:516
+msgid "Carousel Design 23"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:445
+#: includes/admin/supports/class-wpsisac-vc.php:517
+msgid "Carousel Design 24"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:446
+#: includes/admin/supports/class-wpsisac-vc.php:518
+msgid "Carousel Design 25"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:447
+#: includes/admin/supports/class-wpsisac-vc.php:519
+msgid "Carousel Design 26"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:448
+#: includes/admin/supports/class-wpsisac-vc.php:520
+msgid "Carousel Design 27"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:449
+#: includes/admin/supports/class-wpsisac-vc.php:521
+msgid "Carousel Design 28"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:450
+#: includes/admin/supports/class-wpsisac-vc.php:522
+msgid "Carousel Design 29"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:451
+#: includes/admin/supports/class-wpsisac-vc.php:523
+msgid "Carousel Design 30"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:463
+#: includes/admin/supports/wpsisac-shortcode-fields.php:869
+#: includes/admin/supports/class-wpsisac-vc.php:94
+#: includes/admin/supports/class-wpsisac-vc.php:537
+msgid "Display content."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:603
+#: includes/admin/supports/class-wpsisac-vc.php:796 assets/js/blocks.build.js:1
+msgid "Slide To Show"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:606
+#: includes/admin/supports/class-wpsisac-vc.php:799
+msgid "Enter number for Slide to show at a time."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:610
+#: includes/admin/supports/class-wpsisac-vc.php:805 assets/js/blocks.build.js:1
+msgid "Slide To Scroll"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:613
+#: includes/admin/supports/class-wpsisac-vc.php:808
+msgid "Enter number to scroll slider at a time."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:641
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1033
+#: includes/admin/supports/class-wpsisac-vc.php:842
+#: includes/admin/supports/class-wpsisac-vc.php:1288
+#: assets/js/blocks.build.js:1 assets/js/blocks.build.js:1
+#: assets/js/blocks.build.js:1
+msgid "Enter slide speed."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:645
+#: includes/admin/supports/class-wpsisac-vc.php:848
+msgid "Centermode"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:652
+#: includes/admin/supports/class-wpsisac-vc.php:854 assets/js/blocks.build.js:1
+msgid ""
+"Enable centered view with partial prev/next slides. Use with odd numbered "
+"`Slides to Scroll` and `Slider Column` counts."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:656
+#: includes/admin/supports/class-wpsisac-vc.php:860
+msgid "Center Padding Slider"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:659
+#: includes/admin/supports/class-wpsisac-vc.php:863 assets/js/blocks.build.js:1
+msgid "You can set Center Padding in slider."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:729
+#: includes/admin/supports/class-wpsisac-vc.php:616
+msgid "Enter number slides to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:825
+#: includes/admin/supports/class-wpsisac-vc.php:955
+msgid "Variable Slider Design 1"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:826
+#: includes/admin/supports/class-wpsisac-vc.php:956
+msgid "Variable Slider Design 2"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:827
+#: includes/admin/supports/class-wpsisac-vc.php:957
+msgid "Variable Slider Design 3"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:828
+#: includes/admin/supports/class-wpsisac-vc.php:958
+msgid "Variable Slider Design 4"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:829
+#: includes/admin/supports/class-wpsisac-vc.php:959
+msgid "Variable Slider Design 5"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:830
+#: includes/admin/supports/class-wpsisac-vc.php:960
+msgid "Variable Slider Design 6"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:831
+#: includes/admin/supports/class-wpsisac-vc.php:961
+msgid "Variable Slider Design 7"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:832
+#: includes/admin/supports/class-wpsisac-vc.php:962
+msgid "Variable Slider Design 8"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:833
+#: includes/admin/supports/class-wpsisac-vc.php:963
+msgid "Variable Slider Design 9"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:834
+#: includes/admin/supports/class-wpsisac-vc.php:964
+msgid "Variable Slider Design 10"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:835
+#: includes/admin/supports/class-wpsisac-vc.php:965
+msgid "Variable Slider Design 11"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:836
+#: includes/admin/supports/class-wpsisac-vc.php:966
+msgid "Variable Slider Design 12"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:837
+#: includes/admin/supports/class-wpsisac-vc.php:967
+msgid "Variable Slider Design 13"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:838
+#: includes/admin/supports/class-wpsisac-vc.php:968
+msgid "Variable Slider Design 14"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:839
+#: includes/admin/supports/class-wpsisac-vc.php:969
+msgid "Variable Slider Design 15"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:840
+#: includes/admin/supports/class-wpsisac-vc.php:970
+msgid "Variable Slider Design 16"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:841
+#: includes/admin/supports/class-wpsisac-vc.php:971
+msgid "Variable Slider Design 17"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:842
+#: includes/admin/supports/class-wpsisac-vc.php:972
+msgid "Variable Slider Design 18"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:843
+#: includes/admin/supports/class-wpsisac-vc.php:973
+msgid "Variable Slider Design 19"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:844
+#: includes/admin/supports/class-wpsisac-vc.php:974
+msgid "Variable Slider Design 20"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:845
+#: includes/admin/supports/class-wpsisac-vc.php:975
+msgid "Variable Slider Design 21"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:846
+#: includes/admin/supports/class-wpsisac-vc.php:976
+msgid "Variable Slider Design 22"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:847
+#: includes/admin/supports/class-wpsisac-vc.php:977
+msgid "Variable Slider Design 23"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:848
+#: includes/admin/supports/class-wpsisac-vc.php:978
+msgid "Variable Slider Design 24"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:849
+#: includes/admin/supports/class-wpsisac-vc.php:979
+msgid "Variable Slider Design 25"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:850
+#: includes/admin/supports/class-wpsisac-vc.php:980
+msgid "Variable Slider Design 26"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:851
+#: includes/admin/supports/class-wpsisac-vc.php:981
+msgid "Variable Slider Design 27"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:852
+#: includes/admin/supports/class-wpsisac-vc.php:982
+msgid "Variable Slider Design 28"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:853
+#: includes/admin/supports/class-wpsisac-vc.php:983
+msgid "Variable Slider Design 29"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:854
+#: includes/admin/supports/class-wpsisac-vc.php:984
+msgid "Variable Slider Design 30"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:855
+#: includes/admin/supports/class-wpsisac-vc.php:985
+msgid "Variable Slider Design 31"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:856
+#: includes/admin/supports/class-wpsisac-vc.php:986
+msgid "Variable Slider Design 32"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:857
+#: includes/admin/supports/class-wpsisac-vc.php:987
+msgid "Variable Slider Design 33"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:951
+msgid "Show slider pagination dots."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:985
+msgid "Show Prev - Next arrows."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1037
+#: includes/admin/supports/class-wpsisac-vc.php:1294
+msgid "Slider Variable Width"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1044
+#: includes/admin/supports/class-wpsisac-vc.php:1301
+msgid "Enable slider variable width."
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1048
+#: includes/admin/supports/class-wpsisac-vc.php:1307
+msgid "Center Slide Width"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1051
+#: includes/admin/supports/class-wpsisac-vc.php:1310
+#: assets/js/blocks.build.js:1
+#, php-format
+msgid ""
+"Enter center slide width. Leave empty for default width. e.g 70% or 500px"
+msgstr ""
+
+#: includes/admin/supports/wpsisac-shortcode-fields.php:1120
+#: includes/admin/supports/class-wpsisac-vc.php:1080
+msgid "Enter number to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:495
+msgid "WPOS Blocks"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:41
+#: includes/admin/supports/class-wpsisac-vc.php:484
+#: includes/admin/supports/class-wpsisac-vc.php:945
+msgid "Content"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:42
+msgid "Display slick slider."
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:174
+#: includes/admin/supports/class-wpsisac-vc.php:191
+#: includes/admin/supports/class-wpsisac-vc.php:203
+#: includes/admin/supports/class-wpsisac-vc.php:212
+#: includes/admin/supports/class-wpsisac-vc.php:224
+#: includes/admin/supports/class-wpsisac-vc.php:233
+#: includes/admin/supports/class-wpsisac-vc.php:242
+#: includes/admin/supports/class-wpsisac-vc.php:251
+#: includes/admin/supports/class-wpsisac-vc.php:263
+#: includes/admin/supports/class-wpsisac-vc.php:272
+#: includes/admin/supports/class-wpsisac-vc.php:617
+#: includes/admin/supports/class-wpsisac-vc.php:634
+#: includes/admin/supports/class-wpsisac-vc.php:646
+#: includes/admin/supports/class-wpsisac-vc.php:655
+#: includes/admin/supports/class-wpsisac-vc.php:667
+#: includes/admin/supports/class-wpsisac-vc.php:676
+#: includes/admin/supports/class-wpsisac-vc.php:685
+#: includes/admin/supports/class-wpsisac-vc.php:694
+#: includes/admin/supports/class-wpsisac-vc.php:706
+#: includes/admin/supports/class-wpsisac-vc.php:715
+#: includes/admin/supports/class-wpsisac-vc.php:1081
+#: includes/admin/supports/class-wpsisac-vc.php:1098
+#: includes/admin/supports/class-wpsisac-vc.php:1110
+#: includes/admin/supports/class-wpsisac-vc.php:1119
+#: includes/admin/supports/class-wpsisac-vc.php:1131
+#: includes/admin/supports/class-wpsisac-vc.php:1140
+#: includes/admin/supports/class-wpsisac-vc.php:1149
+#: includes/admin/supports/class-wpsisac-vc.php:1158
+#: includes/admin/supports/class-wpsisac-vc.php:1170
+#: includes/admin/supports/class-wpsisac-vc.php:1179
+msgid "Data Settings"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:256
+#: includes/admin/supports/class-wpsisac-vc.php:699
+#: includes/admin/supports/class-wpsisac-vc.php:1163
+msgid "RTL"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:262
+#: includes/admin/supports/class-wpsisac-vc.php:705
+#: includes/admin/supports/class-wpsisac-vc.php:1169
+msgid "Display RTL."
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:286
+#: includes/admin/supports/class-wpsisac-vc.php:312
+#: includes/admin/supports/class-wpsisac-vc.php:325
+#: includes/admin/supports/class-wpsisac-vc.php:347
+#: includes/admin/supports/class-wpsisac-vc.php:360
+#: includes/admin/supports/class-wpsisac-vc.php:369
+#: includes/admin/supports/class-wpsisac-vc.php:382
+#: includes/admin/supports/class-wpsisac-vc.php:395
+#: includes/admin/supports/class-wpsisac-vc.php:407
+#: includes/admin/supports/class-wpsisac-vc.php:420
+#: includes/admin/supports/class-wpsisac-vc.php:436
+#: includes/admin/supports/class-wpsisac-vc.php:453
+#: includes/admin/supports/class-wpsisac-vc.php:466
+#: includes/admin/supports/class-wpsisac-vc.php:729
+#: includes/admin/supports/class-wpsisac-vc.php:755
+#: includes/admin/supports/class-wpsisac-vc.php:768
+#: includes/admin/supports/class-wpsisac-vc.php:790
+#: includes/admin/supports/class-wpsisac-vc.php:800
+#: includes/admin/supports/class-wpsisac-vc.php:809
+#: includes/admin/supports/class-wpsisac-vc.php:821
+#: includes/admin/supports/class-wpsisac-vc.php:830
+#: includes/admin/supports/class-wpsisac-vc.php:843
+#: includes/admin/supports/class-wpsisac-vc.php:855
+#: includes/admin/supports/class-wpsisac-vc.php:864
+#: includes/admin/supports/class-wpsisac-vc.php:880
+#: includes/admin/supports/class-wpsisac-vc.php:896
+#: includes/admin/supports/class-wpsisac-vc.php:913
+#: includes/admin/supports/class-wpsisac-vc.php:927
+#: includes/admin/supports/class-wpsisac-vc.php:1193
+#: includes/admin/supports/class-wpsisac-vc.php:1219
+#: includes/admin/supports/class-wpsisac-vc.php:1232
+#: includes/admin/supports/class-wpsisac-vc.php:1254
+#: includes/admin/supports/class-wpsisac-vc.php:1267
+#: includes/admin/supports/class-wpsisac-vc.php:1276
+#: includes/admin/supports/class-wpsisac-vc.php:1289
+#: includes/admin/supports/class-wpsisac-vc.php:1302
+#: includes/admin/supports/class-wpsisac-vc.php:1311
+#: includes/admin/supports/class-wpsisac-vc.php:1327
+#: includes/admin/supports/class-wpsisac-vc.php:1343
+#: includes/admin/supports/class-wpsisac-vc.php:1360
+#: includes/admin/supports/class-wpsisac-vc.php:1374
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:480
+msgid "Slick Carousel"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:485
+msgid "Display slick carousel slider."
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:941
+msgid "Slick Variable"
+msgstr ""
+
+#: includes/admin/supports/class-wpsisac-vc.php:946
+msgid "Display slick slider variable width."
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:18
+msgid "WP Slick Slider and Image Carousel Pro - Settings"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:44
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:53
+msgid "Default Featured Image"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:57
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:57
+msgid "Choose Image"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:57
+msgid "Insert Image"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:57
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:58
+msgid ""
+"Upload default featured image or provide an external URL of image. If your "
+"post does not have featured image then this will be displayed instead of "
+"blank grey box."
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:70
+#: includes/admin/settings/wpsisac-settings.php:103
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:85
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:94
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/settings/wpsisac-settings.php:98
+msgid "Enter custom CSS to override plugin CSS."
+msgstr ""
+
+#: includes/admin/metabox/wpsisac-post-sett-metabox.php:25
+msgid "Read More Link"
+msgstr ""
+
+#: includes/admin/metabox/wpsisac-post-sett-metabox.php:29
+msgid "Enter read more link. eg. https://www.wponlinesupport.com"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/shortcode-preview.php:37
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/shortcode-preview.php:68
+msgid "Sorry, You can not visit the link in preview"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:28
+msgid "WP Slick Slider and Image Carousel Pro - Shortcode Builder"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:43
+msgid "-- Choose Shortcode --"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:57
+msgid ""
+"The Shortcode Mapper allows you to preview plugin shortcode. You can choose "
+"your desired shortcode from the dropdown and check various parameters from "
+"left panel. \n"
+"\n"
+"You can paste shortocde to below and press Generate button to preview so "
+"each and every time you do not have to choose each parameters!!!"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:62
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:76
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:78
+msgid "Generate"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:79
+msgid "Full Preview Mode"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:83
+msgid "Copy or Paste Shortcode"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:86
+msgid "Preview Window"
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:86
+msgid ""
+"Preview will be displayed according to responsive layout mode. You can check "
+"with `Full Preview` mode for better visualization."
+msgstr ""
+
+#: includes/admin/shortcode-mapper/wpsisac-shortcode-mapper.php:96
+msgid ""
+"Note: Preview will be displayed according to responsive layout mode. Live "
+"preview may display differently when added to your page based on inheritance "
+"from some styles."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display slick in a slider view with various layouts."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "slick slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display slick in a carousel slider view with various layouts."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "slick carousel slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display slick in a variable slider view with various layouts."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "slick variable slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Post Slug"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Menu Order (Sort Order)"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Link Behavior"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Image Height"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Control height of the featured image. You can enter any numeric number. e.g "
+"500. Leave empty for default height."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Media size"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"Choose WordPress registered image size. e.g thumbnail, medium, large, full."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Dots"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Dots Design"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Choose dots pagination design."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Arrows"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Arrows Design"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Choose prev - next arrows design."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter autoplay interval speed."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Fade"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Slider Nav Column"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number of slide to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Order By"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Child Category"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid ""
+"If you are using parent category then whether to display child category or "
+"not."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Display Specific Posts"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Exclude Posts"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "WP Slick Slider and Image Carousel Pro - Slider"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Want to check live preview of this shortcode?"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Click here"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number for slide to show at a time."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number for slide to scroll at a time."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Center Mode"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Center Padding"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "WP Slick Slider and Image Carousel Pro - Carousel"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Variable Width"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Variable width of images in slider. By default value us \"false\"."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Center Width"
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "Enter number of blog post to be displayed. Enter -1 to display all."
+msgstr ""
+
+#: assets/js/blocks.build.js:1
+msgid "WP Slick Slider and Image Carousel Pro - Variable"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Slick Slider and Image Carousel Pro"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easy to add and display Slick image slider or carousel."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
