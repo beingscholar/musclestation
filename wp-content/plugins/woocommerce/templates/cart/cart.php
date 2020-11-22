@@ -17,6 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_before_cart' ); ?>
+<img style="width: 100%; margin-bottom: 20px" src="wp-content/uploads/2020/11/muscle-station-SHIPPING-BANNER-3-scaled.jpg" alt=""/>
 <div class="cart-page">
 <div class="cart-page-header">
 	<p>Shopping Cart</p>

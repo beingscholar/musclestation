@@ -920,7 +920,7 @@ ul.wpb_thumbnails-fluid > li {
 .elementor-text-editor .loc-teaser {
   font-size: 13px;
   line-height: 20px;
-  color: #6d6d71;
+  color: #000000;
 }
 
 /* .site-content-inner, .container{background:#e1e1e1;} */
@@ -1491,7 +1491,7 @@ img.desaturate:hover {
   vertical-align: -0.125em;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #aeaeae;
+  color: #000000;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -5339,7 +5339,7 @@ article.post .entry-content figure.gallery-item img {
 }
 
 #reviews .commentlist > li time {
-  color: #aeaeae;
+  color: #000000;
   font-size: 0.929em;
 }
 
@@ -5989,7 +5989,7 @@ div.quantity.buttons_added .plus {
 .vertical-menu .menu-item-has-children a[data-toggle="dropdown-hover"]::after,
 .vertical-menu .menu-item-has-children a[data-toggle="dropdown"]::after {
   content: "\62";
-  color: #aeaeae;
+  color: #000000;
   font-size: 1.214em;
   float: right;
 }
@@ -8956,7 +8956,7 @@ section.section-product-cards-carousel.electro-v1 header .owl-nav {
 }
 
 section.section-product-cards-carousel.electro-v1 header .owl-nav a {
-  color: #aeaeae;
+  color: #000000;
   font-size: 1.429em;
 }
 
@@ -9977,8 +9977,13 @@ section.section-posts-carousel .likes a:before {
   display: none;
 }
 
+.widget.woocommerce.widget_price_filter form {
+	padding: 0 10px;
+}
+
 .widget_layered_nav ul li {
 	display: flex;
+	padding: 0 10px;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -11457,7 +11462,7 @@ section header h1:after {
 .pings-list .comment-body .date a,
 .pings-list .comment-body .date a:focus,
 .pings-list .comment-body .date a:hover {
-  color: #aeaeae;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -19773,6 +19778,15 @@ margin: 11px 0 0 10px;
 .about-box--body {
 	padding: 20px;
 	background: #f0f0f0;
+	display: flex;
+    align-items: center;
+    
+}
+
+.about-box--body .pwb-before-loop {
+	margin-left: 15px;
+	width: 150px;
+	flex-shrink: 0;
 }
 
 .about-box--body p {
@@ -20533,12 +20547,19 @@ body .elementor-5356 .elementor-element > .elementor-widget-container {
 	border-left-color: #e31e31;
 }
 
-body #menu-footer-menu-3 li a {
-	position: relative;
-	/* padding-left: 20px; */
+body .elementor-widget-container .menu {
+	margin: 0;
+	padding: 0 5px;
+	list-style: none;
 }
 
-/* body #menu-footer-menu-3 li a:after {
+body .elementor-widget-container .menu li a {
+	position: relative;
+	padding-left: 20px;
+	color: #000000;
+}
+
+body .elementor-widget-container .menu li a:after {
 	content: '';
 	width: 8px;
 	height: 8px;
@@ -20548,11 +20569,15 @@ body #menu-footer-menu-3 li a {
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%) rotate(45deg);
-} */
+}
 
-/* body #menu-footer-menu-3 li a:hover:after {
+body .elementor-widget-container .menu li a:hover {
+	color: #e31e31;
+}
+
+body .elementor-widget-container .menu li a:hover:after {
 	border-color: #e31e31;
-} */
+}
 
 body .elementor .elementor-element.full-width-row .elementor-element {
 width: 100% !important;
@@ -20776,6 +20801,38 @@ body .cart-collaterals {
 	width: 70%;
 }
 
+.electro-price {
+	padding: 10px 0;
+}
+.electro-price .from-price {
+	color: #000000;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.product-loop-footer.product-item__footer .afterpay-payment-info {
+	display: none;
+}
+
+.electro-price .woocommerce-Price-amount.amount {
+	color: #ee1e11;
+	font-weight: 700;
+	font-size: 23px;
+}
+
+.electro-price .rrp-price {
+	font-weight: 600;
+	color: #000000;
+		font-size: 16px;
+		margin-top: 5px;
+}
+.electro-price .rrp-price + .woocommerce-Price-amount.amount {
+	text-decoration: line-through;
+	font-size: 16px;
+	color: #000000;
+	margin-top: 5px;
+	font-weight: 700;
+}
 .electro-price .from-price + .from-price {
 	display: none;
 }
@@ -20885,6 +20942,42 @@ body .cart-collaterals {
 	width: 100px;
 	margin-bottom: 10px;
  }
+
+ .widget.widget_pwb_filter_by_brand_widget ul {
+	margin: 0;
+	padding: 0 10px;
+ }
+
+ .widget.widget_pwb_filter_by_brand_widget ul li {
+	 margin: 0;
+ }
+
+ .widget.widget_pwb_filter_by_brand_widget ul li label {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-weight: normal;
+	color: #000;
+	line-height: 19px;
+	position: relative;
+ }
+
+ .widget.widget_pwb_filter_by_brand_widget ul li label input {
+	 display: none;
+ }
+
+ /* .widget.widget_pwb_filter_by_brand_widget ul li label:before {
+	content: "\f0c8";
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-variant: normal;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 300;
+	margin-right: 0.571em;
+	font-size: 20px;
+	line-height: 1;
+	color: #000000;
+ } */
 
 
 /* Responsive */

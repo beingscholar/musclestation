@@ -1237,10 +1237,10 @@ li.product .product-inner {
 	margin: auto
 }
 
-.owl-item>.product .price-add-to-cart,
+/* .owl-item>.product .price-add-to-cart,
 .products>.product .price-add-to-cart {
 	height: 2.571em
-}
+} */
 
 .owl-item>.product .price,
 .products>.product .price {

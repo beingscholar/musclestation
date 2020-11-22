@@ -122,7 +122,7 @@ if ( ! function_exists( 'electro_copyright_bar_v2' ) ) {
         <div class="copyright-bar">
             <div class="container">
                 <div class="wrap">
-									<div class="copyright"><?php echo wp_kses_post( $footer_copyright_text ); ?></div>
+									<div class="copyright"><?php echo wp_kses_post( $footer_copyright_text ); ?> | Site Developed and Managed by <a href="/"><strong>STechuniversal</strong></a></div>
 									<!-- <div class="payment"><?php echo wp_kses_post( $credit_card_icons ); ?></div> -->
 									<ul>
 										<li><a href="/">Privacy Policy</a></li>
