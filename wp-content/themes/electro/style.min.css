@@ -833,13 +833,13 @@ ul.wpb_thumbnails-fluid > li {
 
 .woocommerce-form.woocommerce-form-login.login  .woocommerce-button,
 .woocommerce-form.woocommerce-form-register.register  .woocommerce-button {
-	background-color: #333 !important;
+	background-color: #000 !important;
 	min-width: 196px;
 }
 
 .woocommerce-form.woocommerce-form-login.login .woocommerce-button:hover,
 .woocommerce-form.woocommerce-form-register.register .woocommerce-button:hover {
-	background-color: #000 !important;
+	background-color: #e31e31 !important;
 }
 
 .mega-menu-row .mega-sub-menu .mega-menu-column .mega-sub-menu .mega-menu-item .menu > li > a {
@@ -1141,6 +1141,10 @@ p.no-comments {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info {
+	display: block;
 }
 
 .woocommerce-error a,
@@ -4640,6 +4644,10 @@ table.cart .coupon .button {
   position: relative;
   white-space: pre;
   font-weight: 700;
+}
+
+table.cart .coupon .button:hover {
+	background-color: #e31e31;
 }
 
 @media (max-width: 767px) {
@@ -10838,7 +10846,7 @@ section header h1:after {
   border-right: 42px solid transparent !important;
   float: right;
   position: absolute;
-  right: -40px;
+  right: -42px;
   top: 0;
 }
 
@@ -12005,6 +12013,11 @@ body .woocommerce-checkout-review-order .button.alt:hover {
 .checkout_coupon .form-row-last .button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+
+.checkout_coupon .form-row-last .button:hover {
+	background-color: #e31e31;
 }
 
 @media (min-width: 1200px) {
@@ -19542,6 +19555,9 @@ display: block;
 
 .primary-footer .footer-top-section .connect-with-us .wrap ul li img {
 	display: block;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: #fff;
 }
 
 .primary-footer .footer-top-section .connect-with-us .wrap + .wrap {
@@ -20837,6 +20853,10 @@ body .cart-collaterals {
 	background: #35864a;
 }
 
+.woocommerce-mini-cart__buttons.buttons a:not(.checkout):hover {
+	background-color: #e31e31;
+}
+
 .primary-heading {
 	display: flex;
 	align-items: center;
@@ -20963,6 +20983,13 @@ body .wpsisac-image-fit img.wpsisac-slider-img {
 	font-size: 0;
 	/* font-weight: 700; */
 	/* position: relative; */
+}
+
+.pwb-carousel .slick-prev>span:hover, 
+.pwb-carousel .slick-next>span:hover, 
+.pwb-product-carousel .slick-prev>span:hover, 
+.pwb-product-carousel .slick-next>span:hover {
+	color: #e31e31;
 }
 
 .pwb-carousel .slick-prev>span::before,
