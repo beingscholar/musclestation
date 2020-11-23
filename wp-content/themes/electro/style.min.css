@@ -21116,10 +21116,21 @@ body .wpsisac-image-fit img.wpsisac-slider-img {
  body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide {
 	 height: 50px;
 	 border: none !important;
-	 /* width: auto !important; */
+	 width: auto !important;
+	 margin: 0;
+	 padding: 0 30px;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
+ }
+
+ body .wpsisac-slider-nav .slick-track .slick-slide + .slick-slide span:before {
+	content: '';
+	position: absolute;
+	border-left: 1px solid #c8c8c8;
+	top: 0;
+	left: -30px;
+	height: 100%;
  }
  body .wpsisac-slick .slick-arrow {
 	 width: 50px;
@@ -21127,8 +21138,8 @@ body .wpsisac-image-fit img.wpsisac-slider-img {
 
  body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide span {
 	font-weight: 700;
-	font-size: 13px;
-	line-height: 13px;
+	font-size: 16px;
+	line-height: 22.8571px;
 	color: #fff !important;
 		text-transform: uppercase;
 		position: relative;
