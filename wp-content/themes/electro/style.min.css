@@ -19711,7 +19711,9 @@ color: #fff;
 	line-height: 30px;
 	font-weight: 700;
 }
-
+body .wpsisac-slick-slider.wpsisac-prodesign-5 .wpsisac-slide-title {
+	display: none !important;
+}
 .del_updt_pop_mid .popup_mid_txt > div {
 	background: #fff;
 margin: 15px auto;
