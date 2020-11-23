@@ -11,7 +11,7 @@ defined('ABSPATH') or die('No script kiddies please!');
 <div class="pwb-filter-products<?php if ($hide_submit_btn) echo ' pwb-hide-submit-btn'; ?>" data-cat-url="<?php echo esc_url($cate_url); ?>">
   <ul>
     <?php foreach ($brands as $brand) : ?>
-      <li>
+      <li <?php echo $brand->slug === $_REQUEST['pwb-brand-filter'] ? "class='active'" : ""; ?>>
         <label>
           <input type="checkbox" data-brand="<?php echo esc_attr($brand->term_id); ?>" value="<?php echo esc_html($brand->slug); ?>"><?php echo esc_html($brand->name); ?>
         </label>
