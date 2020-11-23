@@ -19714,6 +19714,21 @@ color: #fff;
 body .wpsisac-slick-slider.wpsisac-prodesign-5 .wpsisac-slide-title {
 	display: none !important;
 }
+
+body .wpforms-confirmation-container-full, 
+body div[submit-success] > .wpforms-confirmation-container-full {
+	margin: 0;
+	padding: 8px 15px;
+}
+
+body .wpforms-confirmation-container-full, 
+body div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+	background: transparent;
+	border: 1px solid transparent;
+	color: #789e59;
+	font-weight: bold;
+	text-align: center;
+}
 .del_updt_pop_mid .popup_mid_txt > div {
 	background: #fff;
 margin: 15px auto;
