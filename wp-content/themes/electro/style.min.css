@@ -20914,6 +20914,15 @@ body .cart-collaterals {
 	display: none;
 }
 
+body .wpsisac-slick-slider.wpsisac-image-fit .wpsisac-img-wrap {
+	height: auto;
+}
+
+body .wpsisac-image-fit img.wpsisac-slider-img {
+	object-fit: contain;
+	display: block;
+}
+
 .pwb-carousel .slick-prev, 
 .pwb-carousel .slick-next, 
 .pwb-product-carousel .slick-prev, 
