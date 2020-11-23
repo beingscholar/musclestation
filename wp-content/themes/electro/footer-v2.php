@@ -42,9 +42,9 @@
 				<div class="wrap">
 					<h3>Connect with us</h3>
 					<ul>
-						<li><a target="_blank" href="https://www.facebook.com/musclestationsupplement"><img width="40" height="40" src="wp-content/uploads/2020/11/fb-contact.png" alt=""></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/musclestationsupplements/"><img width="40" height="40" src="wp-content/uploads/2020/11/ig-logo.png" alt=""></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"><img width="40" height="40" src="wp-content/uploads/2020/11/yt.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/musclestationsupplement"><img width="40" height="40" src="/wp-content/uploads/2020/11/fb-contact.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/musclestationsupplements/"><img width="40" height="40" src="/wp-content/uploads/2020/11/ig-logo.png" alt=""></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"><img width="40" height="40" src="/wp-content/uploads/2020/11/yt.png" alt=""></a></li>
 					</ul>
 				</div>
 
