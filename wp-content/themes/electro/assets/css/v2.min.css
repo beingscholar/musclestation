@@ -4061,13 +4061,13 @@ body.page-template-template-page-sidebar-left .sidebar-blog {
 	}
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
 	body.woocommerce-lost-password .content-area {
 		flex: 0 0 66.6666666667%;
 		max-width: 66.6666666667%;
 		margin-left: 16.6666666667%
 	}
-}
+} */
 
 @media (min-width:1480px) {
 	.electro-wide .container,

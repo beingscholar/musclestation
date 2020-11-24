@@ -345,8 +345,8 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
   color: #fff;
-  background-color: #000;
-  border-color: #000;
+  background-color: #e31e31;
+  border-color: #e31e31;
 }
 
 .btn.focus,
@@ -12925,10 +12925,10 @@ label[for="rememberme"] {
   margin-left: 0.75em;
 }
 
-.woocommerce-account .woocommerce {
+/* .woocommerce-account .woocommerce {
   margin-left: -0.9375rem;
   margin-right: -0.9375rem;
-}
+} */
 
 .woocommerce-account .woocommerce::after {
   content: "";
@@ -16876,11 +16876,12 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 	height: 40px !important;
 	padding: 0 !important;
 	text-align: center;
+	background-color: #000 !important;
 	border-radius: 4px !important;
 }
 
-.enquiry-form button:not(:hover) {
-	background-color: #333 !important;
+.enquiry-form button:hover {
+	background-color: #e31e31 !important;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
@@ -19721,6 +19722,12 @@ body div[submit-success] > .wpforms-confirmation-container-full {
 	padding: 8px 15px;
 }
 
+body .elementor-widget-text-editor {
+	color: #000;
+}
+body .elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
+	font-size: 14px;
+}
 body .wpforms-confirmation-container-full, 
 body div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
 	background: transparent;
