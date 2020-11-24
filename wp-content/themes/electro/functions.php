@@ -203,7 +203,7 @@ function check_if_logged_in() {
     if(!is_user_logged_in() && is_page($pageid)) {
         $url = add_query_arg(
             'redirect_to',
-            get_permalink($pagid),
+            get_permalink($pageid),
             site_url('/my-account/') // your my acount url
         );
         echo $url;
