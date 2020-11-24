@@ -200,14 +200,12 @@ add_action('template_redirect','check_if_logged_in');
 function check_if_logged_in() {
     $pageid = get_option( 'woocommerce_checkout_page_id' );
     if(!is_user_logged_in() && is_page($pageid)) {
-        $pagid = 3854;
         $url = add_query_arg(
             'redirect_to',
             get_permalink($pagid),
-            site_url('my-account/') // your my acount url
+            site_url('/my-account/') // your my acount url
         );
-        // echo "<br>".$url;
-        // wp_redirect($url);
+        wp_redirect($url);
         exit;
     }
     if(is_user_logged_in()) {
