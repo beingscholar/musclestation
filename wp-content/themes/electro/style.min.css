@@ -19726,7 +19726,7 @@ body .elementor-widget-text-editor {
 	color: #000;
 }
 body .elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
-	font-size: 14px;
+	font-size: 14px !important;
 }
 body .wpforms-confirmation-container-full, 
 body div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
