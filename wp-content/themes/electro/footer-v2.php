@@ -24,18 +24,18 @@
 			<div class="customer-service">
 				<h3>Customer <span>Service</span></h3>
 				<ul class="with-icons">
-					<li class="contact-link"><a target="_blank" href="/contact">Contact</a></li>
-					<li class="checkout-link"><a target="_blank" href="/checkout">Cart</a></li>
-					<li class="rewards-icon-footer"><a target="_blank" href="/my-account">My Account</a></li>
-					<!-- <li class="gift-card-footer"><a target="_blank" href="my-account">My Account</a></li> -->
+					<li class="contact-link"><a href="/contact">Contact</a></li>
+					<li class="checkout-link"><a href="/checkout">Cart</a></li>
+					<li class="rewards-icon-footer"><a href="/my-account">My Account</a></li>
+					<!-- <li class="gift-card-footer"><a href="my-account">My Account</a></li> -->
 				</ul>
 
 				<ul>
-					<li><a target="_blank" href="/faq">FAQs</a></li>
-					<li><a target="_blank" href="/my-account">Login</a></li>
-					<li><a target="_blank" href="/track-your-order">Track Your Order</a></li>
-					<li><a target="_blank" href="/customer-service">Customer Service</a></li>
-					<li><a target="_blank" href="/about">About Us</a></li>
+					<li><a href="/faq">FAQs</a></li>
+					<li><a href="/my-account">Login</a></li>
+					<li><a href="/track-your-order">Track Your Order</a></li>
+					<li><a href="/customer-service">Customer Service</a></li>
+					<li><a href="/about">About Us</a></li>
 				</ul>
 			</div>
 			<div class="connect-with-us">
