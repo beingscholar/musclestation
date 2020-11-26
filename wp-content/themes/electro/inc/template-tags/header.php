@@ -81,6 +81,9 @@ if ( ! function_exists( 'electro_compare_header_icon' ) ) {
         if( function_exists( 'electro_get_compare_page_url' ) ) :
             global $yith_woocompare;
             $header_tooltip_placement = apply_filters( 'electro_header_tooltip_placement', 'bottom' );
+            /* echo "<pre>";
+            print_r(electro_get_compare_page_url());
+            echo "</pre>"; */
         ?><div class="header-icon" <?php if ( $header_tooltip_placement ) : ?>data-toggle="tooltip" data-placement="<?php echo esc_attr( $header_tooltip_placement ); ?>" data-title="<?php echo esc_attr( esc_html__( 'Compare', 'electro' ) ); ?>"<?php endif; ?>>
             <a href="<?php echo esc_attr( electro_get_compare_page_url() ); ?>">
                 <i class="<?php echo esc_attr( apply_filters( 'electro_compare_icon', 'ec ec-compare' ) ); ?>"></i>

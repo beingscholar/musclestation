@@ -842,7 +842,7 @@ if ( ! function_exists( 'electro_get_savings_on_sale' ) ) {
 
         } elseif ( 'percentage' === $in ) {
 
-            $savings = '<span class="percentage">' . round( ( ( $regular_price - $sale_price ) / $regular_price ) * 100 ) . '% off</span>';
+            $savings = '<span class="percentage">' . round( ( ( $regular_price - $sale_price ) / $regular_price ) * 100 ) . '% OFF</span>';
         }
 
         return $savings;
