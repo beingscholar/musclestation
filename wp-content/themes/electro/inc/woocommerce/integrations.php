@@ -146,6 +146,7 @@ if( is_yith_woocompare_activated() ) {
 		 * @return string
 		 */
 		function electro_get_compare_page_url() {
+			// $compare_page_id = electro_get_compare_page_id();
 			$compare_page_id = 2917;
 			$compare_page_url = '#';
 
