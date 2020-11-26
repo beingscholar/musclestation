@@ -196,7 +196,7 @@ function vna_is_purchasable( $purchasable, $product ){
     return true || false; // depending on your condition
 }
 
-add_action('template_redirect','check_if_logged_in');
+/* add_action('template_redirect','check_if_logged_in');
 function check_if_logged_in() {
     $pageid = get_option( 'woocommerce_checkout_page_id' );
     if(!is_user_logged_in() && is_page($pageid)) {
@@ -218,4 +218,4 @@ function check_if_logged_in() {
     
         }
     }
-}
+} */
