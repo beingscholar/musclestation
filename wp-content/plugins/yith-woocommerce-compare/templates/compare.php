@@ -218,7 +218,7 @@ $localized_table_text = apply_filters('wpml_translate_single_string', $table_tex
 
             var t = $('table.compare-list');
 
-            if (typeof $.fn.DataTable != 'undefined' && typeof $.fn.imagesLoaded != 'undefined' && $(window).width() > 767) {
+            if (typeof $.fn.DataTable != 'undefined' && typeof $.fn.imagesLoaded != 'undefined' ) {
                 t.imagesLoaded(function () {
                     oTable = t.DataTable({
                         'info': false,
