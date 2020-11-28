@@ -155,18 +155,17 @@ class WC_Product_Variable extends WC_Product {
 			$max_price     = end( $prices['price'] );
 			$min_reg_price = current( $prices['regular_price'] );
 			$max_reg_price = end( $prices['regular_price'] );
-
 			if ( $min_price !== $max_price ) {
-				$price = wc_format_price_range( $min_price, $max_price );
+				$price = wc_format_sale_price( wc_price($min_reg_price), wc_price($min_price) );
 			} elseif ( $this->is_on_sale() && $min_reg_price === $max_reg_price ) {
 				$price = wc_format_sale_price( wc_price( $max_reg_price ), wc_price( $min_price ) );
 			} else {
 				$price = wc_price( $min_price );
 			}
-
+			
 			$price = apply_filters( 'woocommerce_variable_price_html', $price . $this->get_price_suffix(), $this );
 		}
-
+		// echo '<pre>'; print_r($price); echo '</pre>';
 		return apply_filters( 'woocommerce_get_price_html', $price, $this );
 	}
 

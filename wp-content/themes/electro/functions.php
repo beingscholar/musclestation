@@ -97,47 +97,48 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
 }
 
 //Remove Price Range
-add_filter('woocommerce_variable_sale_price_html', 'detect_variation_price_format', 10, 2);
-add_filter('woocommerce_variable_price_html', 'detect_variation_price_format', 10, 2);
+add_filter( 'woocommerce_variable_sale_price_html', 'my_variation_price_format', 10, 2 );
+add_filter( 'woocommerce_variable_price_html', 'detect_variation_price_format', 10, 2 );
 function detect_variation_price_format($price, $product) {
-
-   // Main Price
-   $prices = array($product->get_variation_price('min', true), $product->get_variation_price('max', true));
-   /* echo '<pre>';
-   print_r($prices[0]);
-   echo '</pre>'; */
-   if ($prices[0] !== $prices[1] && is_product()) {
-      $price = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
-   }
     // Main Price
-    /* $prices = array($product->get_variation_price('min', true), $product->get_variation_price('max', true));
-    if ($prices[0] !== $prices[1]) {
+    $prices = array(
+        $product->get_variation_regular_price('min', true), 
+        $product->get_variation_regular_price('max', true)
+    );
+    sort($prices);
+    /* if ($prices[0] !== $prices[1] && is_product()) {
         $price = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
     } */
+
     // Sale Price
-    $prices = array($product->get_variation_regular_price('min', true), $product->get_variation_regular_price('max', true));
+    $prices = array(
+        $product->get_variation_price('min', true), 
+        $product->get_variation_price('max', true)
+    );
     sort($prices);
     $saleprice = $prices[0] !== $prices[1] ? sprintf(__('', 'woocommerce'), wc_price($prices[0])) : wc_price($prices[0]);
+    // echo '<pre>'; print_r($price); echo '</pre>';
     if ($price !== $saleprice) {
         $price = '<ins>' . $price . '</ins>';
     }
     return $price;
 }
+
 //Move Variations price above variations to have the same template even if variations prices are the same
 remove_action('woocommerce_single_variation', 'woocommerce_single_variation', 10);
 add_action('woocommerce_before_variations_form', 'woocommerce_single_variation', 10);
 
 function bd_rrp_sale_price_html( $price, $product ) {
-   if ( $product->is_on_sale() && $price) {
-      $has_sale_text = array(
-         '<ins>' => '<span class="from-price">From: </span> ',
-         '<del>' => '<br/><span class="rrp-price">RRP: </span>'
-      );
-      $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
-   } else {
-      $return_string = 'RRP: ' . $price;
-   }
-   return $return_string;
+    if ( $product->is_on_sale() && $price) {
+        $has_sale_text = array(
+            '<ins>' => '<span class="from-price">From: </span> ',
+            '<del>' => '<br/><span class="rrp-price">RRP: </span>'
+        );
+        $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
+    } else {
+        $return_string = 'RRP: ' . $price;
+    }
+    return $return_string;
 }
 add_filter( 'woocommerce_get_price_html', 'bd_rrp_sale_price_html', 100, 2 );
 
@@ -189,8 +190,9 @@ function get_variation_stock_status($product, $name, $term_slug) {
         }
     }
     if($name !== 'attribute_pa_size')
-      return $stock_qty == 0 ? ' (Out Of Stock)' : ' ' . $stock_qty . ' (In Stock)';
+        return $stock_qty == 0 ? ' (Out Of Stock)' : ' ' . $stock_qty . ' (In Stock)';
 }
+
 add_filter('woocommerce_is_purchasable', 'vna_is_purchasable', 10, 2);
 function vna_is_purchasable( $purchasable, $product ){
     return true || false; // depending on your condition
