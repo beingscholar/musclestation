@@ -21826,3 +21826,142 @@ ul.products[data-view=list-view].columns-8>li.product .product-inner .product-lo
 		font-size: 10px;
 	}
 }
+
+
+
+/*================================================ custom style =============================================*/
+/*empty-cart*/
+.cart-empty.woocommerce-info {
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: red;
+    font-weight: 500;
+    border: 0;
+}
+/*wishlist*/
+table.cart thead th {
+  font-size: 1.2em;
+    line-height: 1.714em;
+    color: #000000;
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+.show-title-form {
+  max-height: 10px;
+  max-width: 10px;
+  margin-left: 15px;
+  background-color: #d5d5d5;
+  color: red;
+  font-size: 22px;
+  width: 10px;
+  padding: 0 24px;
+}
+.wishlist-title.wishlist-title-with-form {
+  display: flex;
+  justify-content: center;
+}
+.wishlist_table .product-remove {
+  display: none;
+}
+.wishlist_table td.product-name {
+  width: 30%;
+}
+.hide-title-form.btn.button i {
+  display: none;
+}
+.wishlist_table .dateadded {
+  font-size: 16px;
+    margin-right: 15px;
+}
+/*compare*/
+.table-compare tbody tr th {
+  width: 10%;
+}
+.table-compare .product-title {
+  color: #000;
+}
+.table-compare .product-title:hover {
+  color: #e31e31;
+}
+.table-compare tbody tr:nth-child(3) td {
+  font-weight: 700;
+}
+.table-compare a.remove-icon i {
+  display: none;
+}
+.table-compare a.remove-icon:before {
+  content: 'Remove';
+}
+.table-compare a.remove-icon {
+  font-weight: 600;
+}
+.table-compare a.remove-icon:hover {
+  color: #e31e31;
+}
+/*product desc*/
+.woocommerce-product-details__short-description {
+  display: none;
+}
+/*post*/
+.post.type-post .media-attachment {
+  margin-bottom: 30px;
+  width: auto;
+}
+.electro_recent_posts_widget ul > li .post-content > a {
+  color: #434343;
+  display: block;
+  font-weight: 600;
+}
+.electro_recent_posts_widget ul > li .post-content > a:hover {
+  color: #e31e31;
+}
+/*404*/
+.info-404 .useful-links {
+  display:none;
+}
+.info-404 h2.display-3 {
+  color: red;
+  font-weight: 600;
+}
+.info-404 p.lead {
+  font-weight: 500;
+}
+/*buy 1 get 1*/
+.pisol-variation-handler.pisol-hidden:first-child {
+  display: block !important;
+}
+.pi-msg-container:first-child {
+  display: block !important;
+}
+.pi-msg-container {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 0px auto;
+  padding: 0 0 10px 0;
+}
+.pi-msg-title {
+  padding: 10px;
+  font-size: 22px;
+  border: 2px dashed #5cb85c;
+  color: green;
+  background: transparent;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.pi-msg-title::before {
+  content: '\f02b';
+  font: normal normal normal 20px/1 FontAwesome;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

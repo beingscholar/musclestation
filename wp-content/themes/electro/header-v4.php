@@ -32,6 +32,12 @@
 		do_action( 'electro_before_header' ); ?>
 
 		<header id="masthead" class="site-header stick-this header-v4">
+		<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=musclestation.com.au','SiteLock','width=600,height=600,left=160,top=170');" style="
+    position: fixed;
+    bottom: 72px;
+    z-index: 1001;
+    right: 20px;
+"><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/musclestation.com.au"></a>
 		<div class="topbar_head">
 				<div class="container">
 					<div class="marquee">
