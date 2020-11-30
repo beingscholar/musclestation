@@ -21830,6 +21830,33 @@ ul.products[data-view=list-view].columns-8>li.product .product-inner .product-lo
 
 
 /*================================================ custom style =============================================*/
+/*checkout page*/
+.status-publish .woocommerce-form-login-toggle .woocommerce-info {
+  background-color: #e31e31;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+}
+.status-publish .woocommerce-form-login-toggle .woocommerce-info .showlogin {
+  margin-left: 5px;
+}
+.form-row.form-row-wide.create-account {
+  font-size: 20px;
+    margin-bottom: 10px;
+    color: #e31e31;
+}
+.form-row.form-row-wide.create-account .input-checkbox {
+  width: 20px;
+    height: 17px;
+}
+/*cart count*/
+.header-icon .cart-items-count {
+  font-size: .75em;
+  top: 20px;
+  height: 20px;
+}
 /*empty-cart*/
 .cart-empty.woocommerce-info {
   text-align: center;
