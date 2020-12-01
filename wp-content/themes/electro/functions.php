@@ -232,6 +232,7 @@ function add_custom_discount_2nd_at_50($wc_cart) {
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
             'fields' => 'all'
         )));
+        $pa_name = (string) $pdeals->name;
         $pa_slug = (string) $pdeals->slug;
         if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_50') {
             $qty = (int) $cart_item['quantity'];
@@ -246,12 +247,12 @@ function add_custom_discount_2nd_at_50($wc_cart) {
         }
     }
     if ($discount !== 0) {
-        $wc_cart->add_fee('Buy 1 Get 1 50% OFF', $discount, true);
+        $wc_cart->add_fee($pa_name, $discount, true);
     }
     if (!empty($product_names)) {
         wc_clear_notices();
         if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add one more to get 50%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            wc_add_notice(sprintf(__("Add One More to Get 50%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
         }
     }
 }
@@ -268,6 +269,7 @@ function add_custom_discount_2nd_at_40($wc_cart) {
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
             'fields' => 'all'
         )));
+        $pa_name = (string) $pdeals->name;
         $pa_slug = (string) $pdeals->slug;
         if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_40') {
             $qty = (int) $cart_item['quantity'];
@@ -282,12 +284,12 @@ function add_custom_discount_2nd_at_40($wc_cart) {
         }
     }
     if ($discount !== 0) {
-        $wc_cart->add_fee('Buy 1 Get 1 40% OFF', $discount, true);
+        $wc_cart->add_fee($pa_name, $discount, true);
     }
     if (!empty($product_names)) {
         wc_clear_notices();
         if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add one more to get 40%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            wc_add_notice(sprintf(__("Add One More to Get 40%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
         }
     }
 }
@@ -304,6 +306,7 @@ function add_custom_discount_2nd_at_30($wc_cart) {
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
             'fields' => 'all'
         )));
+        $pa_name = (string) $pdeals->name;
         $pa_slug = (string) $pdeals->slug;
         if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_30') {
             $qty = (int) $cart_item['quantity'];
@@ -318,12 +321,12 @@ function add_custom_discount_2nd_at_30($wc_cart) {
         }
     }
     if ($discount !== 0) {
-        $wc_cart->add_fee('Buy 1 Get 1 30% OFF', $discount, true);
+        $wc_cart->add_fee($pa_name, $discount, true);
     }
     if (!empty($product_names)) {
         wc_clear_notices();
         if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add one more to get 30%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            wc_add_notice(sprintf(__("Add One More to Get 30%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
         }
     }
 }
@@ -340,6 +343,7 @@ function add_custom_discount_2nd_at_20($wc_cart) {
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
             'fields' => 'all'
         )));
+        $pa_name = (string) $pdeals->name;
         $pa_slug = (string) $pdeals->slug;
         if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_20') {
             $qty = (int) $cart_item['quantity'];
@@ -354,12 +358,12 @@ function add_custom_discount_2nd_at_20($wc_cart) {
         }
     }
     if ($discount !== 0) {
-        $wc_cart->add_fee('Buy 1 Get 1 20% OFF', $discount, true);
+        $wc_cart->add_fee($pa_name, $discount, true);
     }
     if (!empty($product_names)) {
         wc_clear_notices();
         if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add one more to get 20%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            wc_add_notice(sprintf(__("Add One More to Get 20%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
         }
     }
 }
@@ -376,6 +380,7 @@ function add_custom_discount_2nd_at_10($wc_cart) {
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
             'fields' => 'all'
         )));
+        $pa_name = (string) $pdeals->name;
         $pa_slug = (string) $pdeals->slug;
         if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_10') {
             $qty = (int) $cart_item['quantity'];
@@ -390,12 +395,12 @@ function add_custom_discount_2nd_at_10($wc_cart) {
         }
     }
     if ($discount !== 0) {
-        $wc_cart->add_fee('Buy 1 Get 1 10% OFF', $discount, true);
+        $wc_cart->add_fee($pa_name, $discount, true);
     }
     if (!empty($product_names)) {
         wc_clear_notices();
         if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add one more to get 10%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            wc_add_notice(sprintf(__("Add One More to Get 10%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
         }
     }
 }
