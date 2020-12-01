@@ -38,7 +38,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 			<?php if ( $can_user_edit_title ) : ?>
 				<a class="btn button show-title-form">
 					<?php echo apply_filters( 'yith_wcwl_edit_title_icon', '<i class="fa fa-pencil"></i>' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-					<?php esc_html_e( 'Edit title', 'yith-woocommerce-wishlist' ); ?>
+					<?php //esc_html_e( 'Edit title', 'yith-woocommerce-wishlist' ); ?>
 				</a>
 			<?php endif; ?>
 		</div>

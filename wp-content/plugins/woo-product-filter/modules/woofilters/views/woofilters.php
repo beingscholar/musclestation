@@ -2540,7 +2540,7 @@ class WoofiltersViewWpf extends ViewWpf {
 						$img = '<div class="wpfFilterTaxImgWrapper">' . $img . '</div>';
 					}
 
-					$displayName = '<' . $titleTag . ' class="wpfFilterTaxNameWrapper">' . $displayName . '</' . $titleTag . '>';
+					$displayName = '<' . $titleTag . ' class="wpfFilterTaxNameWrapper">' . ucwords(strtolower($displayName)) . '</' . $titleTag . '>';
 
 					$html .= '<span class="wpfValue">' . $img . $displayName . '</span>';
 
