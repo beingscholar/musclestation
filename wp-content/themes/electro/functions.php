@@ -219,3 +219,193 @@ function check_if_logged_in() {
         }
     }
 } */
+
+add_action('woocommerce_cart_calculate_fees', 'add_custom_discount_2nd_at_50', 10, 1);
+function add_custom_discount_2nd_at_50($wc_cart) {
+    if (is_admin() && !defined('DOING_AJAX'))
+        return;
+    $discount     = 0;
+    $items_prices = array();
+    $qty_notice   = 0;
+    foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
+        $product = wc_get_product($cart_item['data']->get_id());
+        $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
+            'fields' => 'all'
+        )));
+        $pa_slug = (string) $pdeals->slug;
+        if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_50') {
+            $qty = (int) $cart_item['quantity'];
+            $qty_notice += intval($cart_item['quantity']);
+            $price = (float) $cart_item['data']->get_price();
+            $name  = (string) $cart_item['data']->get_name();
+            if ($qty > 1) {
+                $discount -= number_format(($price * 50) / 100, 2);
+            } elseif ($qty = 1) {
+                $product_names[] = $name;
+            }
+        }
+    }
+    if ($discount !== 0) {
+        $wc_cart->add_fee('Buy 1 Get 1 50% OFF', $discount, true);
+    }
+    if (!empty($product_names)) {
+        wc_clear_notices();
+        if (!is_checkout()) {
+            wc_add_notice(sprintf(__("Add one more to get 50%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        }
+    }
+}
+
+add_action('woocommerce_cart_calculate_fees', 'add_custom_discount_2nd_at_40', 10, 2);
+function add_custom_discount_2nd_at_40($wc_cart) {
+    if (is_admin() && !defined('DOING_AJAX'))
+        return;
+    $discount     = 0;
+    $items_prices = array();
+    $qty_notice   = 0;
+    foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
+        $product = wc_get_product($cart_item['data']->get_id());
+        $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
+            'fields' => 'all'
+        )));
+        $pa_slug = (string) $pdeals->slug;
+        if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_40') {
+            $qty = (int) $cart_item['quantity'];
+            $qty_notice += intval($cart_item['quantity']);
+            $price = (float) $cart_item['data']->get_price();
+            $name  = (string) $cart_item['data']->get_name();
+            if ($qty > 1) {
+                $discount -= number_format(($price * 40) / 100, 2);
+            } elseif ($qty = 1) {
+                $product_names[] = $name;
+            }
+        }
+    }
+    if ($discount !== 0) {
+        $wc_cart->add_fee('Buy 1 Get 1 40% OFF', $discount, true);
+    }
+    if (!empty($product_names)) {
+        wc_clear_notices();
+        if (!is_checkout()) {
+            wc_add_notice(sprintf(__("Add one more to get 40%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        }
+    }
+}
+
+add_action('woocommerce_cart_calculate_fees', 'add_custom_discount_2nd_at_30', 10, 3);
+function add_custom_discount_2nd_at_30($wc_cart) {
+    if (is_admin() && !defined('DOING_AJAX'))
+        return;
+    $discount     = 0;
+    $items_prices = array();
+    $qty_notice   = 0;
+    foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
+        $product = wc_get_product($cart_item['data']->get_id());
+        $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
+            'fields' => 'all'
+        )));
+        $pa_slug = (string) $pdeals->slug;
+        if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_30') {
+            $qty = (int) $cart_item['quantity'];
+            $qty_notice += intval($cart_item['quantity']);
+            $price = (float) $cart_item['data']->get_price();
+            $name  = (string) $cart_item['data']->get_name();
+            if ($qty > 1) {
+                $discount -= number_format(($price * 30) / 100, 2);
+            } elseif ($qty = 1) {
+                $product_names[] = $name;
+            }
+        }
+    }
+    if ($discount !== 0) {
+        $wc_cart->add_fee('Buy 1 Get 1 30% OFF', $discount, true);
+    }
+    if (!empty($product_names)) {
+        wc_clear_notices();
+        if (!is_checkout()) {
+            wc_add_notice(sprintf(__("Add one more to get 30%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        }
+    }
+}
+
+add_action('woocommerce_cart_calculate_fees', 'add_custom_discount_2nd_at_20', 10, 4);
+function add_custom_discount_2nd_at_20($wc_cart) {
+    if (is_admin() && !defined('DOING_AJAX'))
+        return;
+    $discount     = 0;
+    $items_prices = array();
+    $qty_notice   = 0;
+    foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
+        $product = wc_get_product($cart_item['data']->get_id());
+        $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
+            'fields' => 'all'
+        )));
+        $pa_slug = (string) $pdeals->slug;
+        if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_20') {
+            $qty = (int) $cart_item['quantity'];
+            $qty_notice += intval($cart_item['quantity']);
+            $price = (float) $cart_item['data']->get_price();
+            $name  = (string) $cart_item['data']->get_name();
+            if ($qty > 1) {
+                $discount -= number_format(($price * 20) / 100, 2);
+            } elseif ($qty = 1) {
+                $product_names[] = $name;
+            }
+        }
+    }
+    if ($discount !== 0) {
+        $wc_cart->add_fee('Buy 1 Get 1 20% OFF', $discount, true);
+    }
+    if (!empty($product_names)) {
+        wc_clear_notices();
+        if (!is_checkout()) {
+            wc_add_notice(sprintf(__("Add one more to get 20%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        }
+    }
+}
+
+add_action('woocommerce_cart_calculate_fees', 'add_custom_discount_2nd_at_10', 10, 5);
+function add_custom_discount_2nd_at_10($wc_cart) {
+    if (is_admin() && !defined('DOING_AJAX'))
+        return;
+    $discount     = 0;
+    $items_prices = array();
+    $qty_notice   = 0;
+    foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
+        $product = wc_get_product($cart_item['data']->get_id());
+        $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
+            'fields' => 'all'
+        )));
+        $pa_slug = (string) $pdeals->slug;
+        if ($cart_item['product_id'] === $product->id && $pa_slug === 'buy_10') {
+            $qty = (int) $cart_item['quantity'];
+            $qty_notice += intval($cart_item['quantity']);
+            $price = (float) $cart_item['data']->get_price();
+            $name  = (string) $cart_item['data']->get_name();
+            if ($qty > 1) {
+                $discount -= number_format(($price * 10) / 100, 2);
+            } elseif ($qty = 1) {
+                $product_names[] = $name;
+            }
+        }
+    }
+    if ($discount !== 0) {
+        $wc_cart->add_fee('Buy 1 Get 1 10% OFF', $discount, true);
+    }
+    if (!empty($product_names)) {
+        wc_clear_notices();
+        if (!is_checkout()) {
+            wc_add_notice(sprintf(__("Add one more to get 10%% off on the 2nd item for <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        }
+    }
+}
+
+add_action('woocommerce_single_product_summary', 'pa_insertAfterShopProductTitle',15);
+add_action('woocommerce_after_shop_loop_item_title', 'pa_insertAfterShopProductTitle', 130);
+function pa_insertAfterShopProductTitle() {
+    global $product;
+    $pdeals = array_shift( wc_get_product_terms( $product->id, 'pa_deals', array( 'fields' => 'names' ) ) );
+    if (empty($pdeals))
+        return;
+    echo '<div class="show-deals">'.$pdeals.'</div>';
+}

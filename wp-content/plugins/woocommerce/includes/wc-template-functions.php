@@ -1289,7 +1289,6 @@ if ( ! function_exists( 'woocommerce_template_loop_add_to_cart' ) ) {
 	 */
 	function woocommerce_template_loop_add_to_cart( $args = array() ) {
 		global $product;
-
 		if ( $product ) {
 			$defaults = array(
 				'quantity'   => 1,
@@ -1412,12 +1411,12 @@ if ( ! function_exists( 'woocommerce_catalog_ordering' ) ) {
 		$catalog_orderby_options = apply_filters(
 			'woocommerce_catalog_orderby',
 			array(
-				'menu_order' => __( 'Default sorting', 'woocommerce' ),
-				'popularity' => __( 'Sort by popularity', 'woocommerce' ),
-				'rating'     => __( 'Sort by average rating', 'woocommerce' ),
-				'date'       => __( 'Sort by latest', 'woocommerce' ),
-				'price'      => __( 'Sort by price: low to high', 'woocommerce' ),
-				'price-desc' => __( 'Sort by price: high to low', 'woocommerce' ),
+				'menu_order' => __( 'Default Sorting', 'woocommerce' ),
+				'popularity' => __( 'Sort by Popularity', 'woocommerce' ),
+				//'rating'     => __( 'Sort by Average Rating', 'woocommerce' ),
+				'date'       => __( 'Sort by Latest', 'woocommerce' ),
+				'price'      => __( 'Sort by Price', 'woocommerce' ),
+				// 'price-desc' => __( 'Sort by price: high to low', 'woocommerce' ),
 			)
 		);
 
