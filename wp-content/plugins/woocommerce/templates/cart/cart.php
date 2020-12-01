@@ -86,6 +86,17 @@ do_action( 'woocommerce_before_cart' ); ?>
 						}
 						?>
 						</p>
+						<?php
+						$pa_deals  = array_shift(wc_get_product_terms($product_id, 'pa_deals', array('fields' => 'all')));
+						if($pa_deals->name && $pa_deals->slug) {
+							$pa_slug = explode( "_", $pa_deals->slug );
+							if ((int) $cart_item['quantity'] === 1) {
+								echo "<div class='show-deal'>Add One More to Get $pa_slug[1]% OFF On the 2nd Item</div>";
+							} else {
+								echo '<div class="show-deal"><span>"'.$pa_deals->name.'"</span> Deal Applied</div>';
+							}
+						}
+						?>
 						</td>
 
 						<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
