@@ -17,7 +17,7 @@ defined('ABSPATH') or die('No script kiddies please!');
       <ul class="pwb-clearfix">
 
         <?php foreach ($grouped_brands as $letter => $brand_group) : ?>
-          <li><a href="#pwb-az-listing-<?php echo esc_attr($letter); ?>"><?php echo esc_html($letter); ?></a></li>
+          <li><a href="#<?php echo esc_attr($letter); ?>"><?php echo esc_html($letter); ?></a></li>
         <?php endforeach; ?>
 
       </ul>
@@ -28,7 +28,7 @@ defined('ABSPATH') or die('No script kiddies please!');
 
       <?php foreach ($grouped_brands as $letter => $brand_group) : ?>
 
-        <div id="pwb-az-listing-<?php echo esc_attr($letter); ?>" class="pwb-az-listing-row pwb-clearfix">
+        <div id="<?php echo esc_attr($letter); ?>" class="pwb-az-listing-row pwb-clearfix">
           <p class="pwb-az-listing-title"><?php echo esc_attr($letter); ?></p>
           <div class="pwb-az-listing-row-in">
 
