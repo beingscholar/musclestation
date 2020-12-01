@@ -32,11 +32,18 @@ defined('ABSPATH') or die('No script kiddies please!');
           <p class="pwb-az-listing-title"><?php echo esc_attr($letter); ?></p>
           <div class="pwb-az-listing-row-in">
 
-            <?php foreach ($brand_group as $brand) : ?>
+            <?php foreach ($brand_group as $brand) : 
+              $brand_banner = get_term_meta($brand['brand_term']->term_id, 'pwb_brand_banner', true);
+              $attachment_html = wp_get_attachment_image($brand_banner, 'full', false);
+              ?>
 
               <div class="pwb-az-listing-col">
                 <a href="<?php echo get_term_link($brand['brand_term']->term_id); ?>">
-                  <?php echo esc_html($brand['brand_term']->name); ?>
+                  <?php 
+                  echo $attachment_html;
+                  // esc_html($brand['brand_term']->name); 
+                  ?>
+                  
                 </a>
               </div>
 
