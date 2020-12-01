@@ -60,11 +60,12 @@ if ( ! defined( 'ABSPATH' ) ) {
                 $image_size = $image_size_selected;
               }
   
-              $attachment_html = wp_get_attachment_image($attachment_id, $image_size);
+              // $attachment_html = wp_get_attachment_image($attachment_id, $image_size);
+              $attachment_html = wp_get_attachment_image($brand_banner, 'full', false);
   
               if (!empty($attachment_html) && $show_as == 'brand_image' || !empty($attachment_html) && !$show_as) {
-                // echo '<a href="' . $brand_link . '" title="' . $brand->name . '">' . $attachment_html . '</a>';
-                echo wp_get_attachment_image($brand_banner, 'full', false);
+                echo '<a href="' . $brand_link . '" title="' . $brand->name . '">' . $attachment_html . '</a>';
+                // echo wp_get_attachment_image($brand_banner, 'full', false);
               } else {
                 echo '<a href="' . $brand_link . '" title="' . esc_html__('View brand', 'perfect-woocommerce-brands') . '">' . $brand->name . '</a>';
               }
