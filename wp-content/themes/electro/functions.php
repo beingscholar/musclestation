@@ -227,6 +227,7 @@ function add_custom_discount_2nd_at_50($wc_cart) {
     $discount     = 0;
     $items_prices = array();
     $qty_notice   = 0;
+    $pa_slug = "";
     foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
         $product = wc_get_product($cart_item['data']->get_id());
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
@@ -245,14 +246,14 @@ function add_custom_discount_2nd_at_50($wc_cart) {
                 $product_names[] = $name;
             }
         }
-    }
-    if ($discount !== 0) {
-        $wc_cart->add_fee($pa_name, $discount, true);
-    }
-    if (!empty($product_names)) {
-        wc_clear_notices();
-        if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add One More to Get 50%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        if ($discount !== 0) {
+            $wc_cart->add_fee($pa_name, $discount, true);
+        }
+        if (!empty($product_names)) {
+            wc_clear_notices();
+            if (!is_checkout()) {
+                wc_add_notice(sprintf(__("Add One More to Get 50%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            }
         }
     }
 }
@@ -264,6 +265,7 @@ function add_custom_discount_2nd_at_40($wc_cart) {
     $discount     = 0;
     $items_prices = array();
     $qty_notice   = 0;
+    $pa_slug = "";
     foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
         $product = wc_get_product($cart_item['data']->get_id());
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
@@ -282,14 +284,14 @@ function add_custom_discount_2nd_at_40($wc_cart) {
                 $product_names[] = $name;
             }
         }
-    }
-    if ($discount !== 0) {
-        $wc_cart->add_fee($pa_name, $discount, true);
-    }
-    if (!empty($product_names)) {
-        wc_clear_notices();
-        if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add One More to Get 40%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        if ($discount !== 0) {
+            $wc_cart->add_fee($pa_name, $discount, true);
+        }
+        if (!empty($product_names)) {
+            wc_clear_notices();
+            if (!is_checkout()) {
+                wc_add_notice(sprintf(__("Add One More to Get 40%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            }
         }
     }
 }
@@ -301,6 +303,7 @@ function add_custom_discount_2nd_at_30($wc_cart) {
     $discount     = 0;
     $items_prices = array();
     $qty_notice   = 0;
+    $pa_slug = "";
     foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
         $product = wc_get_product($cart_item['data']->get_id());
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
@@ -319,14 +322,14 @@ function add_custom_discount_2nd_at_30($wc_cart) {
                 $product_names[] = $name;
             }
         }
-    }
-    if ($discount !== 0) {
-        $wc_cart->add_fee($pa_name, $discount, true);
-    }
-    if (!empty($product_names)) {
-        wc_clear_notices();
-        if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add One More to Get 30%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        if ($discount !== 0) {
+            $wc_cart->add_fee($pa_name, $discount, true);
+        }
+        if (!empty($product_names)) {
+            wc_clear_notices();
+            if (!is_checkout()) {
+                wc_add_notice(sprintf(__("Add One More to Get 30%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            }
         }
     }
 }
@@ -338,6 +341,7 @@ function add_custom_discount_2nd_at_20($wc_cart) {
     $discount     = 0;
     $items_prices = array();
     $qty_notice   = 0;
+    $pa_slug = "";
     foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
         $product = wc_get_product($cart_item['data']->get_id());
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
@@ -356,14 +360,14 @@ function add_custom_discount_2nd_at_20($wc_cart) {
                 $product_names[] = $name;
             }
         }
-    }
-    if ($discount !== 0) {
-        $wc_cart->add_fee($pa_name, $discount, true);
-    }
-    if (!empty($product_names)) {
-        wc_clear_notices();
-        if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add One More to Get 20%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        if ($discount !== 0) {
+            $wc_cart->add_fee($pa_name, $discount, true);
+        }
+        if (!empty($product_names)) {
+            wc_clear_notices();
+            if (!is_checkout()) {
+                wc_add_notice(sprintf(__("Add One More to Get 20%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            }
         }
     }
 }
@@ -375,6 +379,7 @@ function add_custom_discount_2nd_at_10($wc_cart) {
     $discount     = 0;
     $items_prices = array();
     $qty_notice   = 0;
+    $pa_slug = "";
     foreach ($wc_cart->get_cart() as $cart_item_key => $cart_item) {
         $product = wc_get_product($cart_item['data']->get_id());
         $pdeals  = array_shift(wc_get_product_terms($product->id, 'pa_deals', array(
@@ -393,14 +398,14 @@ function add_custom_discount_2nd_at_10($wc_cart) {
                 $product_names[] = $name;
             }
         }
-    }
-    if ($discount !== 0) {
-        $wc_cart->add_fee($pa_name, $discount, true);
-    }
-    if (!empty($product_names)) {
-        wc_clear_notices();
-        if (!is_checkout()) {
-            wc_add_notice(sprintf(__("Add One More to Get 10%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+        if ($discount !== 0) {
+            $wc_cart->add_fee($pa_name, $discount, true);
+        }
+        if (!empty($product_names)) {
+            wc_clear_notices();
+            if (!is_checkout()) {
+                wc_add_notice(sprintf(__("Add One More to Get 10%% OFF On the 2nd Item: <ul class='products-with-deals'>%s</ul>"), '<li>' . implode('</li><li>', $product_names)) . '</>', 'notice');
+            }
         }
     }
 }

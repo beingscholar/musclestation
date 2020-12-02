@@ -54,12 +54,23 @@ defined( 'ABSPATH' ) || exit;
 			</tr>
 
 		<?php endif; ?>
-
+		<?php 
+		$pa_deals_array = array("buy_10", "buy_20", "buy_30", "buy_40", "buy_50");
+		foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
+			$product_id = apply_filters( 'woocommerce_cart_item_product_id', $cart_item['product_id'], $cart_item, $cart_item_key );
+			$pa_deals  = array_shift(wc_get_product_terms($product_id, 'pa_deals', array('fields' => 'all')));
+			if($pa_deals->name && in_array($pa_deals->slug, $pa_deals_array)) {
+				$pa_name[] = $pa_deals->name;
+			}
+		}
+		?>
 		<?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
-			<tr class="fee">
-				<th><?php echo esc_html( $fee->name ); ?></th>
-				<td data-title="<?php echo esc_attr( $fee->name ); ?>"><?php wc_cart_totals_fee_html( $fee ); ?></td>
-			</tr>
+			<?php if (!empty($pa_name) && in_array($fee->name, $pa_name)) : ?>
+				<tr class="fee">
+					<th><?php echo esc_html( $fee->name ); ?></th>
+					<td data-title="<?php echo esc_attr( $fee->name ); ?>"><?php wc_cart_totals_fee_html( $fee ); ?></td>
+				</tr>
+			<?php endif; ?>
 		<?php endforeach; ?>
 
 		<?php
