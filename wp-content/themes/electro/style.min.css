@@ -13628,6 +13628,10 @@ div.quantity {
 	color: #000;
 }
 
+.woocommerce-info {
+	background-color: #e31e31 !important;
+}
+
 .single-product .single-product-wrapper .loop-product-categories a:focus,
 .single-product .single-product-wrapper .loop-product-categories a:hover {
 	text-decoration: none;
