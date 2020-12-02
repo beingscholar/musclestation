@@ -77,7 +77,7 @@
 						<span class="title">Supplement Specials &amp; Deals!</span>
 						<span class="arrow-container">
 							<span class="arrow arrow__left"></span>
-							<span class="link">View BOGOs &amp; Deals</span>
+							<span class="link">View BOGO Deals</span>
 							<span class="arrow arrow__right"></span>
 						</span>
 					</a>
@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div class="container">
-		
+
 		<?php
 		/**
 		 * @hooked woocommerce_breadcrumb - 10

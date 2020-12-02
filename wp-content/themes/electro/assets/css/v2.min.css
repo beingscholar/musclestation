@@ -379,9 +379,9 @@ li.product .product-inner {
 	margin-bottom: 1.75em
 } */
 
-.sidebar .widget.widget_electro_products_filter>.widget-title {
+/* .sidebar .widget.widget_electro_products_filter>.widget-title {
 	margin-bottom: 1.95em
-}
+} */
 
 .widget_electro_products_filter .widget_layered_nav ul li>a {
 	padding: 0
@@ -12029,7 +12029,7 @@ section.home-categories-block header {
 	display: flex;
 	flex-wrap: wrap;
 	margin-right: -15px;
-	margin-left: -15px 
+	margin-left: -15px
 } */
 
 .desktop-footer .footer-widgets .widget-column {
