@@ -107,7 +107,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         <img src="https://musclestation.com.au/public/frontendAssets/skin/frontend/ultimo/nwh/images/newdesign/transportation.png">
       </div>
       <div class="gif-message">
-        <h2 class="ampromo-so-close" style="color:white;">Spend over $199 and recieve a free Shipping!
+        <h2 class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!
         </h2>
 			</div>
 			<div class="wrap">

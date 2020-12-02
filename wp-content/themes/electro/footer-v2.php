@@ -65,7 +65,9 @@
       * @hooked electro_footer_widgets - 10
       * @hooked electro_credit - 20
       */
-      do_action( 'electro_footer_v2' ); ?>
+			do_action( 'electro_footer_v2' ); ?>
+			
+			<a href="#" class="site-lock" onclick="window.open('https://www.sitelock.com/verify.php?site=musclestation.com.au','SiteLock','width=600,height=600,left=160,top=170');"><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/musclestation.com.au"></a>
 	</div>
 	<!-- <div class="copyright"></div> -->
 </footer>
