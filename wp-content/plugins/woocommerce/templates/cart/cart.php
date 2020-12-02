@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_before_cart' ); ?>
-<img style="width: 100%; margin-bottom: 20px" src="/wp-content/uploads/2020/11/muscle-station-SHIPPING-BANNER-3-scaled.jpg" alt=""/>
+<img style="width: 100%; margin-bottom: 20px" src="/wp-content/uploads/2020/12/muscle-station-SHIPPING-BANNER-3-scaled.jpg" alt=""/>
 <div class="cart-page">
 <div class="cart-page-header">
 	<p>Shopping Cart</p>
@@ -52,7 +52,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 					?>
 					<tr class="woocommerce-cart-form__cart-item <?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 
-					
+
 
 						<td class="product-thumbnail">
 						<?php
