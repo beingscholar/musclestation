@@ -88,7 +88,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 						</p>
 						<?php
 						$pa_deals  = array_shift(wc_get_product_terms($product_id, 'pa_deals', array('fields' => 'all')));
-						if($pa_deals->name && $pa_deals->slug) {
+						$pa_deals_array = array("buy_10", "buy_20", "buy_30", "buy_40", "buy_50");
+
+						if($pa_deals->name && in_array($pa_deals->slug, $pa_deals_array)) {
 							$pa_slug = explode( "_", $pa_deals->slug );
 							if ((int) $cart_item['quantity'] === 1) {
 								echo "<div class='show-deal'>Add One More to Get $pa_slug[1]% OFF On the 2nd Item</div>";
