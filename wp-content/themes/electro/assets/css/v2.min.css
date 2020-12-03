@@ -9027,8 +9027,8 @@ section.product-categories-menu-list {
 .handheld-header-v2 .off-canvas-navigation-wrapper,
 .mobile-header-v1 .off-canvas-navigation-wrapper,
 .mobile-header-v2-inner .off-canvas-navigation-wrapper {
-	max-width: 75px;
-	flex: 0 0 75px
+	max-width: none;
+	flex: 0;
 }
 
 .handheld-header-v2 .header-logo,

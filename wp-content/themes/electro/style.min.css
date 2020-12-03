@@ -2904,9 +2904,12 @@ li.product .woocommerce-loop-product__link:hover {
 .product-rating,
 li.product .product-rating {
 	clear: both;
-	margin-bottom: 0;
-	font-size: 16px;
+	margin: 15px 0;
+	font-size: 18px;
 	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .pwb-single-product-brands {
 	padding-top: 0 !important;
@@ -11302,7 +11305,8 @@ button {
 > .elementor-element-populated,
 .elementor-5356
 .elementor-element.elementor-element-257f664:hover
-> .elementor-element-populated{
+> .elementor-element-populated,
+.elementor-5356 .elementor-element.elementor-element-257f664:hover>.elementor-element-populated {
 	background-color: #e31e31 !important;
 	border-color: #a6262a !important;
 }
@@ -13630,6 +13634,10 @@ div.quantity {
 
 .woocommerce-info {
 	background-color: #e31e31 !important;
+}
+body .navbar-toggler {
+	color: #000000 !important;
+	padding: 0 !important;
 }
 
 .single-product .single-product-wrapper .loop-product-categories a:focus,
@@ -21425,8 +21433,122 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 
 
 @media screen and (max-width: 767px) {
-	article.post .entry-content {
+	.shop_table.cart.wishlist_table.wishlist_view.responsive.mobile {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.shop_table.cart.wishlist_table.wishlist_view.responsive.mobile h3 {
+		font-size: 14px;
+		line-height: normal;
+		text-align: center;
+	}
+	.shop_table.cart.wishlist_table.wishlist_view.responsive.mobile .label {
+		display: block;
+		color: #000000;
+		padding: 0.75rem 0;
+	}
+	.yith-wcwl-share {
+		flex-wrap: wrap;
+	}
+	.yith-wcwl-after-share-section {
+		width: 100%;
+	}
+	.yith-wcwl-after-share-section input {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 5px;
+	}
+	.hidden-title-form input[type="text"] {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.wishlist-title.wishlist-title-with-form {
+		align-items: center;
+		padding: 20px 0;
+	}
+	.wishlist-title h2 {
+		font-size: 20px;
+		line-height: normal;
+		color: #434343;
+		margin: 0;
+	}
+	.woocommerce-error,
+	.woocommerce-info,
+	.woocommerce-message,
+	.woocommerce-noreviews,
+	p.no-comments {
+		flex-direction: column;
+	}
+	.woocommerce-info .products-with-deals {
+		list-style: none;
 		margin-top: 10px;
+	}
+	.widget_tag_cloud .tagcloud a {
+		padding: 10px 10px;
+		font-size: 10PX !important;
+	}
+	.post.type-post.category-tips-about-supplements .media-attachment {
+		width: 100%;
+		padding-right: 0;
+	}
+	.page .comment-form>p,
+	.single-post .comment-form>p {
+		display: flex;
+	}
+	.page .comment-form>p input,
+	.single-post .comment-form>p input {
+		margin-right: 10px;
+	}
+	.pwb-az-listing-row-in {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.pwb-az-listing-header ul {
+		flex-wrap: wrap;
+	}
+	.pwb-az-listing-header ul li {
+		width: 30px;
+		height: 30px;
+		font-size: 14px;
+	}
+	.show-deals {
+		font-size: 12px;
+		padding-left: 18px;
+		line-height: normal;
+	}
+	.show-deals:before {
+		font-size: 12px;
+	}
+	.shop-control-bar .form-electro-wc-ppp,
+	.shop-control-bar .woocommerce-ordering {
+		padding: 10px 0 0;
+		width: 100%;
+	}
+	.electro-wc-wppp-select.c-select,
+	.woocommerce-ordering .orderby{
+		width: 100%;
+	}
+	.owl-item>.product .product-rating,
+	.section-onsale-product .onsale-product .product-rating,
+	.section-onsale-product-carousel .onsale-product-carousel .onsale-product-content .product-rating,
+	li.product .product-rating {
+		font-size: 14px;
+		margin: 10px 0;
+	}
+	.site-lock {
+		position: static;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 0 20px;
+	}
+	.ttl h4 {
+		font-size: 12px !important;
+		line-height: normal;
+	}
+	article.post .entry-content {
+		margin-top: 0px;
 		font-size: 14px;
 	}
 	article.post .post-readmore {
@@ -21785,7 +21907,7 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 	section header .h1, section header h1 {
 		height: 30px;
 		line-height: 30px;
-		font-size: 14px !important;
+		font-size: 12px !important;
 		padding: 0px 10px;
 		min-width: 1px;
 	}
@@ -21849,7 +21971,7 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 		right: -30px;
 	}
 	section header .action-text {
-		font-size: 12px !important;
+		font-size: 11px !important;
 	}
 	.font28_bi_red,
 	.font28_mi_blk {
