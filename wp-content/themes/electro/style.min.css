@@ -169,7 +169,7 @@ table .table {
 }
 
 table tbody tr td a {
-	color: #3e3e3e;
+	color: #000;
 }
 
 table tbody tr td a:focus,
@@ -4622,7 +4622,7 @@ table.cart .product-thumbnail img {
 }
 
 table.cart .product-name a {
-	color: #3e3e3e;
+	color: #000;
 }
 
 table.cart .product-name a:focus,
@@ -13290,7 +13290,7 @@ p.order-again .button:after {
 .shipping-calculator-button {
 	font-size: 0.857em;
 	font-weight: 700;
-	/* border-bottom: 1px solid #3e3e3e; */
+	/* border-bottom: 1px solid #000; */
 	padding-bottom: 0.75rem;
 	display: inline-block;
 }
@@ -17616,12 +17616,12 @@ input[type="submit"]:hover {
 		font-size: 2.143em;
 	}
 	.checkout_coupon .form-row-first .input-text {
-		border-top-right-radius: 1.571em;
-		border-bottom-right-radius: 1.571em;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
 	}
 	.checkout_coupon .form-row-last .button {
-		border-top-left-radius: 1.571em;
-		border-bottom-left-radius: 1.571em;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
 	}
 	.form-row.form-row-first {
 		padding-right: 0;
@@ -17632,6 +17632,7 @@ input[type="submit"]:hover {
 	#payment .payment_methods li input,
 	#payment .payment_methods li label {
 		display: inline;
+		font-size: 12px;
 	}
 	#payment .terms label {
 		display: inline;
@@ -20251,7 +20252,7 @@ body .shop-control-bar-bottom ul.page-numbers li span {
 	border-radius: 0
 }
 
-body .shop-control-bar-bottom ul.page-numbers li span {
+body .shop-control-bar-bottom ul.page-numbers li span.current {
 	background-color: #e31e31 !important;
 	color: #fff;
 }
@@ -20863,9 +20864,9 @@ body .elementor .elementor-element.full-width-row .elementor-element {
 
 .cart-page tbody td p {
 	font-size: 14px;
-	white-space: nowrap;
+	/* white-space: nowrap;
 	text-overflow: ellipsis;
-	overflow: hidden;
+	overflow: hidden; */
 	max-width: 200px;
 	margin: 0;
 	font-weight: 500;
@@ -21453,6 +21454,53 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 
 
 @media screen and (max-width: 767px) {
+	.woocommerce-error .button,
+	.woocommerce-info .button,
+	.woocommerce-message .button,
+	.woocommerce-noreviews .button,
+	p.no-comments .button {
+		float: none;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		border: none;
+		padding: 5px;
+		min-height: 1px;
+		margin-top: 10px;
+		background: #fff;
+		color: #5cb95b;
+		text-align: center;
+		font-weight: 700;
+		border-radius: 4px;
+	}
+	.woocommerce-error li,
+	.woocommerce-info li,
+	.woocommerce-message li,
+	.woocommerce-noreviews li,
+	p.no-comments li {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.woocommerce-error li a,
+	.woocommerce-info li a,
+	.woocommerce-message li a,
+	.woocommerce-noreviews li a,
+	p.no-comments li a {
+		order: 2;
+		float: none;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		border: none;
+		padding: 5px;
+		min-height: 1px;
+		margin-top: 10px;
+		background: #fff;
+		color: #d9534e;
+		text-align: center;
+		font-weight: 700;
+		border-radius: 4px;
+	}
 	.shop_table.cart.wishlist_table.wishlist_view.responsive.mobile {
 		list-style: none;
 		padding: 0;
@@ -21536,6 +21584,7 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 		font-size: 12px;
 		padding-left: 18px;
 		line-height: normal;
+		display: inline-block;
 	}
 	.show-deals:before {
 		font-size: 12px;
@@ -21642,7 +21691,7 @@ body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide.slick-current
 	}
 	table.cart td,
 	.cart-page tbody td a {
-		font-size: 12px !important;
+		font-size: 11px !important;
 	}
 	.cart-page {
 		flex-direction: column;

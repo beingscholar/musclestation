@@ -444,7 +444,7 @@ li.product .product-inner {
 }
 
 .off-canvas-navigation {
-	background-color: #333;
+	background-color: #000;
 	position: fixed;
 	top: 0;
 	left: -250px;
