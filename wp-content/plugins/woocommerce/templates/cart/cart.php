@@ -93,9 +93,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 						if($pa_deals->name && in_array($pa_deals->slug, $pa_deals_array)) {
 							$pa_slug = explode( "_", $pa_deals->slug );
 							if ((int) $cart_item['quantity'] === 1) {
-								echo "<div class='show-deal'>Add One More to Get $pa_slug[1]% OFF On the 2nd Item</div>";
+								echo "<div class='show-deals'>Add One More to Get $pa_slug[1]% OFF On the 2nd Item</div>";
 							} else {
-								echo '<div class="show-deal"><span>"'.$pa_deals->name.'"</span> Deal Applied</div>';
+								echo '<div class="show-deals"><span>"'.$pa_deals->name.'"</span> Deal Applied</div>';
 							}
 						}
 						?>
