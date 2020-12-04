@@ -9506,7 +9506,7 @@ section.product-categories-menu-list {
 .mobile-header-v2.light.stuck .off-canvas-navigation-wrapper button,
 .mobile-header-v2.light.stuck .off-canvas-navigation-wrapper.toggled .navbar-toggler,
 .mobile-header-v2.light.stuck .off-canvas-navigation-wrapper.toggled button {
-	color: #333e48
+	color: #333e48 !important
 }
 
 .handheld-header-v2.light .mobile-handheld-department ul.nav li a,
