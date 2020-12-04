@@ -7,3 +7,4 @@ wp-config.php
 *.log
 #sitemap.xml
 #sitemap.xml.gz
+wp-content/uploads/db-backup/
