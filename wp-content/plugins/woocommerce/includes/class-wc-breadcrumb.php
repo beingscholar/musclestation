@@ -228,7 +228,7 @@ class WC_Breadcrumb {
 		$this->prepend_shop_page();
 
 		/* translators: %s: product tag */
-		// $this->add_crumb( sprintf( __( 'Products tagged &ldquo;%s&rdquo;', 'woocommerce' ), $current_term->name ), get_term_link( $current_term, 'product_tag' ) );
+		$this->add_crumb( sprintf( __( '%s', 'woocommerce' ), $current_term->name ), get_term_link( $current_term, 'product_tag' ) );
 	}
 
 	/**
