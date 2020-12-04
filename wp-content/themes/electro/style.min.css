@@ -11277,6 +11277,10 @@ button {
 	cursor: pointer;
 }
 
+.cart-discount td {
+	text-align: right;
+}
+
 .electro-handheld-footer-bar ul:not(.menu) li > a .count {
 	left: 50%;
 	bottom: 16px;
