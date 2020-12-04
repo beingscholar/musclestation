@@ -1,9 +1,10 @@
 .htaccess
 wp-config.php
-wp-content/*
-!wp-content/themes/
-!wp-content/plugins/
-sitemap.xml
+wp-content/uploads/db-backup/
 *.log
-sitemap.xml
-sitemap.xml.gz
+#wp-content/*
+#!wp-content/themes/
+#!wp-content/plugins/
+#sitemap.xml
+#sitemap.xml
+#sitemap.xml.gz
