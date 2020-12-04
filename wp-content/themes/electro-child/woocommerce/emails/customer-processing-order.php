@@ -1,13 +1,14 @@
 <div style="width: 850px; margin: 0 auto;">
 <div style="text-align: center; margin-bottom: 20px;"><img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></div>
-<img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/Registered-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
+<img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/ORDER-DISPATCH-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
 <p style="color: #000; font-weight: bold; font-size: 24px; text-align: center; margin-top: 15px;">Welcome to the Muscle Station</p>
+
 
 <?php
 /**
- * Customer new account email
+ * Customer processing order email
  *
- * This template can be overridden by copying it to yourtheme/woocommerce/emails/customer-new-account.php.
+ * This template can be overridden by copying it to yourtheme/woocommerce/emails/customer-processing-order.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -20,20 +21,41 @@
  * @version 3.7.0
  */
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
+/*
+ * @hooked WC_Emails::email_header() Output the email header
+ */
  ?>
 
-<?php /* translators: %s: Customer username */ ?>
-<p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $user_login ) ); ?></p>
-<?php /* translators: %1$s: Site title, %2$s: Username, %3$s: My account link */ ?>
-<p><?php printf( esc_html__( 'Thanks for creating an account on %1$s. Your username is %2$s. You can access your account area to view orders, change your password, and more at: %3$s', 'woocommerce' ), esc_html( $blogname ), '<strong>' . esc_html( $user_login ) . '</strong>', make_clickable( esc_url( wc_get_page_permalink( 'myaccount' ) ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-<?php if ( 'yes' === get_option( 'woocommerce_registration_generate_password' ) && $password_generated ) : ?>
-	<?php /* translators: %s: Auto generated password */ ?>
-	<p><?php printf( esc_html__( 'Your password has been automatically generated: %s', 'woocommerce' ), '<strong>' . esc_html( $user_pass ) . '</strong>' ); ?></p>
-<?php endif; ?>
+<?php /* translators: %s: Customer first name */ ?>
+<p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
+<?php /* translators: %s: Order number */ ?>
+<p><?php printf( esc_html__( 'Just to let you know — we\'ve received your order #%s, and it is now being processed:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
 
 <?php
+
+/*
+ * @hooked WC_Emails::order_details() Shows the order details table.
+ * @hooked WC_Structured_Data::generate_order_data() Generates structured data.
+ * @hooked WC_Structured_Data::output_structured_data() Outputs structured data.
+ * @since 2.5.0
+ */
+do_action( 'woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email );
+
+/*
+ * @hooked WC_Emails::order_meta() Shows order meta data.
+ */
+do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email );
+
+/*
+ * @hooked WC_Emails::customer_details() Shows customer details
+ * @hooked WC_Emails::email_address() Shows email address
+ */
+do_action( 'woocommerce_email_customer_details', $order, $sent_to_admin, $plain_text, $email );
+
 /**
  * Show user-defined additional content - this is set in each email's settings.
  */
@@ -41,12 +63,10 @@ if ( $additional_content ) {
 	echo wp_kses_post( wpautop( wptexturize( $additional_content ) ) );
 }
 
-
+/*
+ * @hooked WC_Emails::email_footer() Output the email footer
+ */
 ?>
-
-<p style="color: #000; font-size: 16px; margin-top: 5px;">Enjoy your 10% off on your first order, simply use the below coupon code at checkout to recieve your discount.</p>
-<p style="text-align: center; margin: 50px 0;"><span style="background: #fff; margin: 0; padding: 13px 20px 10px; border: 3px dashed #e31e31; border-radius: 5px; font-size: 24px; display: inline-block;">MUSCLE10%OFF</span></p>
-<p style="color: #000; text-align: center; font-size: 16px;">You must have an account and be logged in to use this offer, This code is not valid in conjuction with any other offer, excludes all protien bar, snacks & drinks.</p>
 <table style="
         width: 100%;
         margin-top: 30px;
@@ -95,3 +115,6 @@ if ( $additional_content ) {
     </tbody></table>
 
 </div>
+
+
+
