@@ -128,16 +128,16 @@ remove_action('woocommerce_single_variation', 'woocommerce_single_variation', 10
 add_action('woocommerce_before_variations_form', 'woocommerce_single_variation', 10);
 
 function bd_rrp_sale_price_html( $price, $product ) {
-   if ( $product->is_on_sale() && $price) {
-      $has_sale_text = array(
-         '<ins>' => '<span class="from-price">From: </span> ',
-         '<del>' => '<br/><span class="rrp-price">RRP: </span>'
-      );
-      $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
-   } else {
-      $return_string = 'RRP: ' . $price;
-   }
-   return $return_string;
+    if ( $product->is_on_sale() && $price) {
+        $has_sale_text = array(
+            '<ins>' => '<span class="from-price">From: </span> ',
+            '<del>' => '<br/><span class="rrp-price">RRP: </span>'
+        );
+        $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
+    } elseif($product->get_total_stock() !== 0) {
+        $return_string = 'RRP: ' . $price;
+    }
+    return $return_string;
 }
 add_filter( 'woocommerce_get_price_html', 'bd_rrp_sale_price_html', 100, 2 );
 
