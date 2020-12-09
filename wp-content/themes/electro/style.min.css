@@ -19788,9 +19788,13 @@ body .vc_row.vc_row-o-full-height {
   background-color: #222;
 }
 
-/* .entry-header {
+.entry-header {
   display: none;
-} */
+}
+
+.blog .entry-header {
+  display: block;
+}
 
 .header-links {
   list-style: none;
@@ -22728,4 +22732,13 @@ table.cart thead th {
 
 .opening-hours li span:first-child {
   width: 100px;
+}
+
+.single.single-post .post.type-post {
+  display: block;
+}
+
+.single.single-post .post.type-post .media-attachment {
+  width: 100%;
+  margin-bottom: 20px;
 }
