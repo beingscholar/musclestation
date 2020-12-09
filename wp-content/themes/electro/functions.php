@@ -128,16 +128,16 @@ remove_action('woocommerce_single_variation', 'woocommerce_single_variation', 10
 add_action('woocommerce_before_variations_form', 'woocommerce_single_variation', 10);
 
 function bd_rrp_sale_price_html( $price, $product ) {
-   if ( $product->is_on_sale() && $price) {
-      $has_sale_text = array(
-         '<ins>' => '<span class="from-price">From: </span> ',
-         '<del>' => '<br/><span class="rrp-price">RRP: </span>'
-      );
-      $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
-   } else {
-      $return_string = 'RRP: ' . $price;
-   }
-   return $return_string;
+    if ( $product->is_on_sale() && $price) {
+        $has_sale_text = array(
+            '<ins>' => '<span class="from-price">From: </span> ',
+            '<del>' => '<br/><span class="rrp-price">RRP: </span>'
+        );
+        $return_string = str_replace(array_keys( $has_sale_text ), array_values( $has_sale_text ), $price);
+    } elseif($product->get_total_stock() !== 0) {
+        $return_string = 'RRP: ' . $price;
+    }
+    return $return_string;
 }
 add_filter( 'woocommerce_get_price_html', 'bd_rrp_sale_price_html', 100, 2 );
 
@@ -419,3 +419,34 @@ function pa_insertAfterShopProductTitle() {
         return;
     echo '<div class="show-deals">'.$pdeals.'</div>';
 }
+
+function remove_core_updates(){
+    global $wp_version;
+    return(object) array('last_checked'=> time(),'version_checked'=> $wp_version);
+}
+add_filter('pre_site_transient_update_core','remove_core_updates');
+add_filter('pre_site_transient_update_plugins','remove_core_updates');
+add_filter('pre_site_transient_update_themes','remove_core_updates');
+
+/**
+ * Removes some menus by page.
+ */
+function wpdocs_remove_menus(){
+    // echo '<pre>' . print_r( $GLOBALS[ 'menu' ], TRUE) . '</pre>';
+    remove_menu_page( 'index.php' );                  //Dashboard
+    remove_menu_page( 'admin.php?page=theme_options' );                  //theme_options
+    remove_menu_page( 'jetpack' );                    //Jetpack* 
+    remove_menu_page( 'edit.php?post_type=popup' );     //Posts
+    remove_menu_page( 'themes.php' );                 //Appearance
+    remove_menu_page( 'plugins.php' );                //Plugins
+    remove_menu_page( 'edit.php?post_type=elementor_library' ); //elementor_library
+    remove_menu_page( 'elementor' ); // Elementor
+    remove_menu_page( 'wpforms-overview' );           //wpforms-overview
+    remove_menu_page( 'vc-general' );                 //WPBakery Page Builder
+    remove_menu_page( 'wpf-filters' );                 //wpf-filters
+    remove_menu_page( 'yith_plugin_panel' );            //yith_plugin_panel
+    remove_menu_page( 'yikes-woo-settings' );          //Custom Product Tabs
+    remove_menu_page( 'tools.php' );                  //Tools
+    remove_menu_page( 'options-general.php' );        //Settings
+}
+add_action( 'admin_menu', 'wpdocs_remove_menus' );

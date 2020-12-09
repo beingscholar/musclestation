@@ -343,7 +343,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 			}
 
 			if ( $has_details ) {
-				echo '<section class="woocommerce-bacs-bank-details"><h2 class="wc-bacs-bank-details-heading">' . esc_html__( 'Our bank details', 'woocommerce' ) . '</h2>' . wp_kses_post( PHP_EOL . $account_html ) . '</section>';
+				echo '<section class="woocommerce-bacs-bank-details"><div class="primary-heading"><span>' . esc_html__( 'Our bank details', 'woocommerce' ) . '</span></div>' . wp_kses_post( PHP_EOL . $account_html ) . '</section>';
 			}
 		}
 
