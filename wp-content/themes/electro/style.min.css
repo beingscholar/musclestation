@@ -19792,7 +19792,8 @@ body .vc_row.vc_row-o-full-height {
   display: none;
 }
 
-.blog .entry-header {
+.blog .entry-header,
+.single.single-post .entry-header {
   display: block;
 }
 
