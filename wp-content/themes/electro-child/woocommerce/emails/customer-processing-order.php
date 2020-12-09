@@ -1,6 +1,10 @@
 <div style="width: 850px; margin: 0 auto;">
-<div style="text-align: center; margin-bottom: 20px;"><img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></div>
+<div style="text-align: center; margin-bottom: 20px;">
+<a href="https://musclestation.com.au/"><img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></a>
+</div>
+<a href="https://musclestation.com.au/">
 <img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/ORDER-DISPATCH-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
+</a>
 <p style="color: #000; font-weight: bold; font-size: 24px; text-align: center; margin-top: 15px;">Welcome to the Muscle Station</p>
 
 
@@ -67,53 +71,94 @@ if ( $additional_content ) {
  * @hooked WC_Emails::email_footer() Output the email footer
  */
 ?>
-<table style="
+<div style="padding: 20px; background-color: #e31e31; margin-top: 30px; color: #fff;">
+      <p
+      style="color: #fff; text-align: center; margin: 0; font-size: 26px;"
+      >
+      <strong>Muscle Station</strong>
+    </p>
+    <p
+      style="color: #fff; text-align: center; margin-top: 15px; margin-bottom: 0; font-size: 16px"
+    >
+      Australia Victoria 3029
+    </p>
+    <p
+      style="color: #fff; text-align: center; margin-top: 3px; margin-bottom: 0; font-size: 16px"
+    >
+      <a
+        href="mailto: info@musclestation.com.au"
+        style="color: #fff; text-decoration: none"
+        >info@musclestation.com.au</a
+      >
+    </p>
+    <p
+      style="color: #000; text-align: center; margin-top: 3px; margin-bottom: 0; font-size: 16px"
+    >
+      <a
+        href="https://musclestation.com.au/"
+        target="_blank"
+        style="color: #fff; text-decoration: none"
+        >www.musclestation.com.au</a
+      >
+    </p>
+
+    <table
+      style="
+        margin-top: 15px;
         width: 100%;
-        margin-top: 30px;
-        text-align: left;
         border: none;
         table-layout: fixed;
+        text-align: center;
         border-collapse: collapse;
-      ">
-      <tbody><tr>
+      "
+    >
+      <tr>
         <td>
-          <p style="color: #000; font-size: 16px; margin-top: 0">
-            <strong>Muscle Station</strong>
-          </p>
-          <p style="color: #000; margin-top: 3px; font-size: 16px">
-            Australia Victoria 3029
-          </p>
-          <p style="color: #000; margin-top: 3px; font-size: 16px">
-            <a href="mailto: info@musclestation.com.au" style="color: #000000; text-decoration: none">info@musclestation.com.au</a>
-          </p>
-          <p style="color: #000; margin-top: 3px; font-size: 16px">
-            <a href="https://musclestation.com.au/" target="_blank" style="color: #000000; text-decoration: none">www.musclestation.com.au</a>
-          </p>
-        </td>
-        <td style="text-align: right">
-          <a href="https://www.facebook.com/musclestationsupplement" target="_blank" style="text-decoration: none; display: inline-block">
-            <img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/fb-contact.png" alt="Social" width="40" height="40">
+          <a
+            href="https://www.facebook.com/musclestationsupplement"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <img
+              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/fb-contact.png"
+              alt="Social"
+              width="40"
+              height="40"
+              style="background: #fff; border: 1px solid #fff; border-radius: 50%;"
+            />
           </a>
 
-          <a href="https://www.instagram.com/musclestationsupplements/" target="_blank" style="
-              text-decoration: none;
-              display: inline-block;
-              margin-left: 10px;
-            ">
-            <img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/ig-logo.png" alt="Social" width="40" height="40">
+          <a
+            href="https://www.instagram.com/musclestationsupplements/"
+            target="_blank"
+            style="text-decoration: none; margin-left: 10px"
+          >
+            <img
+              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/ig-logo.png"
+              alt="Social"
+              width="40"
+              style="background: #fff; border: 1px solid #fff; border-radius: 50%;"
+              height="40"
+            />
           </a>
 
-          <a href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w" target="_blank" style="
-              text-decoration: none;
-              display: inline-block;
-              margin-left: 10px;
-            ">
-            <img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/yt.png" alt="Social" width="40" height="40">
+          <a
+            href="https://www.youtube.com/channel/UCE9Lgjv8Jw1tO6C-Vu1Qt7w"
+            target="_blank"
+            style="text-decoration: none; margin-left: 10px"
+          >
+            <img
+              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/yt.png"
+              alt="Social"
+              width="40"
+              style="background: #fff; border: 1px solid #fff; border-radius: 50%;"
+              height="40"
+            />
           </a>
         </td>
       </tr>
-    </tbody></table>
-
+    </table>
+    </div>
 </div>
 
 
