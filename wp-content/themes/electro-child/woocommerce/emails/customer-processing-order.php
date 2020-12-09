@@ -36,9 +36,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
+<p>HIP HIP HOORAY!</p>
 <?php /* translators: %s: Order number */ ?>
 <p><?php printf( esc_html__( 'Just to let you know — we\'ve received your order #%s, and it is now being processed:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
-
+<p>oh, some of our best work to date is headed your way.</p>
+<p>Click on this link <strong><a href="http://muscles.xxploreautomotive.in/track-your-order/">Track your order</a></strong> to track your parcel as it moves steadily in your direction.
 <?php
 
 /*

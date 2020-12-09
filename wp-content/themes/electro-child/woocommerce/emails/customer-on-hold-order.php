@@ -3,9 +3,9 @@
 <a href="https://musclestation.com.au/"><img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></a>
 </div>
 <a href="https://musclestation.com.au/">
-<img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/muscle-station-THANKYOU-FOR-YOUR-ORDER-scaled.jpg
+<img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/muscle-station-THANKYOU-FOR-YOUR-ORDER-1-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
+</a>
 <p style="color: #000; font-weight: bold; font-size: 24px; text-align: center; margin-top: 15px;">Welcome to the Muscle Station</p>
-
 <?php
 /**
  * Customer on-hold order email
@@ -27,12 +27,12 @@ defined( 'ABSPATH' ) || exit;
 
 /*
  * @hooked WC_Emails::email_header() Output the email header
- */?>
+ */
+?>
 
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
 <p><?php esc_html_e( 'Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:', 'woocommerce' ); ?></p>
-
 <?php
 
 /*
@@ -65,7 +65,6 @@ if ( $additional_content ) {
  * @hooked WC_Emails::email_footer() Output the email footer
  */
 ?>
-
 <div style="padding: 20px; background-color: #e31e31; margin-top: 30px; color: #fff;">
       <p
       style="color: #fff; text-align: center; margin: 0; font-size: 26px;"
@@ -156,6 +155,3 @@ if ( $additional_content ) {
     </div>
 
 </div>
-
-
-

@@ -33,6 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
 <p><?php esc_html_e( 'We have finished processing your order.', 'woocommerce' ); ?></p>
+<p>The Great News is Your Order has been Successful Delivered</p>
 <?php
 
 /*
