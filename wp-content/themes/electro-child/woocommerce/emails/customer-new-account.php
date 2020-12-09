@@ -1,9 +1,9 @@
 <div style="width: 850px; margin: 0 auto;">
 <div style="text-align: center; margin-bottom: 20px;">
-<a href="https://musclestation.com.au/"><img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></a>
+<a href="https://www.musclestation.com.au/"><img src="https://www.musclestation.com.au/wp-content/uploads/2020/11/muscle-station-logo-1.png" alt="Logo" width="200" /></a>
 </div>
-<a href="https://musclestation.com.au/">
-<img src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/12/Registered-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
+<a href="https://www.musclestation.com.au/">
+<img src="https://www.musclestation.com.au/wp-content/uploads/2020/12/Registered-scaled.jpg" alt="Banner" style="max-width: 100%; display: block;" />
 </a>
 <p style="color: #000; font-weight: bold; font-size: 24px; text-align: center; margin-top: 15px;">Welcome to the Muscle Station</p>
 
@@ -75,7 +75,7 @@ if ( $additional_content ) {
       style="color: #000; text-align: center; margin-top: 3px; margin-bottom: 0; font-size: 16px"
     >
       <a
-        href="https://musclestation.com.au/"
+        href="https://www.musclestation.com.au/"
         target="_blank"
         style="color: #fff; text-decoration: none"
         >www.musclestation.com.au</a
@@ -100,7 +100,7 @@ if ( $additional_content ) {
             style="text-decoration: none"
           >
             <img
-              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/fb-contact.png"
+              src="https://www.musclestation.com.au/wp-content/uploads/2020/11/fb-contact.png"
               alt="Social"
               width="40"
               height="40"
@@ -114,7 +114,7 @@ if ( $additional_content ) {
             style="text-decoration: none; margin-left: 10px"
           >
             <img
-              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/ig-logo.png"
+              src="https://www.musclestation.com.au/wp-content/uploads/2020/11/ig-logo.png"
               alt="Social"
               width="40"
               style="background: #fff; border: 1px solid #fff; border-radius: 50%;"
@@ -128,7 +128,7 @@ if ( $additional_content ) {
             style="text-decoration: none; margin-left: 10px"
           >
             <img
-              src="http://muscles.xxploreautomotive.in/wp-content/uploads/2020/11/yt.png"
+              src="https://www.musclestation.com.au/wp-content/uploads/2020/11/yt.png"
               alt="Social"
               width="40"
               style="background: #fff; border: 1px solid #fff; border-radius: 50%;"

@@ -8,3 +8,4 @@ wp-config.php
 #sitemap.xml
 #sitemap.xml.gz
 wp-content/uploads/db-backup/
+wp-content/uploads/2020/09/log_file*

@@ -74,7 +74,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 	<div class="gift_bg">
     <div class="free_gift">
       <div class="gif-img">
-        <img src="https://musclestation.com.au/public/frontendAssets/skin/frontend/ultimo/nwh/images/newdesign/transportation.png">
+        <img src="https://www.musclestation.com.au/public/frontendAssets/skin/frontend/ultimo/nwh/images/newdesign/transportation.png">
       </div>
       <div class="gif-message">
 				<p class="ampromo-so-close" style="color:white;">YOU'VE ALMOST EARNED A FREE SHIPPING!</p>
