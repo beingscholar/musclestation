@@ -21428,6 +21428,14 @@ body .wpsisac-slick .slick-arrow {
   width: 50px;
 }
 
+.slick-arrow i {
+  font-size: 0;
+}
+
+.slick-arrow i:before {
+  font-size: 26px;
+}
+
 body .wpsisac-slider-nav .slick-track .slick-image-nav.slick-slide span {
   font-weight: 700;
   font-size: 16px;
