@@ -73,7 +73,7 @@
 <div class="special-deals-wrapper">
 			<div class="special-deals-block">
 				<div class="container">
-					<a href="#" title="View BOGOs &amp; Deals">
+					<a href="/product-tag/bogos-deals/" title="View BOGOs &amp; Deals">
 						<span class="title">Supplement Specials &amp; Deals!</span>
 						<span class="arrow-container">
 							<span class="arrow arrow__left"></span>
