@@ -42,7 +42,9 @@ if ( $show_downloads ) {
 <section class="woocommerce-order-details">
 	<?php do_action( 'woocommerce_order_details_before_order_table', $order ); ?>
 
-	<h2 class="woocommerce-order-details__title"><?php esc_html_e( 'Order details', 'woocommerce' ); ?></h2>
+	<div class="primary-heading">
+		<span><?php esc_html_e( 'Order details', 'woocommerce' ); ?></span>
+	</div>
 
 	<table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
 
