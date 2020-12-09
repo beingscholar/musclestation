@@ -6,6 +6,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+RewriteCond %{HTTP_HOST} ^musclestation.com.au [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.musclestation.com.au [NC]
+RewriteRule ^(.*)$ https://www.musclestation.com.au/$1 [L,R=301,NC]
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
